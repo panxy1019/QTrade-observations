@@ -2200,7 +2200,7 @@
     ],
     "limitation": "Bounded SSE/SZSE calendar; no assumptions outside its horizon or about emergency closures."
   },
-  "published_at": "2026-10-25T23:49:54.702629+00:00",
+  "published_at": "2026-10-25T23:54:55.038456+00:00",
   "expansion": {
     "classification": "PUBLIC_SOURCE_RESEARCH_OBSERVATION_ONLY",
     "point_in_time": false,
@@ -2217,7 +2217,7 @@
     "minute_interval": "5m",
     "selection_bias": "current liquid universe; survivorship and pre-screen bias; non-PIT",
     "requested_end": "2026-10-23",
-    "started_at": "2026-10-25T17:49:30.185404+00:00",
+    "started_at": "2026-10-25T23:49:54.701554+00:00",
     "daily": {
       "state": "COMPLETE",
       "completed": 1000,
@@ -2228,11 +2228,11 @@
     },
     "minute": {
       "state": "RUNNING",
-      "completed": 140,
-      "failed": 19
+      "completed": 40,
+      "failed": 3
     },
-    "updated_at": "2026-10-25T19:49:13.707472+00:00",
-    "free_gib": 296.09
+    "updated_at": "2026-10-25T23:54:42.751739+00:00",
+    "free_gib": 296.08
   },
   "intraday": {
     "provider": "Sina native 5m; adjustment not independently certified",
@@ -3265,5 +3265,5 @@
     }
   },
   "observer_healthy": true,
-  "evidence_sha256": "7946bf6ee4563fcaabdd24de5b214872e43c0da1e95dc51a40f050f8bbbae62d"
+  "evidence_sha256": "2cb646ad7c91c2128719682b5e2485a6c6f28cb80efd572a2e01f44d217bc1b4"
 }
