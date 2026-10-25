@@ -2200,7 +2200,7 @@
     ],
     "limitation": "Bounded SSE/SZSE calendar; no assumptions outside its horizon or about emergency closures."
   },
-  "published_at": "2026-10-25T20:09:39.093704+00:00",
+  "published_at": "2026-10-25T20:14:39.477302+00:00",
   "expansion": {
     "classification": "PUBLIC_SOURCE_RESEARCH_OBSERVATION_ONLY",
     "point_in_time": false,
@@ -2238,8 +2238,8 @@
     "provider": "Sina native 5m; adjustment not independently certified",
     "provider_version": "1.18.84",
     "classification": "PUBLIC_SOURCE_RESEARCH_OBSERVATION_ONLY",
-    "data_version": "observer-minute-20261025T141545772394Z",
-    "checksum": "2864f76bff67c2fb25cd3942f985f015101b5d218388353979a0ebde26d563a3",
+    "data_version": "observer-minute-20261025T201601617366Z",
+    "checksum": "5974250c62e407ae1250d2403d735f65fc17af75fe1cb46d9b64123a0f1a63d3",
     "quality_status": "PASSED",
     "bar_count": 7200,
     "bytes": 2020414,
@@ -3172,8 +3172,8 @@
       "live_trading_enabled": false,
       "promotion": "NOT_ELIGIBLE",
       "kind": "minute",
-      "started_at": "2026-10-25T14:15:46.043514+00:00",
-      "completed_at": "2026-10-25T14:15:57.230393+00:00",
+      "started_at": "2026-10-25T20:16:01.943603+00:00",
+      "completed_at": "2026-10-25T20:16:25.261823+00:00",
       "required_symbol_count": 75,
       "bar_count": 7200,
       "latest_by_symbol": {
@@ -3255,15 +3255,15 @@
       },
       "collection_mode": "HISTORICAL_BACKFILL_NOT_FORWARD_PAPER",
       "manifest": {
-        "data_version": "observer-minute-20261025T141545772394Z",
+        "data_version": "observer-minute-20261025T201601617366Z",
         "source": "Sina native 5m public history; adjustment not independently certified",
-        "checksum": "2864f76bff67c2fb25cd3942f985f015101b5d218388353979a0ebde26d563a3",
+        "checksum": "5974250c62e407ae1250d2403d735f65fc17af75fe1cb46d9b64123a0f1a63d3",
         "schema_version": "qtrade.bar.v1",
         "quality_status": "PASSED"
       },
-      "evidence_sha256": "00501366d861e9af12d9c06fbcbf75733e0c82cc1029602c498ea93cc53499c6"
+      "evidence_sha256": "7f3cd6c7d632e6a7f21c6d2e8a13a55592a4bbe6aedea69c3e2fbbfb5a45d339"
     }
   },
   "observer_healthy": true,
-  "evidence_sha256": "ca123c83130e3d39ee163d05ce018ab49b6ad663eeb093bc37c66f070643a482"
+  "evidence_sha256": "51a8631e6035fa33ee3deb06b96b56e2500075b2e8c7e3420301be0164467882"
 }
