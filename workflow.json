@@ -7,7 +7,7 @@
   "live_trading_enabled": false,
   "promotion": "NOT_ELIGIBLE",
   "schema_version": "qtrade.research-workflow.v1",
-  "published_at": "2026-10-26T02:22:43.957195+00:00",
+  "published_at": "2026-10-26T02:27:38.280560+00:00",
   "models": [
     {
       "id": "linear",
@@ -203,9 +203,9 @@
       "name": "alpha158-linear",
       "model": "linear",
       "engine": "QLIB",
-      "state": "QUEUED",
-      "stage": "QUEUED",
-      "updated_at": "2026-10-26T02:20:11.758076+00:00",
+      "state": "COMPLETE",
+      "stage": "COMPLETE",
+      "updated_at": "2026-10-26T02:26:57.322250+00:00",
       "spec": {
         "buy_cost_bps": 8,
         "dataset_id": "daily-liquid-990-20261023",
@@ -266,24 +266,141 @@
           "VENDOR_ADJUSTMENTS_NOT_INDEPENDENT_CORPORATE_ACTION_RECONCILIATION",
           "OPEN_PRICE_AND_PREVIOUS_VOLUME_CAP_NOT_AUCTION_REPLAY"
         ],
-        "promotion": "NOT_ELIGIBLE"
+        "promotion": "NOT_ELIGIBLE",
+        "source_repair_coverage": {
+          "classification": "PUBLIC_SOURCE_RESEARCH_OBSERVATION_ONLY",
+          "point_in_time": false,
+          "realtime_readiness": false,
+          "real_data_paper_readiness": false,
+          "external_order_transmission": false,
+          "live_trading_enabled": false,
+          "promotion": "NOT_ELIGIBLE",
+          "schema_version": "qtrade.pit-repair.v1",
+          "observed_at": "2026-10-26T02:05:27.695891+00:00",
+          "state": "SOURCE_BACKFILL_REQUIRES_RECONCILIATION",
+          "master_rows": 9022,
+          "master_sha256": "3fe4114d53f195bdcbfc574f7c1b88a6e1cdf8c4e2c8085ec0055061ecdcb564",
+          "master_inactive_rows": 1200,
+          "master_is_historical_asof_snapshot": false,
+          "status_symbols": 13,
+          "input_symbols": 990,
+          "status_rows": 31577,
+          "source_checksums": {
+            "000001.json": "f6bdabc82b57b9a2efd6259c79cd40ace9de1d3241995989f4a122cbd2cf3953",
+            "000002.json": "7ef77342c4c841925955b52fbc130dae6af82cc887745638e551521f28118450",
+            "000011.json": "3833fd7b4f2192423b23ae16f1b3ea098be9886abd8d940ba6cc24127e033ebe",
+            "000021.json": "b612b6c7e9842604cbb8a11628de8b4afe262baf0253606b5587b22e46b88600",
+            "000032.json": "ddbdba3495c18ae7c82d1372545835f23eade078397418867b33e248681813d3",
+            "000157.json": "8d5a7b2cfe8312ad1e931d38fa16d450282dfec68f3ba48affaf1387a2350f18",
+            "000158.json": "0e486eedb239908cfa18d7d206910529247c2b73181a3ac5b5138f0cec0f1d3e",
+            "000166.json": "1298e66cada0b21f02410783930016a0905136ae292e3c17c6ac2322dadfc10e",
+            "000333.json": "9ee2e0268e95f563538e9092902e13e432917d95e2d686c7af4fd2f44b04ac50",
+            "000400.json": "af6ebe14b7581a265fc76284c80a2e1434e07cce47fb9d85d751c61889f974b4",
+            "000408.json": "acc3b104fa6afae4756c034d0ff1a93ae101b6bfed7a6b1f19738569e8d6cd57",
+            "000420.json": "686f156de3c35b13f9033accb30142ee4799407a7c4cf095b382c634e86bcbb2",
+            "000425.json": "5fbada5c738804fe4c9d51580f3ce4747bdea789da93586f56b9b5f64aed2f96"
+          },
+          "historical_pit_certified": false,
+          "historical_available_at_known": false,
+          "execution_enforcement": "NOT_USED_DAILY_PROXY_REMAINS",
+          "failures": [
+            {
+              "symbol": "000034",
+              "code": "ValueError"
+            },
+            {
+              "symbol": "000060",
+              "code": "ValueError"
+            },
+            {
+              "symbol": "000062",
+              "code": "ValueError"
+            },
+            {
+              "symbol": "000063",
+              "code": "ValueError"
+            },
+            {
+              "symbol": "000066",
+              "code": "ValueError"
+            },
+            {
+              "symbol": "000070",
+              "code": "ValueError"
+            },
+            {
+              "symbol": "000100",
+              "code": "ValueError"
+            }
+          ],
+          "missing": [
+            "INDEPENDENT_MASTER_AND_DELISTED_PRICE_RECONCILIATION",
+            "HISTORICAL_INFORMATION_AVAILABILITY",
+            "OFFICIAL_RAW_PRICE_LIMITS",
+            "AUCTION_REPLAY_AND_CORPORATE_ACTION_LEDGER"
+          ],
+          "evidence_sha256": "8e24e10653d51e094124cb5fda1bc07607135a5efe7685545000b12c1fd15e87"
+        }
       },
       "error_code": null,
       "events": [
         {
           "at": "2026-10-26T02:20:11.758140+00:00",
           "state": "QUEUED"
+        },
+        {
+          "at": "2026-10-26T02:23:56.560094+00:00",
+          "state": "RUNNING"
+        },
+        {
+          "at": "2026-10-26T02:24:12.108384+00:00",
+          "state": "BUILDING_PROVIDER"
+        },
+        {
+          "at": "2026-10-26T02:24:42.800969+00:00",
+          "state": "COMPUTING_ALPHA158"
+        },
+        {
+          "at": "2026-10-26T02:26:21.293452+00:00",
+          "state": "TRAINING_MODEL"
+        },
+        {
+          "at": "2026-10-26T02:26:37.182294+00:00",
+          "state": "BACKTESTING"
+        },
+        {
+          "at": "2026-10-26T02:26:57.322071+00:00",
+          "state": "COMPLETE"
         }
-      ]
+      ],
+      "run_id": "alpha158-linear-6662c251f73982da",
+      "detail_file": "workflow-results/447d28091c4606d32e2988f96a409015a702d1c20597f03ce28505a49566a3f6.json",
+      "detail_sha256": "447d28091c4606d32e2988f96a409015a702d1c20597f03ce28505a49566a3f6",
+      "metrics": {
+        "ic": 0.019365427557294205,
+        "rank_ic": 0.04697245699452107,
+        "icir": 0.13562694497607072,
+        "rank_icir": 0.3096880734235888,
+        "total_return_net": 0.9142587305656005,
+        "annual_return_net": 0.27295894117160313,
+        "sharpe_net": 1.2623732129253582,
+        "max_drawdown": -0.3234350778532282,
+        "mean_daily_turnover": 0.17561828819481248,
+        "benchmark_return": 0.19650306312424815,
+        "annualized_volatility": 0.2084803072956039
+      },
+      "completed_at": "2026-10-26T02:26:43.858279+00:00",
+      "source_revision": "a0f4f05954706dddd88b7140e29e80c15de7b99d",
+      "comparison_protocol": "ALIGNED_SUPPORTED_UNIVERSE_TRAIN_NORMALIZATION_V1"
     },
     {
       "experiment_id": "77e5d2011b80439887691ae98496b06d",
       "name": "alpha158-lightgbm",
       "model": "lightgbm",
       "engine": "QLIB",
-      "state": "TRAINING_MODEL",
-      "stage": "TRAINING_MODEL",
-      "updated_at": "2026-10-26T02:22:43.953560+00:00",
+      "state": "COMPLETE",
+      "stage": "COMPLETE",
+      "updated_at": "2026-10-26T02:23:35.805592+00:00",
       "spec": {
         "buy_cost_bps": 8,
         "dataset_id": "daily-liquid-990-20261023",
@@ -344,7 +461,81 @@
           "VENDOR_ADJUSTMENTS_NOT_INDEPENDENT_CORPORATE_ACTION_RECONCILIATION",
           "OPEN_PRICE_AND_PREVIOUS_VOLUME_CAP_NOT_AUCTION_REPLAY"
         ],
-        "promotion": "NOT_ELIGIBLE"
+        "promotion": "NOT_ELIGIBLE",
+        "source_repair_coverage": {
+          "classification": "PUBLIC_SOURCE_RESEARCH_OBSERVATION_ONLY",
+          "point_in_time": false,
+          "realtime_readiness": false,
+          "real_data_paper_readiness": false,
+          "external_order_transmission": false,
+          "live_trading_enabled": false,
+          "promotion": "NOT_ELIGIBLE",
+          "schema_version": "qtrade.pit-repair.v1",
+          "observed_at": "2026-10-26T02:05:27.695891+00:00",
+          "state": "SOURCE_BACKFILL_REQUIRES_RECONCILIATION",
+          "master_rows": 9022,
+          "master_sha256": "3fe4114d53f195bdcbfc574f7c1b88a6e1cdf8c4e2c8085ec0055061ecdcb564",
+          "master_inactive_rows": 1200,
+          "master_is_historical_asof_snapshot": false,
+          "status_symbols": 13,
+          "input_symbols": 990,
+          "status_rows": 31577,
+          "source_checksums": {
+            "000001.json": "f6bdabc82b57b9a2efd6259c79cd40ace9de1d3241995989f4a122cbd2cf3953",
+            "000002.json": "7ef77342c4c841925955b52fbc130dae6af82cc887745638e551521f28118450",
+            "000011.json": "3833fd7b4f2192423b23ae16f1b3ea098be9886abd8d940ba6cc24127e033ebe",
+            "000021.json": "b612b6c7e9842604cbb8a11628de8b4afe262baf0253606b5587b22e46b88600",
+            "000032.json": "ddbdba3495c18ae7c82d1372545835f23eade078397418867b33e248681813d3",
+            "000157.json": "8d5a7b2cfe8312ad1e931d38fa16d450282dfec68f3ba48affaf1387a2350f18",
+            "000158.json": "0e486eedb239908cfa18d7d206910529247c2b73181a3ac5b5138f0cec0f1d3e",
+            "000166.json": "1298e66cada0b21f02410783930016a0905136ae292e3c17c6ac2322dadfc10e",
+            "000333.json": "9ee2e0268e95f563538e9092902e13e432917d95e2d686c7af4fd2f44b04ac50",
+            "000400.json": "af6ebe14b7581a265fc76284c80a2e1434e07cce47fb9d85d751c61889f974b4",
+            "000408.json": "acc3b104fa6afae4756c034d0ff1a93ae101b6bfed7a6b1f19738569e8d6cd57",
+            "000420.json": "686f156de3c35b13f9033accb30142ee4799407a7c4cf095b382c634e86bcbb2",
+            "000425.json": "5fbada5c738804fe4c9d51580f3ce4747bdea789da93586f56b9b5f64aed2f96"
+          },
+          "historical_pit_certified": false,
+          "historical_available_at_known": false,
+          "execution_enforcement": "NOT_USED_DAILY_PROXY_REMAINS",
+          "failures": [
+            {
+              "symbol": "000034",
+              "code": "ValueError"
+            },
+            {
+              "symbol": "000060",
+              "code": "ValueError"
+            },
+            {
+              "symbol": "000062",
+              "code": "ValueError"
+            },
+            {
+              "symbol": "000063",
+              "code": "ValueError"
+            },
+            {
+              "symbol": "000066",
+              "code": "ValueError"
+            },
+            {
+              "symbol": "000070",
+              "code": "ValueError"
+            },
+            {
+              "symbol": "000100",
+              "code": "ValueError"
+            }
+          ],
+          "missing": [
+            "INDEPENDENT_MASTER_AND_DELISTED_PRICE_RECONCILIATION",
+            "HISTORICAL_INFORMATION_AVAILABILITY",
+            "OFFICIAL_RAW_PRICE_LIMITS",
+            "AUCTION_REPLAY_AND_CORPORATE_ACTION_LEDGER"
+          ],
+          "evidence_sha256": "8e24e10653d51e094124cb5fda1bc07607135a5efe7685545000b12c1fd15e87"
+        }
       },
       "error_code": null,
       "events": [
@@ -367,16 +558,43 @@
         {
           "at": "2026-10-26T02:22:43.953451+00:00",
           "state": "TRAINING_MODEL"
+        },
+        {
+          "at": "2026-10-26T02:23:00.174547+00:00",
+          "state": "BACKTESTING"
+        },
+        {
+          "at": "2026-10-26T02:23:35.805484+00:00",
+          "state": "COMPLETE"
         }
-      ]
+      ],
+      "run_id": "alpha158-lightgbm-14b06bdc9ce9fd58",
+      "detail_file": "workflow-results/d1d38dda88d4396b236aa770b43ac8317734bb716a10c2440c152080cb9945fb.json",
+      "detail_sha256": "d1d38dda88d4396b236aa770b43ac8317734bb716a10c2440c152080cb9945fb",
+      "metrics": {
+        "ic": 0.02425705803026911,
+        "rank_ic": 0.05205254524640808,
+        "icir": 0.164329978273446,
+        "rank_icir": 0.32494389109558336,
+        "total_return_net": 1.2243111939661944,
+        "annual_return_net": 0.346003324904149,
+        "sharpe_net": 1.2478022212728666,
+        "max_drawdown": -0.3332760415766354,
+        "mean_daily_turnover": 0.17498266509388824,
+        "benchmark_return": 0.19650306312424815,
+        "annualized_volatility": 0.26689447851635056
+      },
+      "completed_at": "2026-10-26T02:23:19.239843+00:00",
+      "source_revision": "a0f4f05954706dddd88b7140e29e80c15de7b99d",
+      "comparison_protocol": "ALIGNED_SUPPORTED_UNIVERSE_TRAIN_NORMALIZATION_V1"
     }
   ],
   "worker": {
-    "state": "RUNNING",
-    "heartbeat_at": "2026-10-26T02:22:43.957204+00:00",
+    "state": "IDLE",
+    "heartbeat_at": "2026-10-26T02:27:38.280565+00:00",
     "concurrency": 1,
     "source_revision": "a0f4f05954706dddd88b7140e29e80c15de7b99d",
     "max_job_seconds": 3600
   },
-  "evidence_sha256": "4a0c8fedfbbb30ea13e1596d296d0ff3fc119063122b5546c57d5c480e531309"
+  "evidence_sha256": "be3fe335d9ece210ec248831454f94f610f6408b92772cb4254dbd6a6d862e6b"
 }
