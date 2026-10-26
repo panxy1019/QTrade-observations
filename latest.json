@@ -7,7 +7,7 @@
   "live_trading_enabled": false,
   "promotion": "NOT_ELIGIBLE",
   "schema_version": "qtrade.public-observations.v1",
-  "published_at": "2026-10-26T01:09:50.103407+00:00",
+  "published_at": "2026-10-26T01:15:02.535316+00:00",
   "calendar": {
     "valid_from": "2026-08-01",
     "valid_through": "2026-12-31",
@@ -27,7 +27,7 @@
     "limitation": "Bounded SSE/SZSE calendar; no assumptions outside its horizon or about emergency closures."
   },
   "observer": {
-    "heartbeat_at": "2026-10-26T01:09:46.393355+00:00",
+    "heartbeat_at": "2026-10-26T01:14:56.472180+00:00",
     "worker_alive": true,
     "streams": {
       "daily": {
@@ -43,8 +43,8 @@
         "checksum": "795711553a58488bb62c6d8c1672675891e80999b4de3a3454238def039bdff6",
         "maximum_tolerated_lag_seconds": 0.0,
         "last_attempt": {
-          "attempted_at": "2026-10-26T00:14:55.490017+00:00",
-          "outcome": "SUCCEEDED",
+          "attempted_at": "2026-10-26T01:14:56.472355+00:00",
+          "outcome": "RUNNING",
           "error": null
         }
       },
@@ -2004,5 +2004,5 @@
       "external_order_transmission": false
     }
   ],
-  "evidence_sha256": "be7bb57a91fcc31ccfbd5349522f35a0214fa8ae2b61af47dcce54237f0392fe"
+  "evidence_sha256": "9906299ceb8841b68903344f5485933baad8e41dba1d33e66d05588ddae23c43"
 }
