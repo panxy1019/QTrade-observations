@@ -7,7 +7,7 @@
   "live_trading_enabled": false,
   "promotion": "NOT_ELIGIBLE",
   "schema_version": "qtrade.research-workflow.v1",
-  "published_at": "2026-10-26T04:34:18.655984+00:00",
+  "published_at": "2026-10-26T04:35:52.908143+00:00",
   "models": [
     {
       "id": "linear",
@@ -103,7 +103,8 @@
     "min_cost": 5,
     "initial_cash": 10000000,
     "seed": 20261026,
-    "universe_policy": "supported_a_share"
+    "universe_policy": "supported_a_share",
+    "source_snapshot_sha256": "b39408fa65995fc593e85c43e0b1c6bd6d5ae2443efdbe0f42873c1de6a83687"
   },
   "default_linear_spec": {
     "name": "alpha158-linear",
@@ -133,7 +134,8 @@
     "min_cost": 5,
     "initial_cash": 10000000,
     "seed": 20261026,
-    "universe_policy": "supported_a_share"
+    "universe_policy": "supported_a_share",
+    "source_snapshot_sha256": "b39408fa65995fc593e85c43e0b1c6bd6d5ae2443efdbe0f42873c1de6a83687"
   },
   "experiments": [
     {
@@ -144,8 +146,8 @@
       "engine": "QLIB",
       "spec": null,
       "run_id": "alpha158-lightgbm-daily-v1-beb391a43169a5f0",
-      "detail_file": "workflow-results/d854b3d8b39c7576b98e03ef79d47251690554f88a47bfeaa9280e3cec47cf99.json",
-      "detail_sha256": "d854b3d8b39c7576b98e03ef79d47251690554f88a47bfeaa9280e3cec47cf99",
+      "detail_file": "workflow-results/a779ab1bf3cd274bf0df1f4a5e9f76f8e6ffe43828beb3ce5cd0fae9b9e17964.json",
+      "detail_sha256": "a779ab1bf3cd274bf0df1f4a5e9f76f8e6ffe43828beb3ce5cd0fae9b9e17964",
       "metrics": {
         "ic": 0.02341357867173008,
         "rank_ic": 0.049405012048798685,
@@ -876,10 +878,11 @@
   ],
   "worker": {
     "state": "IDLE",
-    "heartbeat_at": "2026-10-26T04:34:18.655989+00:00",
+    "heartbeat_at": "2026-10-26T04:35:55.020061+00:00",
     "concurrency": 1,
-    "source_revision": "da2878c4670e2d331aecdcac5d93f5f11c71ed72",
+    "source_revision": "846a836702e8c8f4c020e90159565fcc869b6fa7",
     "max_job_seconds": 3600
   },
-  "evidence_sha256": "463312dd047d291ad73fc214513bc861f7307ce0599598c94cd101d0879a1705"
+  "source_snapshot_sha256": "b39408fa65995fc593e85c43e0b1c6bd6d5ae2443efdbe0f42873c1de6a83687",
+  "evidence_sha256": "7cf3464e8bd5a7bb2e020b89bee5943210e9a4b7190c05b0fc10f915b142b85e"
 }
