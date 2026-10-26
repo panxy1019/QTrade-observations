@@ -2200,7 +2200,7 @@
     ],
     "limitation": "Bounded SSE/SZSE calendar; no assumptions outside its horizon or about emergency closures."
   },
-  "published_at": "2026-10-26T01:25:00.650698+00:00",
+  "published_at": "2026-10-26T01:30:00.957706+00:00",
   "expansion": {
     "classification": "PUBLIC_SOURCE_RESEARCH_OBSERVATION_ONLY",
     "point_in_time": false,
@@ -2228,22 +2228,22 @@
     },
     "minute": {
       "state": "RUNNING",
-      "completed": 162,
-      "failed": 46
+      "completed": 164,
+      "failed": 49
     },
-    "updated_at": "2026-10-26T01:24:01.718332+00:00",
+    "updated_at": "2026-10-26T01:29:55.939190+00:00",
     "free_gib": 296.07
   },
   "intraday": {
     "provider": "Sina native 5m; adjustment not independently certified",
     "provider_version": "1.18.84",
     "classification": "PUBLIC_SOURCE_RESEARCH_OBSERVATION_ONLY",
-    "data_version": "observer-minute-20261025T201601617366Z",
-    "checksum": "5974250c62e407ae1250d2403d735f65fc17af75fe1cb46d9b64123a0f1a63d3",
+    "data_version": "observer-minute-20261026T013006718671Z",
+    "checksum": "5fade5f39bc4e7eef40b037a2c2df5bd52aad0e0ed461af98fa06070d11a9fc2",
     "quality_status": "PASSED",
-    "bar_count": 7200,
+    "bar_count": 7125,
     "bytes": 2020414,
-    "observed_start": "2026-10-22T01:35:00+00:00",
+    "observed_start": "2026-10-22T01:40:00+00:00",
     "observed_end": "2026-10-23T07:00:00+00:00",
     "minimum_latest_day": "2026-10-23",
     "latest_by_symbol": {
@@ -3172,10 +3172,10 @@
       "live_trading_enabled": false,
       "promotion": "NOT_ELIGIBLE",
       "kind": "minute",
-      "started_at": "2026-10-25T20:16:01.943603+00:00",
-      "completed_at": "2026-10-25T20:16:25.261823+00:00",
+      "started_at": "2026-10-26T01:30:07.037489+00:00",
+      "completed_at": "2026-10-26T01:30:30.072150+00:00",
       "required_symbol_count": 75,
-      "bar_count": 7200,
+      "bar_count": 7125,
       "latest_by_symbol": {
         "000063": "2026-10-23T15:00:00+08:00",
         "000338": "2026-10-23T15:00:00+08:00",
@@ -3255,15 +3255,15 @@
       },
       "collection_mode": "HISTORICAL_BACKFILL_NOT_FORWARD_PAPER",
       "manifest": {
-        "data_version": "observer-minute-20261025T201601617366Z",
+        "data_version": "observer-minute-20261026T013006718671Z",
         "source": "Sina native 5m public history; adjustment not independently certified",
-        "checksum": "5974250c62e407ae1250d2403d735f65fc17af75fe1cb46d9b64123a0f1a63d3",
+        "checksum": "5fade5f39bc4e7eef40b037a2c2df5bd52aad0e0ed461af98fa06070d11a9fc2",
         "schema_version": "qtrade.bar.v1",
         "quality_status": "PASSED"
       },
-      "evidence_sha256": "7f3cd6c7d632e6a7f21c6d2e8a13a55592a4bbe6aedea69c3e2fbbfb5a45d339"
+      "evidence_sha256": "0d696647aeebdf6580b1b73634ded6e6806b4b3cdea5dfa28659d8dab170ce8d"
     }
   },
   "observer_healthy": true,
-  "evidence_sha256": "b8cd9afee1e5aff876a415d89cc9a56570b252813651f7880ef41dd0846787bd"
+  "evidence_sha256": "8929957c2805e66b77d1c7304662ae4e0a893d9c709db8b544996bc200469b33"
 }
