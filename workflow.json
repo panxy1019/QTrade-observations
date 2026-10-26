@@ -7,7 +7,7 @@
   "live_trading_enabled": false,
   "promotion": "NOT_ELIGIBLE",
   "schema_version": "qtrade.research-workflow.v1",
-  "published_at": "2026-10-26T02:32:18.546129+00:00",
+  "published_at": "2026-10-26T02:34:23.500165+00:00",
   "models": [
     {
       "id": "linear",
@@ -590,11 +590,11 @@
     }
   ],
   "worker": {
-    "state": "QUEUE_UNAVAILABLE",
-    "heartbeat_at": "2026-10-26T02:32:18.546148+00:00",
+    "state": "IDLE",
+    "heartbeat_at": "2026-10-26T02:34:23.500170+00:00",
     "concurrency": 1,
-    "source_revision": "a0f4f05954706dddd88b7140e29e80c15de7b99d",
+    "source_revision": "da2878c4670e2d331aecdcac5d93f5f11c71ed72",
     "max_job_seconds": 3600
   },
-  "evidence_sha256": "911ba6398778b0206a679177d5d51fc884e012ff0822c0fc4174c5f3d5dc75d5"
+  "evidence_sha256": "de22ac2b68554fa971c23bc2d4c36bc2c27ae89fd4355c7ba4568b3582fc02ea"
 }
