@@ -2238,12 +2238,12 @@
     "provider": "Sina native 5m; adjustment not independently certified",
     "provider_version": "1.18.84",
     "classification": "PUBLIC_SOURCE_RESEARCH_OBSERVATION_ONLY",
-    "data_version": "observer-minute-20261026T043139781604Z",
-    "checksum": "9b53c082b0ec47d6fca809965e4b80c1578398c08ce32b21f1ec997363125cbb",
+    "data_version": "observer-minute-20261026T050140290302Z",
+    "checksum": "7855770589271610105c9abef1c7a9fe81d2f4114098223bd0be901d02bb4cce",
     "quality_status": "PASSED",
-    "bar_count": 7200,
+    "bar_count": 7125,
     "bytes": 2020414,
-    "observed_start": "2026-10-22T05:05:00+00:00",
+    "observed_start": "2026-10-22T05:10:00+00:00",
     "observed_end": "2026-10-26T03:30:00+00:00",
     "minimum_latest_day": "2026-10-26",
     "latest_by_symbol": {
@@ -3173,10 +3173,10 @@
       "live_trading_enabled": false,
       "promotion": "NOT_ELIGIBLE",
       "kind": "minute",
-      "started_at": "2026-10-26T04:31:40.082798+00:00",
-      "completed_at": "2026-10-26T04:33:05.818624+00:00",
+      "started_at": "2026-10-26T05:01:40.597796+00:00",
+      "completed_at": "2026-10-26T05:02:12.037131+00:00",
       "required_symbol_count": 75,
-      "bar_count": 7200,
+      "bar_count": 7125,
       "latest_by_symbol": {
         "000063": "2026-10-26T11:30:00+08:00",
         "000338": "2026-10-26T11:30:00+08:00",
@@ -3256,15 +3256,15 @@
       },
       "collection_mode": "HISTORICAL_BACKFILL_NOT_FORWARD_PAPER",
       "manifest": {
-        "data_version": "observer-minute-20261026T043139781604Z",
+        "data_version": "observer-minute-20261026T050140290302Z",
         "source": "Sina native 5m public history; adjustment not independently certified",
-        "checksum": "9b53c082b0ec47d6fca809965e4b80c1578398c08ce32b21f1ec997363125cbb",
+        "checksum": "7855770589271610105c9abef1c7a9fe81d2f4114098223bd0be901d02bb4cce",
         "schema_version": "qtrade.bar.v1",
         "quality_status": "PASSED"
       },
-      "evidence_sha256": "088e8521da86b3aaf3661c464e6c3880d704f124cd71b2792855e4467f09fbda"
+      "evidence_sha256": "a61a34764f98d16ff7ba4cd197a2ee6568dbdd97b017df0aca0004e14769e14d"
     }
   },
-  "observer_healthy": false,
-  "evidence_sha256": "bc8316a85d1b929db8a1aab2bc997255e4c041048941e270aa4d740d39192b68"
+  "observer_healthy": true,
+  "evidence_sha256": "6423fd8fc6d54ec16512abd5890a3edde25c42c2547a66bf9a04e916932da7a0"
 }
