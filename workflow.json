@@ -7,7 +7,7 @@
   "live_trading_enabled": false,
   "promotion": "NOT_ELIGIBLE",
   "schema_version": "qtrade.research-workflow.v1",
-  "published_at": "2026-10-26T02:17:23.133332+00:00",
+  "published_at": "2026-10-26T02:22:43.957195+00:00",
   "models": [
     {
       "id": "linear",
@@ -197,14 +197,186 @@
       "completed_at": "2026-10-25T13:24:53.254558+00:00",
       "source_revision": "207a6b7a4eb324956139a98529110f166039095f",
       "comparison_protocol": "LEGACY_BASELINE_DIFFERENT_PREPROCESSING_AND_UNIVERSE"
+    },
+    {
+      "experiment_id": "da2997a86caf4e899d19254de254c222",
+      "name": "alpha158-linear",
+      "model": "linear",
+      "engine": "QLIB",
+      "state": "QUEUED",
+      "stage": "QUEUED",
+      "updated_at": "2026-10-26T02:20:11.758076+00:00",
+      "spec": {
+        "buy_cost_bps": 8,
+        "dataset_id": "daily-liquid-990-20261023",
+        "features": "Alpha158",
+        "hold_thresh": 2,
+        "initial_cash": 10000000,
+        "min_cost": 5,
+        "model": "linear",
+        "n_drop": 5,
+        "name": "alpha158-linear",
+        "risk_degree": 0.95,
+        "seed": 20261026,
+        "segments": {
+          "test": [
+            "2024-01-02",
+            "2026-10-23"
+          ],
+          "train": [
+            "2017-04-05",
+            "2021-12-28"
+          ],
+          "valid": [
+            "2022-01-04",
+            "2023-12-26"
+          ]
+        },
+        "sell_cost_bps": 13,
+        "topk": 50,
+        "universe_policy": "supported_a_share"
+      },
+      "spec_sha256": "14dfd648919753525b171e3441e1041608a17a8b5c78850fa6ef8fb29395eb1c",
+      "audit": {
+        "universe": {
+          "status": "BIASED_CURRENT_SAMPLE",
+          "historical_pit_certified": false,
+          "selection": "2026-10-23 liquidity selection projected into history"
+        },
+        "corporate_actions": {
+          "status": "VENDOR_EFFECTIVE_DATE_NOT_RECONCILED"
+        },
+        "historical_st_and_halts": {
+          "status": "PARTIAL_OR_UNVERIFIED"
+        },
+        "exact_price_limits": {
+          "status": "UNVERIFIED_CONSERVATIVE_PROXY"
+        },
+        "execution": {
+          "status": "DAILY_OPEN_PROXY_WITH_CAUSAL_VOLUME_CAP"
+        },
+        "supported_universe": {
+          "status": "TRAIN_RANK_EXECUTION_ALIGNED_EXCLUDING_STAR"
+        },
+        "limitations": [
+          "CURRENT_LIQUIDITY_UNIVERSE_SURVIVORSHIP_AND_SELECTION_BIAS",
+          "POST_HOC_VIEWED_HISTORY_NOT_UNSEEN_FORWARD_EVIDENCE",
+          "HISTORICAL_ST_AND_EXACT_LIMIT_PRICES_NOT_FULLY_CERTIFIED",
+          "MISSING_QUOTE_NOT_CERTIFIED_SUSPENSION_REASON",
+          "VENDOR_ADJUSTMENTS_NOT_INDEPENDENT_CORPORATE_ACTION_RECONCILIATION",
+          "OPEN_PRICE_AND_PREVIOUS_VOLUME_CAP_NOT_AUCTION_REPLAY"
+        ],
+        "promotion": "NOT_ELIGIBLE"
+      },
+      "error_code": null,
+      "events": [
+        {
+          "at": "2026-10-26T02:20:11.758140+00:00",
+          "state": "QUEUED"
+        }
+      ]
+    },
+    {
+      "experiment_id": "77e5d2011b80439887691ae98496b06d",
+      "name": "alpha158-lightgbm",
+      "model": "lightgbm",
+      "engine": "QLIB",
+      "state": "TRAINING_MODEL",
+      "stage": "TRAINING_MODEL",
+      "updated_at": "2026-10-26T02:22:43.953560+00:00",
+      "spec": {
+        "buy_cost_bps": 8,
+        "dataset_id": "daily-liquid-990-20261023",
+        "features": "Alpha158",
+        "hold_thresh": 2,
+        "initial_cash": 10000000,
+        "min_cost": 5,
+        "model": "lightgbm",
+        "n_drop": 5,
+        "name": "alpha158-lightgbm",
+        "risk_degree": 0.95,
+        "seed": 20261026,
+        "segments": {
+          "test": [
+            "2024-01-02",
+            "2026-10-23"
+          ],
+          "train": [
+            "2017-04-05",
+            "2021-12-28"
+          ],
+          "valid": [
+            "2022-01-04",
+            "2023-12-26"
+          ]
+        },
+        "sell_cost_bps": 13,
+        "topk": 50,
+        "universe_policy": "supported_a_share"
+      },
+      "spec_sha256": "188dcdf09f1c03f31f9d8f5f9fdc2541d299758226e65ac07902710082bd08c0",
+      "audit": {
+        "universe": {
+          "status": "BIASED_CURRENT_SAMPLE",
+          "historical_pit_certified": false,
+          "selection": "2026-10-23 liquidity selection projected into history"
+        },
+        "corporate_actions": {
+          "status": "VENDOR_EFFECTIVE_DATE_NOT_RECONCILED"
+        },
+        "historical_st_and_halts": {
+          "status": "PARTIAL_OR_UNVERIFIED"
+        },
+        "exact_price_limits": {
+          "status": "UNVERIFIED_CONSERVATIVE_PROXY"
+        },
+        "execution": {
+          "status": "DAILY_OPEN_PROXY_WITH_CAUSAL_VOLUME_CAP"
+        },
+        "supported_universe": {
+          "status": "TRAIN_RANK_EXECUTION_ALIGNED_EXCLUDING_STAR"
+        },
+        "limitations": [
+          "CURRENT_LIQUIDITY_UNIVERSE_SURVIVORSHIP_AND_SELECTION_BIAS",
+          "POST_HOC_VIEWED_HISTORY_NOT_UNSEEN_FORWARD_EVIDENCE",
+          "HISTORICAL_ST_AND_EXACT_LIMIT_PRICES_NOT_FULLY_CERTIFIED",
+          "MISSING_QUOTE_NOT_CERTIFIED_SUSPENSION_REASON",
+          "VENDOR_ADJUSTMENTS_NOT_INDEPENDENT_CORPORATE_ACTION_RECONCILIATION",
+          "OPEN_PRICE_AND_PREVIOUS_VOLUME_CAP_NOT_AUCTION_REPLAY"
+        ],
+        "promotion": "NOT_ELIGIBLE"
+      },
+      "error_code": null,
+      "events": [
+        {
+          "at": "2026-10-26T02:20:11.754382+00:00",
+          "state": "QUEUED"
+        },
+        {
+          "at": "2026-10-26T02:20:11.779194+00:00",
+          "state": "RUNNING"
+        },
+        {
+          "at": "2026-10-26T02:20:28.099876+00:00",
+          "state": "BUILDING_PROVIDER"
+        },
+        {
+          "at": "2026-10-26T02:21:05.556457+00:00",
+          "state": "COMPUTING_ALPHA158"
+        },
+        {
+          "at": "2026-10-26T02:22:43.953451+00:00",
+          "state": "TRAINING_MODEL"
+        }
+      ]
     }
   ],
   "worker": {
-    "state": "IDLE",
-    "heartbeat_at": "2026-10-26T02:17:23.133346+00:00",
+    "state": "RUNNING",
+    "heartbeat_at": "2026-10-26T02:22:43.957204+00:00",
     "concurrency": 1,
     "source_revision": "a0f4f05954706dddd88b7140e29e80c15de7b99d",
     "max_job_seconds": 3600
   },
-  "evidence_sha256": "94ef3edeb91fc4a572d2baf938983225594bab0cde6efe8414fa9eb0f959b764"
+  "evidence_sha256": "4a0c8fedfbbb30ea13e1596d296d0ff3fc119063122b5546c57d5c480e531309"
 }
