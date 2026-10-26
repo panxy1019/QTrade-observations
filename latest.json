@@ -7,7 +7,7 @@
   "live_trading_enabled": false,
   "promotion": "NOT_ELIGIBLE",
   "schema_version": "qtrade.public-observations.v1",
-  "published_at": "2026-10-26T03:57:59.308282+00:00",
+  "published_at": "2026-10-26T04:02:46.173320+00:00",
   "calendar": {
     "valid_from": "2026-08-01",
     "valid_through": "2026-12-31",
@@ -27,7 +27,7 @@
     "limitation": "Bounded SSE/SZSE calendar; no assumptions outside its horizon or about emergency closures."
   },
   "observer": {
-    "heartbeat_at": "2026-10-26T03:57:49.211175+00:00",
+    "heartbeat_at": "2026-10-26T04:02:39.291666+00:00",
     "worker_alive": true,
     "streams": {
       "daily": {
@@ -56,12 +56,12 @@
         "observed_symbols": 75,
         "required_symbols": 75,
         "stale_symbols": [],
-        "collected_at": "2026-10-26T03:47:21.722302+00:00",
-        "data_version": "observer-minute-20261026T034629024433Z",
-        "checksum": "a16db68aaa6a925413f998f304a4e29b04c51d9aab2b6ae4e956ad52958282e6",
+        "collected_at": "2026-10-26T04:02:13.335435+00:00",
+        "data_version": "observer-minute-20261026T040129272229Z",
+        "checksum": "e513a25744e35c85898d2fe31723e1e4f80875c7528f3873585797ca81420a88",
         "maximum_tolerated_lag_seconds": 1200.0,
         "last_attempt": {
-          "attempted_at": "2026-10-26T03:46:29.024433+00:00",
+          "attempted_at": "2026-10-26T04:01:29.272229+00:00",
           "outcome": "SUCCEEDED",
           "error": null
         }
@@ -468,8 +468,8 @@
         "live_trading_enabled": false,
         "promotion": "NOT_ELIGIBLE",
         "kind": "minute",
-        "started_at": "2026-10-26T03:46:29.365249+00:00",
-        "completed_at": "2026-10-26T03:47:21.722302+00:00",
+        "started_at": "2026-10-26T04:01:29.579040+00:00",
+        "completed_at": "2026-10-26T04:02:13.335435+00:00",
         "required_symbol_count": 75,
         "bar_count": 7200,
         "latest_by_symbol": {
@@ -551,13 +551,13 @@
         },
         "collection_mode": "HISTORICAL_BACKFILL_NOT_FORWARD_PAPER",
         "manifest": {
-          "data_version": "observer-minute-20261026T034629024433Z",
+          "data_version": "observer-minute-20261026T040129272229Z",
           "source": "Sina native 5m public history; adjustment not independently certified",
-          "checksum": "a16db68aaa6a925413f998f304a4e29b04c51d9aab2b6ae4e956ad52958282e6",
+          "checksum": "e513a25744e35c85898d2fe31723e1e4f80875c7528f3873585797ca81420a88",
           "schema_version": "qtrade.bar.v1",
           "quality_status": "PASSED"
         },
-        "evidence_sha256": "bf5c182625a5bc2e3579cb460a474b7c9524bde434dc8b563ed934461a23e2f3"
+        "evidence_sha256": "2df19bd06be345d55cfb036833cc84e8517fbc2200dbba8afd654c4e6b0e7dec"
       },
       "latest_bars": [
         {
@@ -2004,5 +2004,5 @@
       "external_order_transmission": false
     }
   ],
-  "evidence_sha256": "13ae648d00d72df5cc10b3c0c1f3e0a4e3cda24056fd110dd898437062f144ce"
+  "evidence_sha256": "9beea8f4c04099a614633130461c1ee3b12165e4297be8aa96a176362f222cbf"
 }
