@@ -7,7 +7,7 @@
   "live_trading_enabled": false,
   "promotion": "NOT_ELIGIBLE",
   "schema_version": "qtrade.research-workflow.v1",
-  "published_at": "2026-10-26T14:51:20.524860+00:00",
+  "published_at": "2026-10-26T14:55:58.469888+00:00",
   "models": [
     {
       "id": "linear",
@@ -104,7 +104,7 @@
     "initial_cash": 10000000,
     "seed": 20261026,
     "universe_policy": "supported_a_share",
-    "source_snapshot_sha256": "d9b25863af0ba5fcfd99b8e2a88fc2a74720ab482a41422ce72347c2b30135e3"
+    "source_snapshot_sha256": "94e8bc576629009b223e79881874f9f3c786a16d42058f04a543a9764027a264"
   },
   "default_linear_spec": {
     "name": "alpha158-linear",
@@ -135,7 +135,7 @@
     "initial_cash": 10000000,
     "seed": 20261026,
     "universe_policy": "supported_a_share",
-    "source_snapshot_sha256": "d9b25863af0ba5fcfd99b8e2a88fc2a74720ab482a41422ce72347c2b30135e3"
+    "source_snapshot_sha256": "94e8bc576629009b223e79881874f9f3c786a16d42058f04a543a9764027a264"
   },
   "experiments": [
     {
@@ -1625,11 +1625,11 @@
   ],
   "worker": {
     "state": "IDLE",
-    "heartbeat_at": "2026-10-26T14:51:20.525609+00:00",
+    "heartbeat_at": "2026-10-26T14:56:31.688939+00:00",
     "concurrency": 1,
     "source_revision": "5d4e7bfb36d23cc70f600ca8f63cf183075e5177",
     "max_job_seconds": 3600
   },
-  "source_snapshot_sha256": "d9b25863af0ba5fcfd99b8e2a88fc2a74720ab482a41422ce72347c2b30135e3",
-  "evidence_sha256": "232206d2601a08a48a9ef2e36f52eca697cd2c9bc7a04d0011830698cd43b78a"
+  "source_snapshot_sha256": "94e8bc576629009b223e79881874f9f3c786a16d42058f04a543a9764027a264",
+  "evidence_sha256": "e9b56dde4febda05065fa64eb72b5f84b0a5ce5abcfc51c055bf1f30432d54c1"
 }
