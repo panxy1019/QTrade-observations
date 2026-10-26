@@ -7,7 +7,7 @@
   "live_trading_enabled": false,
   "promotion": "NOT_ELIGIBLE",
   "schema_version": "qtrade.research-workflow.v1",
-  "published_at": "2026-10-26T03:31:50.829036+00:00",
+  "published_at": "2026-10-26T03:37:04.504057+00:00",
   "models": [
     {
       "id": "linear",
@@ -197,6 +197,186 @@
       "completed_at": "2026-10-25T13:24:53.254558+00:00",
       "source_revision": "207a6b7a4eb324956139a98529110f166039095f",
       "comparison_protocol": "LEGACY_BASELINE_DIFFERENT_PREPROCESSING_AND_UNIVERSE"
+    },
+    {
+      "experiment_id": "316ff5642f3344d588c8de2646598314",
+      "name": "production-e2e-lightgbm-20261026",
+      "model": "lightgbm",
+      "engine": "QLIB",
+      "state": "COMPUTING_ALPHA158",
+      "stage": "COMPUTING_ALPHA158",
+      "updated_at": "2026-10-26T03:37:04.500779+00:00",
+      "spec": {
+        "buy_cost_bps": 8,
+        "dataset_id": "daily-liquid-990-20261023",
+        "features": "Alpha158",
+        "hold_thresh": 2,
+        "initial_cash": 10000000,
+        "min_cost": 5,
+        "model": "lightgbm",
+        "n_drop": 5,
+        "name": "production-e2e-lightgbm-20261026",
+        "risk_degree": 0.95,
+        "seed": 20261026,
+        "segments": {
+          "test": [
+            "2024-01-02",
+            "2026-10-23"
+          ],
+          "train": [
+            "2017-04-05",
+            "2021-12-28"
+          ],
+          "valid": [
+            "2022-01-04",
+            "2023-12-26"
+          ]
+        },
+        "sell_cost_bps": 13,
+        "topk": 50,
+        "universe_policy": "supported_a_share"
+      },
+      "spec_sha256": "8e806043ba5465ef5d3600bb242493823f893e2efa18e232b0f887176672f3ef",
+      "audit": {
+        "universe": {
+          "status": "BIASED_CURRENT_SAMPLE",
+          "historical_pit_certified": false,
+          "selection": "2026-10-23 liquidity selection projected into history"
+        },
+        "corporate_actions": {
+          "status": "VENDOR_EFFECTIVE_DATE_NOT_RECONCILED"
+        },
+        "historical_st_and_halts": {
+          "status": "PARTIAL_OR_UNVERIFIED"
+        },
+        "exact_price_limits": {
+          "status": "UNVERIFIED_CONSERVATIVE_PROXY"
+        },
+        "execution": {
+          "status": "DAILY_OPEN_PROXY_WITH_CAUSAL_VOLUME_CAP"
+        },
+        "supported_universe": {
+          "status": "TRAIN_RANK_EXECUTION_ALIGNED_EXCLUDING_STAR"
+        },
+        "limitations": [
+          "CURRENT_LIQUIDITY_UNIVERSE_SURVIVORSHIP_AND_SELECTION_BIAS",
+          "POST_HOC_VIEWED_HISTORY_NOT_UNSEEN_FORWARD_EVIDENCE",
+          "HISTORICAL_ST_AND_EXACT_LIMIT_PRICES_NOT_FULLY_CERTIFIED",
+          "MISSING_QUOTE_NOT_CERTIFIED_SUSPENSION_REASON",
+          "VENDOR_ADJUSTMENTS_NOT_INDEPENDENT_CORPORATE_ACTION_RECONCILIATION",
+          "OPEN_PRICE_AND_PREVIOUS_VOLUME_CAP_NOT_AUCTION_REPLAY"
+        ],
+        "promotion": "NOT_ELIGIBLE"
+      },
+      "error_code": null,
+      "events": [
+        {
+          "at": "2026-10-26T03:36:20.749596+00:00",
+          "state": "QUEUED"
+        },
+        {
+          "at": "2026-10-26T03:36:20.756290+00:00",
+          "state": "RUNNING"
+        },
+        {
+          "at": "2026-10-26T03:36:46.281907+00:00",
+          "state": "BUILDING_PROVIDER"
+        },
+        {
+          "at": "2026-10-26T03:37:04.500674+00:00",
+          "state": "COMPUTING_ALPHA158"
+        }
+      ]
+    },
+    {
+      "experiment_id": "34dd6dd3094342e1871f0046135f5656",
+      "name": "production-login-acceptance-20261026",
+      "model": "lightgbm",
+      "engine": "QLIB",
+      "state": "CANCELLED",
+      "stage": "CANCELLED",
+      "updated_at": "2026-10-26T03:33:33.641504+00:00",
+      "spec": {
+        "buy_cost_bps": 8,
+        "dataset_id": "daily-liquid-990-20261023",
+        "features": "Alpha158",
+        "hold_thresh": 2,
+        "initial_cash": 10000000,
+        "min_cost": 5,
+        "model": "lightgbm",
+        "n_drop": 5,
+        "name": "production-login-acceptance-20261026",
+        "risk_degree": 0.95,
+        "seed": 20261026,
+        "segments": {
+          "test": [
+            "2024-01-02",
+            "2026-10-23"
+          ],
+          "train": [
+            "2017-04-05",
+            "2021-12-28"
+          ],
+          "valid": [
+            "2022-01-04",
+            "2023-12-26"
+          ]
+        },
+        "sell_cost_bps": 13,
+        "topk": 50,
+        "universe_policy": "supported_a_share"
+      },
+      "spec_sha256": "0e88958b6144ddbf3f6dd4a741d9fecb0e2b88dad696f219afb2c203456ea4ab",
+      "audit": {
+        "universe": {
+          "status": "BIASED_CURRENT_SAMPLE",
+          "historical_pit_certified": false,
+          "selection": "2026-10-23 liquidity selection projected into history"
+        },
+        "corporate_actions": {
+          "status": "VENDOR_EFFECTIVE_DATE_NOT_RECONCILED"
+        },
+        "historical_st_and_halts": {
+          "status": "PARTIAL_OR_UNVERIFIED"
+        },
+        "exact_price_limits": {
+          "status": "UNVERIFIED_CONSERVATIVE_PROXY"
+        },
+        "execution": {
+          "status": "DAILY_OPEN_PROXY_WITH_CAUSAL_VOLUME_CAP"
+        },
+        "supported_universe": {
+          "status": "TRAIN_RANK_EXECUTION_ALIGNED_EXCLUDING_STAR"
+        },
+        "limitations": [
+          "CURRENT_LIQUIDITY_UNIVERSE_SURVIVORSHIP_AND_SELECTION_BIAS",
+          "POST_HOC_VIEWED_HISTORY_NOT_UNSEEN_FORWARD_EVIDENCE",
+          "HISTORICAL_ST_AND_EXACT_LIMIT_PRICES_NOT_FULLY_CERTIFIED",
+          "MISSING_QUOTE_NOT_CERTIFIED_SUSPENSION_REASON",
+          "VENDOR_ADJUSTMENTS_NOT_INDEPENDENT_CORPORATE_ACTION_RECONCILIATION",
+          "OPEN_PRICE_AND_PREVIOUS_VOLUME_CAP_NOT_AUCTION_REPLAY"
+        ],
+        "promotion": "NOT_ELIGIBLE"
+      },
+      "error_code": "CANCEL_TIMEOUT_OR_WORKER_STOP",
+      "events": [
+        {
+          "at": "2026-10-26T03:32:58.916172+00:00",
+          "state": "QUEUED"
+        },
+        {
+          "at": "2026-10-26T03:32:58.923946+00:00",
+          "state": "RUNNING"
+        },
+        {
+          "at": "2026-10-26T03:33:14.429586+00:00",
+          "state": "BUILDING_PROVIDER"
+        },
+        {
+          "at": "2026-10-26T03:33:33.641414+00:00",
+          "state": "CANCELLED"
+        }
+      ]
     },
     {
       "experiment_id": "da2997a86caf4e899d19254de254c222",
@@ -590,11 +770,11 @@
     }
   ],
   "worker": {
-    "state": "IDLE",
-    "heartbeat_at": "2026-10-26T03:31:50.829041+00:00",
+    "state": "RUNNING",
+    "heartbeat_at": "2026-10-26T03:37:04.504066+00:00",
     "concurrency": 1,
     "source_revision": "da2878c4670e2d331aecdcac5d93f5f11c71ed72",
     "max_job_seconds": 3600
   },
-  "evidence_sha256": "a59463ed4bb1c09670f86f4b61678fa828febe49a427d6ff187eb005ff0658a0"
+  "evidence_sha256": "0b0e689882088f4415f05ba2b93a6cb8748c38bd96ec13b96063af2f2ab1c1d0"
 }
