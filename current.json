@@ -2200,7 +2200,7 @@
     ],
     "limitation": "Bounded SSE/SZSE calendar; no assumptions outside its horizon or about emergency closures."
   },
-  "published_at": "2026-10-26T04:29:00.580342+00:00",
+  "published_at": "2026-10-26T04:34:00.954690+00:00",
   "expansion": {
     "classification": "PUBLIC_SOURCE_RESEARCH_OBSERVATION_ONLY",
     "point_in_time": false,
@@ -2238,8 +2238,8 @@
     "provider": "Sina native 5m; adjustment not independently certified",
     "provider_version": "1.18.84",
     "classification": "PUBLIC_SOURCE_RESEARCH_OBSERVATION_ONLY",
-    "data_version": "observer-minute-20261026T040129272229Z",
-    "checksum": "e513a25744e35c85898d2fe31723e1e4f80875c7528f3873585797ca81420a88",
+    "data_version": "observer-minute-20261026T043139781604Z",
+    "checksum": "9b53c082b0ec47d6fca809965e4b80c1578398c08ce32b21f1ec997363125cbb",
     "quality_status": "PASSED",
     "bar_count": 7200,
     "bytes": 2020414,
@@ -3173,8 +3173,8 @@
       "live_trading_enabled": false,
       "promotion": "NOT_ELIGIBLE",
       "kind": "minute",
-      "started_at": "2026-10-26T04:01:29.579040+00:00",
-      "completed_at": "2026-10-26T04:02:13.335435+00:00",
+      "started_at": "2026-10-26T04:31:40.082798+00:00",
+      "completed_at": "2026-10-26T04:33:05.818624+00:00",
       "required_symbol_count": 75,
       "bar_count": 7200,
       "latest_by_symbol": {
@@ -3256,15 +3256,15 @@
       },
       "collection_mode": "HISTORICAL_BACKFILL_NOT_FORWARD_PAPER",
       "manifest": {
-        "data_version": "observer-minute-20261026T040129272229Z",
+        "data_version": "observer-minute-20261026T043139781604Z",
         "source": "Sina native 5m public history; adjustment not independently certified",
-        "checksum": "e513a25744e35c85898d2fe31723e1e4f80875c7528f3873585797ca81420a88",
+        "checksum": "9b53c082b0ec47d6fca809965e4b80c1578398c08ce32b21f1ec997363125cbb",
         "schema_version": "qtrade.bar.v1",
         "quality_status": "PASSED"
       },
-      "evidence_sha256": "2df19bd06be345d55cfb036833cc84e8517fbc2200dbba8afd654c4e6b0e7dec"
+      "evidence_sha256": "088e8521da86b3aaf3661c464e6c3880d704f124cd71b2792855e4467f09fbda"
     }
   },
-  "observer_healthy": false,
-  "evidence_sha256": "9e7d861277aa8a8c39a68cdaf45538c33833f4bebcf58abf4031c0aee27b80dc"
+  "observer_healthy": true,
+  "evidence_sha256": "0f45d8b09837546e596b57f27fb88e1c6993cf0ec985d981391f154901e80e09"
 }
