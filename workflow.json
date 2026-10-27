@@ -7,7 +7,7 @@
   "live_trading_enabled": false,
   "promotion": "NOT_ELIGIBLE",
   "schema_version": "qtrade.research-workflow.v1",
-  "published_at": "2026-10-27T17:38:28.379609+00:00",
+  "published_at": "2026-10-27T17:39:33.750533+00:00",
   "models": [
     {
       "id": "linear",
@@ -429,9 +429,9 @@
       "name": "archived-oct26-ridge-binding-check-20261028",
       "model": "linear",
       "engine": "QLIB",
-      "state": "RUNNING",
-      "stage": "RUNNING",
-      "updated_at": "2026-10-27T17:38:11.874424+00:00",
+      "state": "BUILDING_PROVIDER",
+      "stage": "BUILDING_PROVIDER",
+      "updated_at": "2026-10-27T17:39:01.784367+00:00",
       "spec": {
         "buy_cost_bps": 8,
         "data_binding": {
@@ -526,6 +526,10 @@
         {
           "at": "2026-10-27T17:38:11.874181+00:00",
           "state": "RUNNING"
+        },
+        {
+          "at": "2026-10-27T17:39:01.784291+00:00",
+          "state": "BUILDING_PROVIDER"
         }
       ]
     },
@@ -4638,7 +4642,7 @@
   ],
   "worker": {
     "state": "RUNNING",
-    "heartbeat_at": "2026-10-27T17:38:28.380478+00:00",
+    "heartbeat_at": "2026-10-27T17:39:33.751840+00:00",
     "concurrency": 1,
     "source_revision": "096387b8088e4361c9e5cd9cd2c165e21819fead",
     "max_job_seconds": 3600
@@ -9338,5 +9342,5 @@
     }
   ],
   "dataset_errors": [],
-  "evidence_sha256": "d0a62632cc240383222340e558df162e30a1da5d1a708a99875c9435aa5d75c7"
+  "evidence_sha256": "921b2b8ec308fb8392d98ed9fc9a173b4fb2a0f5d60c9438473e1c3b66264309"
 }
