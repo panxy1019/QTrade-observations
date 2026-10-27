@@ -7,7 +7,7 @@
   "live_trading_enabled": false,
   "promotion": "NOT_ELIGIBLE",
   "schema_version": "qtrade.research-workflow.v1",
-  "published_at": "2026-10-27T14:30:23.280626+00:00",
+  "published_at": "2026-10-27T14:31:36.261944+00:00",
   "models": [
     {
       "id": "linear",
@@ -423,6 +423,111 @@
       "completed_at": "2026-10-25T13:24:53.254558+00:00",
       "source_revision": "207a6b7a4eb324956139a98529110f166039095f",
       "comparison_protocol": "LEGACY_BASELINE_DIFFERENT_PREPROCESSING_AND_UNIVERSE"
+    },
+    {
+      "experiment_id": "8377ca63d95f45b18593e23f1332ad51",
+      "name": "unified-bound-lightgbm-repair-20261027",
+      "model": "lightgbm",
+      "engine": "QLIB",
+      "state": "RUNNING",
+      "stage": "RUNNING",
+      "updated_at": "2026-10-27T14:31:35.704589+00:00",
+      "spec": {
+        "buy_cost_bps": 8,
+        "data_binding": {
+          "actual_end": "2026-10-27",
+          "classification": "PUBLIC_SOURCE_RESEARCH_OBSERVATION_ONLY",
+          "data_version_id": "09a67b135def5dee766ea23716e5405aeb060c28a93720402cb2ebf4542ee407",
+          "dataset_id": "qlib-version-09a67b135def5dee766ea23716e5405aeb060c28a93720402cb2ebf4542ee407",
+          "dataset_sha256": "b52a40230fa49b46cde7fc25014638234de85e05de0d1ff93705e49d3a977df3",
+          "evidence_sha256": "e19fba2b11aa60b5b67b5e308635a6f6e647dee646c4c0025c6d472c10fc3b16",
+          "external_order_transmission": false,
+          "live_trading_enabled": false,
+          "manifest_sha256": "3e3406bc45e3a366bdcc57631648c3f05917e98f2d47a70df5c7482e8425f79b",
+          "point_in_time": false,
+          "promotion": "NOT_ELIGIBLE",
+          "ready_event_id": "69c3430923515d90b93ccb6eba9d49ca667a606b8dcdb3701c59de449ae0bc6c",
+          "real_data_paper_readiness": false,
+          "realtime_readiness": false,
+          "schema_version": "qtrade.qlib-research-data-binding.v1",
+          "source_snapshot_sha256": "467366395184edc65dd2ac079982393efdd516302302604c0a0fbfce664ef449",
+          "start": "2016-10-24",
+          "supported_symbols": 891,
+          "supported_universe_sha256": "3da952813acf86a0f53b7a299f7faac95f105c12014959bb61bd36e63a608e26"
+        },
+        "dataset_id": "qlib-version-09a67b135def5dee766ea23716e5405aeb060c28a93720402cb2ebf4542ee407",
+        "feature_set_version": "qlib-0.9.7-Alpha158-v1",
+        "features": "Alpha158",
+        "hold_thresh": 2,
+        "initial_cash": 10000000,
+        "min_cost": 5,
+        "model": "lightgbm",
+        "n_drop": 5,
+        "name": "unified-bound-lightgbm-repair-20261027",
+        "risk_degree": 0.95,
+        "seed": 20261026,
+        "segments": {
+          "test": [
+            "2024-01-02",
+            "2026-10-27"
+          ],
+          "train": [
+            "2017-04-05",
+            "2021-12-28"
+          ],
+          "valid": [
+            "2022-01-04",
+            "2023-12-26"
+          ]
+        },
+        "sell_cost_bps": 13,
+        "source_snapshot_sha256": "467366395184edc65dd2ac079982393efdd516302302604c0a0fbfce664ef449",
+        "topk": 50,
+        "universe_policy": "supported_a_share"
+      },
+      "spec_sha256": "cd647c5917beeecb003cdb9d7fec12e7220444f383735c2b5e55d4eb7880b43c",
+      "audit": {
+        "universe": {
+          "status": "BIASED_CURRENT_SAMPLE",
+          "historical_pit_certified": false,
+          "selection": "2026-10-23 liquidity selection projected into history"
+        },
+        "corporate_actions": {
+          "status": "VENDOR_EFFECTIVE_DATE_NOT_RECONCILED"
+        },
+        "historical_st_and_halts": {
+          "status": "PARTIAL_OR_UNVERIFIED"
+        },
+        "exact_price_limits": {
+          "status": "UNVERIFIED_CONSERVATIVE_PROXY"
+        },
+        "execution": {
+          "status": "DAILY_OPEN_PROXY_WITH_CAUSAL_VOLUME_CAP"
+        },
+        "supported_universe": {
+          "status": "TRAIN_RANK_EXECUTION_ALIGNED_EXCLUDING_STAR"
+        },
+        "limitations": [
+          "CURRENT_LIQUIDITY_UNIVERSE_SURVIVORSHIP_AND_SELECTION_BIAS",
+          "POST_HOC_VIEWED_HISTORY_NOT_UNSEEN_FORWARD_EVIDENCE",
+          "HISTORICAL_ST_AND_EXACT_LIMIT_PRICES_NOT_FULLY_CERTIFIED",
+          "MISSING_QUOTE_NOT_CERTIFIED_SUSPENSION_REASON",
+          "VENDOR_ADJUSTMENTS_NOT_INDEPENDENT_CORPORATE_ACTION_RECONCILIATION",
+          "OPEN_PRICE_AND_PREVIOUS_VOLUME_CAP_NOT_AUCTION_REPLAY"
+        ],
+        "promotion": "NOT_ELIGIBLE"
+      },
+      "error_code": null,
+      "events": [
+        {
+          "at": "2026-10-27T14:30:45.704985+00:00",
+          "state": "QUEUED"
+        },
+        {
+          "at": "2026-10-27T14:31:35.704384+00:00",
+          "state": "RUNNING"
+        }
+      ]
     },
     {
       "experiment_id": "79b67daa7abe4d62a1d65e0c68c18dbf",
@@ -2082,8 +2187,8 @@
     }
   ],
   "worker": {
-    "state": "IDLE",
-    "heartbeat_at": "2026-10-27T14:30:23.281621+00:00",
+    "state": "RUNNING",
+    "heartbeat_at": "2026-10-27T14:31:36.262767+00:00",
     "concurrency": 1,
     "source_revision": "096387b8088e4361c9e5cd9cd2c165e21819fead",
     "max_job_seconds": 3600
@@ -4405,6 +4510,305 @@
           "universe_policy": "supported_a_share"
         }
       }
+    },
+    {
+      "classification": "PUBLIC_SOURCE_RESEARCH_OBSERVATION_ONLY",
+      "evidence_sha256": "80c6c1b94bf1e00d7a2c64e169372f1f137a899e273458383a6a75242e9b938e",
+      "execution": {
+        "buy_cost_bps": 8,
+        "deal_price": "open",
+        "frequency": "day",
+        "impact_cost": 0.0,
+        "limit_threshold": [
+          "$buy_block",
+          "$sell_block"
+        ],
+        "min_cost": 5,
+        "rules_certified": false,
+        "sell_cost_bps": 13,
+        "timing": "PREVIOUS_SIGNAL_NEXT_SESSION_OPEN",
+        "trade_unit": 100,
+        "volume_threshold": [
+          "cum",
+          "$capacity"
+        ]
+      },
+      "external_order_transmission": false,
+      "feature_set": {
+        "feature_count": 158,
+        "handler": "qlib.contrib.data.handler.Alpha158",
+        "id": "Alpha158",
+        "version": "qlib-0.9.7-Alpha158-v1"
+      },
+      "live_trading_enabled": false,
+      "model_activation": false,
+      "paper_admission": false,
+      "point_in_time": false,
+      "portfolio": {
+        "forbid_all_trade_at_limit": false,
+        "hold_thresh": 2,
+        "method": "TopkDropout",
+        "n_drop": 5,
+        "only_tradable": false,
+        "risk_degree": 0.95,
+        "topk": 50
+      },
+      "promotion": "NOT_ELIGIBLE",
+      "real_data_paper_readiness": false,
+      "realtime_readiness": false,
+      "research_only": true,
+      "restore_contract": "FITTED_DATASETH_RMDLOADER_V1",
+      "schema_version": "qtrade.qlib-strategy-definition.v1",
+      "signal": {
+        "fitted_model_created_by_this_contract": false,
+        "kind": "QLIB_MODEL_SCORE",
+        "label": "Ref($open,-2)/Ref($open,-1)-1",
+        "model": "lightgbm",
+        "model_artifact_id": null
+      },
+      "source_revision": "096387b8088e4361c9e5cd9cd2c165e21819fead",
+      "spec": {
+        "buy_cost_bps": 8,
+        "data_binding": {
+          "actual_end": "2026-10-27",
+          "classification": "PUBLIC_SOURCE_RESEARCH_OBSERVATION_ONLY",
+          "data_version_id": "09a67b135def5dee766ea23716e5405aeb060c28a93720402cb2ebf4542ee407",
+          "dataset_id": "qlib-version-09a67b135def5dee766ea23716e5405aeb060c28a93720402cb2ebf4542ee407",
+          "dataset_sha256": "b52a40230fa49b46cde7fc25014638234de85e05de0d1ff93705e49d3a977df3",
+          "evidence_sha256": "e19fba2b11aa60b5b67b5e308635a6f6e647dee646c4c0025c6d472c10fc3b16",
+          "external_order_transmission": false,
+          "live_trading_enabled": false,
+          "manifest_sha256": "3e3406bc45e3a366bdcc57631648c3f05917e98f2d47a70df5c7482e8425f79b",
+          "point_in_time": false,
+          "promotion": "NOT_ELIGIBLE",
+          "ready_event_id": "69c3430923515d90b93ccb6eba9d49ca667a606b8dcdb3701c59de449ae0bc6c",
+          "real_data_paper_readiness": false,
+          "realtime_readiness": false,
+          "schema_version": "qtrade.qlib-research-data-binding.v1",
+          "source_snapshot_sha256": "467366395184edc65dd2ac079982393efdd516302302604c0a0fbfce664ef449",
+          "start": "2016-10-24",
+          "supported_symbols": 891,
+          "supported_universe_sha256": "3da952813acf86a0f53b7a299f7faac95f105c12014959bb61bd36e63a608e26"
+        },
+        "dataset_id": "qlib-version-09a67b135def5dee766ea23716e5405aeb060c28a93720402cb2ebf4542ee407",
+        "feature_set_version": "qlib-0.9.7-Alpha158-v1",
+        "features": "Alpha158",
+        "hold_thresh": 2,
+        "initial_cash": 10000000,
+        "min_cost": 5,
+        "model": "lightgbm",
+        "n_drop": 5,
+        "name": "unified-bound-lightgbm-repair-20261027",
+        "risk_degree": 0.95,
+        "seed": 20261026,
+        "segments": {
+          "test": [
+            "2024-01-02",
+            "2026-10-27"
+          ],
+          "train": [
+            "2017-04-05",
+            "2021-12-28"
+          ],
+          "valid": [
+            "2022-01-04",
+            "2023-12-26"
+          ]
+        },
+        "sell_cost_bps": 13,
+        "source_snapshot_sha256": "467366395184edc65dd2ac079982393efdd516302302604c0a0fbfce664ef449",
+        "topk": 50,
+        "universe_policy": "supported_a_share"
+      },
+      "strategy_id": "qlib-858c59fcd3e36e96aedc2d6349e081a3e82c845d159e4aac8b9e0353209b3117",
+      "strategy_version": "858c59fcd3e36e96aedc2d6349e081a3e82c845d159e4aac8b9e0353209b3117",
+      "training_config": {
+        "account": 10000000,
+        "benchmark": "SH000300",
+        "cost_description": "Buy 8bp / sell 13bp, minimum CNY5; fixed commission/slippage proxy, no nonlinear impact or auction replay.",
+        "data_binding": {
+          "actual_end": "2026-10-27",
+          "classification": "PUBLIC_SOURCE_RESEARCH_OBSERVATION_ONLY",
+          "data_version_id": "09a67b135def5dee766ea23716e5405aeb060c28a93720402cb2ebf4542ee407",
+          "dataset_id": "qlib-version-09a67b135def5dee766ea23716e5405aeb060c28a93720402cb2ebf4542ee407",
+          "dataset_sha256": "b52a40230fa49b46cde7fc25014638234de85e05de0d1ff93705e49d3a977df3",
+          "evidence_sha256": "e19fba2b11aa60b5b67b5e308635a6f6e647dee646c4c0025c6d472c10fc3b16",
+          "external_order_transmission": false,
+          "live_trading_enabled": false,
+          "manifest_sha256": "3e3406bc45e3a366bdcc57631648c3f05917e98f2d47a70df5c7482e8425f79b",
+          "point_in_time": false,
+          "promotion": "NOT_ELIGIBLE",
+          "ready_event_id": "69c3430923515d90b93ccb6eba9d49ca667a606b8dcdb3701c59de449ae0bc6c",
+          "real_data_paper_readiness": false,
+          "realtime_readiness": false,
+          "schema_version": "qtrade.qlib-research-data-binding.v1",
+          "source_snapshot_sha256": "467366395184edc65dd2ac079982393efdd516302302604c0a0fbfce664ef449",
+          "start": "2016-10-24",
+          "supported_symbols": 891,
+          "supported_universe_sha256": "3da952813acf86a0f53b7a299f7faac95f105c12014959bb61bd36e63a608e26"
+        },
+        "exchange": {
+          "close_cost": 0.0013,
+          "deal_price": "open",
+          "freq": "day",
+          "impact_cost": 0.0,
+          "limit_threshold": [
+            "$buy_block",
+            "$sell_block"
+          ],
+          "min_cost": 5,
+          "open_cost": 0.0008,
+          "trade_unit": 100,
+          "volume_threshold": [
+            "cum",
+            "$capacity"
+          ]
+        },
+        "feature_set_version": "qlib-0.9.7-Alpha158-v1",
+        "fit": {
+          "early_stopping_rounds": 30,
+          "num_boost_round": 300,
+          "verbose_eval": 50
+        },
+        "infer_processors": [
+          {
+            "class": "ProcessInf"
+          },
+          {
+            "class": "RobustZScoreNorm",
+            "kwargs": {
+              "clip_outlier": true,
+              "fields_group": "feature"
+            }
+          },
+          {
+            "class": "Fillna",
+            "kwargs": {
+              "fields_group": "feature"
+            }
+          },
+          {
+            "class": "Float64Features",
+            "module_path": "qtrade.research.qlib_processors"
+          }
+        ],
+        "label": "Ref($open,-2)/Ref($open,-1)-1",
+        "limitations": [
+          "Current liquidity universe selected after the historical test; survivorship and screening bias",
+          "Post hoc historical out-of-sample evaluation, not preregistered or forward unseen evidence",
+          "Historical ST and exact daily limits unverified: conservative directional 4.5% adjusted-open gap blocks",
+          "STAR buys excluded because the baseline uses 100-share lots",
+          "Missing daily quotes are non-tradable, not a certified suspension-reason table",
+          "Vendor effective-date HFQ factors not independently reconciled to corporate actions",
+          "Daily open-price fills and previous-session 1% volume cap are approximations, not auction replay",
+          "COMMON_TRAIN_FITTED_FEATURE_NORMALIZATION_AND_FILLNA",
+          "STAR_EXCLUDED_FROM_TRAINING_RANKING_AND_EXECUTION"
+        ],
+        "model": {
+          "class": "LGBModel",
+          "kwargs": {
+            "bagging_seed": 20261026,
+            "colsample_bytree": 0.8,
+            "deterministic": true,
+            "feature_fraction_seed": 20261026,
+            "force_col_wise": true,
+            "lambda_l1": 0.0,
+            "lambda_l2": 1.0,
+            "learning_rate": 0.05,
+            "loss": "mse",
+            "max_depth": 6,
+            "min_data_in_leaf": 100,
+            "num_leaves": 31,
+            "num_threads": 6,
+            "seed": 20261026,
+            "subsample": 0.8,
+            "subsample_freq": 1,
+            "verbosity": -1
+          },
+          "module_path": "qlib.contrib.model.gbdt"
+        },
+        "name": "unified-bound-lightgbm-repair-20261027",
+        "online_feature_precision": "FLOAT64_AFTER_FROZEN_NORMALIZATION_V1",
+        "portfolio": {
+          "forbid_all_trade_at_limit": false,
+          "hold_thresh": 2,
+          "n_drop": 5,
+          "only_tradable": false,
+          "risk_degree": 0.95,
+          "topk": 50
+        },
+        "schema_version": "qtrade.qlib-baseline-config.v1",
+        "seed": 20261026,
+        "segments": {
+          "test": [
+            "2024-01-02",
+            "2026-10-27"
+          ],
+          "train": [
+            "2017-04-05",
+            "2021-12-28"
+          ],
+          "valid": [
+            "2022-01-04",
+            "2023-12-26"
+          ]
+        },
+        "source_constraint_policy": "RECONCILED_BACKFILL_ADDITIONAL_BLOCKS_V2",
+        "universe_policy": "supported_a_share",
+        "workflow_spec": {
+          "buy_cost_bps": 8,
+          "data_binding": {
+            "actual_end": "2026-10-27",
+            "classification": "PUBLIC_SOURCE_RESEARCH_OBSERVATION_ONLY",
+            "data_version_id": "09a67b135def5dee766ea23716e5405aeb060c28a93720402cb2ebf4542ee407",
+            "dataset_id": "qlib-version-09a67b135def5dee766ea23716e5405aeb060c28a93720402cb2ebf4542ee407",
+            "dataset_sha256": "b52a40230fa49b46cde7fc25014638234de85e05de0d1ff93705e49d3a977df3",
+            "evidence_sha256": "e19fba2b11aa60b5b67b5e308635a6f6e647dee646c4c0025c6d472c10fc3b16",
+            "external_order_transmission": false,
+            "live_trading_enabled": false,
+            "manifest_sha256": "3e3406bc45e3a366bdcc57631648c3f05917e98f2d47a70df5c7482e8425f79b",
+            "point_in_time": false,
+            "promotion": "NOT_ELIGIBLE",
+            "ready_event_id": "69c3430923515d90b93ccb6eba9d49ca667a606b8dcdb3701c59de449ae0bc6c",
+            "real_data_paper_readiness": false,
+            "realtime_readiness": false,
+            "schema_version": "qtrade.qlib-research-data-binding.v1",
+            "source_snapshot_sha256": "467366395184edc65dd2ac079982393efdd516302302604c0a0fbfce664ef449",
+            "start": "2016-10-24",
+            "supported_symbols": 891,
+            "supported_universe_sha256": "3da952813acf86a0f53b7a299f7faac95f105c12014959bb61bd36e63a608e26"
+          },
+          "dataset_id": "qlib-version-09a67b135def5dee766ea23716e5405aeb060c28a93720402cb2ebf4542ee407",
+          "feature_set_version": "qlib-0.9.7-Alpha158-v1",
+          "features": "Alpha158",
+          "hold_thresh": 2,
+          "initial_cash": 10000000,
+          "min_cost": 5,
+          "model": "lightgbm",
+          "n_drop": 5,
+          "name": "unified-bound-lightgbm-repair-20261027",
+          "risk_degree": 0.95,
+          "seed": 20261026,
+          "segments": {
+            "test": [
+              "2024-01-02",
+              "2026-10-27"
+            ],
+            "train": [
+              "2017-04-05",
+              "2021-12-28"
+            ],
+            "valid": [
+              "2022-01-04",
+              "2023-12-26"
+            ]
+          },
+          "sell_cost_bps": 13,
+          "source_snapshot_sha256": "467366395184edc65dd2ac079982393efdd516302302604c0a0fbfce664ef449",
+          "topk": 50,
+          "universe_policy": "supported_a_share"
+        }
+      }
     }
   ],
   "strategies": [
@@ -5010,8 +5414,319 @@
       ],
       "model_artifacts": [],
       "lineage": null
+    },
+    {
+      "strategy_id": "qlib-858c59fcd3e36e96aedc2d6349e081a3e82c845d159e4aac8b9e0353209b3117",
+      "name": "unified-bound-lightgbm-repair-20261027",
+      "family": "QLIB_ALPHA158",
+      "version": "858c59fcd3e36e96aedc2d6349e081a3e82c845d159e4aac8b9e0353209b3117",
+      "state": "EXPERIMENT",
+      "contract": {
+        "classification": "PUBLIC_SOURCE_RESEARCH_OBSERVATION_ONLY",
+        "evidence_sha256": "80c6c1b94bf1e00d7a2c64e169372f1f137a899e273458383a6a75242e9b938e",
+        "execution": {
+          "buy_cost_bps": 8,
+          "deal_price": "open",
+          "frequency": "day",
+          "impact_cost": 0.0,
+          "limit_threshold": [
+            "$buy_block",
+            "$sell_block"
+          ],
+          "min_cost": 5,
+          "rules_certified": false,
+          "sell_cost_bps": 13,
+          "timing": "PREVIOUS_SIGNAL_NEXT_SESSION_OPEN",
+          "trade_unit": 100,
+          "volume_threshold": [
+            "cum",
+            "$capacity"
+          ]
+        },
+        "external_order_transmission": false,
+        "feature_set": {
+          "feature_count": 158,
+          "handler": "qlib.contrib.data.handler.Alpha158",
+          "id": "Alpha158",
+          "version": "qlib-0.9.7-Alpha158-v1"
+        },
+        "live_trading_enabled": false,
+        "model_activation": false,
+        "paper_admission": false,
+        "point_in_time": false,
+        "portfolio": {
+          "forbid_all_trade_at_limit": false,
+          "hold_thresh": 2,
+          "method": "TopkDropout",
+          "n_drop": 5,
+          "only_tradable": false,
+          "risk_degree": 0.95,
+          "topk": 50
+        },
+        "promotion": "NOT_ELIGIBLE",
+        "real_data_paper_readiness": false,
+        "realtime_readiness": false,
+        "research_only": true,
+        "restore_contract": "FITTED_DATASETH_RMDLOADER_V1",
+        "schema_version": "qtrade.qlib-strategy-definition.v1",
+        "signal": {
+          "fitted_model_created_by_this_contract": false,
+          "kind": "QLIB_MODEL_SCORE",
+          "label": "Ref($open,-2)/Ref($open,-1)-1",
+          "model": "lightgbm",
+          "model_artifact_id": null
+        },
+        "source_revision": "096387b8088e4361c9e5cd9cd2c165e21819fead",
+        "spec": {
+          "buy_cost_bps": 8,
+          "data_binding": {
+            "actual_end": "2026-10-27",
+            "classification": "PUBLIC_SOURCE_RESEARCH_OBSERVATION_ONLY",
+            "data_version_id": "09a67b135def5dee766ea23716e5405aeb060c28a93720402cb2ebf4542ee407",
+            "dataset_id": "qlib-version-09a67b135def5dee766ea23716e5405aeb060c28a93720402cb2ebf4542ee407",
+            "dataset_sha256": "b52a40230fa49b46cde7fc25014638234de85e05de0d1ff93705e49d3a977df3",
+            "evidence_sha256": "e19fba2b11aa60b5b67b5e308635a6f6e647dee646c4c0025c6d472c10fc3b16",
+            "external_order_transmission": false,
+            "live_trading_enabled": false,
+            "manifest_sha256": "3e3406bc45e3a366bdcc57631648c3f05917e98f2d47a70df5c7482e8425f79b",
+            "point_in_time": false,
+            "promotion": "NOT_ELIGIBLE",
+            "ready_event_id": "69c3430923515d90b93ccb6eba9d49ca667a606b8dcdb3701c59de449ae0bc6c",
+            "real_data_paper_readiness": false,
+            "realtime_readiness": false,
+            "schema_version": "qtrade.qlib-research-data-binding.v1",
+            "source_snapshot_sha256": "467366395184edc65dd2ac079982393efdd516302302604c0a0fbfce664ef449",
+            "start": "2016-10-24",
+            "supported_symbols": 891,
+            "supported_universe_sha256": "3da952813acf86a0f53b7a299f7faac95f105c12014959bb61bd36e63a608e26"
+          },
+          "dataset_id": "qlib-version-09a67b135def5dee766ea23716e5405aeb060c28a93720402cb2ebf4542ee407",
+          "feature_set_version": "qlib-0.9.7-Alpha158-v1",
+          "features": "Alpha158",
+          "hold_thresh": 2,
+          "initial_cash": 10000000,
+          "min_cost": 5,
+          "model": "lightgbm",
+          "n_drop": 5,
+          "name": "unified-bound-lightgbm-repair-20261027",
+          "risk_degree": 0.95,
+          "seed": 20261026,
+          "segments": {
+            "test": [
+              "2024-01-02",
+              "2026-10-27"
+            ],
+            "train": [
+              "2017-04-05",
+              "2021-12-28"
+            ],
+            "valid": [
+              "2022-01-04",
+              "2023-12-26"
+            ]
+          },
+          "sell_cost_bps": 13,
+          "source_snapshot_sha256": "467366395184edc65dd2ac079982393efdd516302302604c0a0fbfce664ef449",
+          "topk": 50,
+          "universe_policy": "supported_a_share"
+        },
+        "strategy_id": "qlib-858c59fcd3e36e96aedc2d6349e081a3e82c845d159e4aac8b9e0353209b3117",
+        "strategy_version": "858c59fcd3e36e96aedc2d6349e081a3e82c845d159e4aac8b9e0353209b3117",
+        "training_config": {
+          "account": 10000000,
+          "benchmark": "SH000300",
+          "cost_description": "Buy 8bp / sell 13bp, minimum CNY5; fixed commission/slippage proxy, no nonlinear impact or auction replay.",
+          "data_binding": {
+            "actual_end": "2026-10-27",
+            "classification": "PUBLIC_SOURCE_RESEARCH_OBSERVATION_ONLY",
+            "data_version_id": "09a67b135def5dee766ea23716e5405aeb060c28a93720402cb2ebf4542ee407",
+            "dataset_id": "qlib-version-09a67b135def5dee766ea23716e5405aeb060c28a93720402cb2ebf4542ee407",
+            "dataset_sha256": "b52a40230fa49b46cde7fc25014638234de85e05de0d1ff93705e49d3a977df3",
+            "evidence_sha256": "e19fba2b11aa60b5b67b5e308635a6f6e647dee646c4c0025c6d472c10fc3b16",
+            "external_order_transmission": false,
+            "live_trading_enabled": false,
+            "manifest_sha256": "3e3406bc45e3a366bdcc57631648c3f05917e98f2d47a70df5c7482e8425f79b",
+            "point_in_time": false,
+            "promotion": "NOT_ELIGIBLE",
+            "ready_event_id": "69c3430923515d90b93ccb6eba9d49ca667a606b8dcdb3701c59de449ae0bc6c",
+            "real_data_paper_readiness": false,
+            "realtime_readiness": false,
+            "schema_version": "qtrade.qlib-research-data-binding.v1",
+            "source_snapshot_sha256": "467366395184edc65dd2ac079982393efdd516302302604c0a0fbfce664ef449",
+            "start": "2016-10-24",
+            "supported_symbols": 891,
+            "supported_universe_sha256": "3da952813acf86a0f53b7a299f7faac95f105c12014959bb61bd36e63a608e26"
+          },
+          "exchange": {
+            "close_cost": 0.0013,
+            "deal_price": "open",
+            "freq": "day",
+            "impact_cost": 0.0,
+            "limit_threshold": [
+              "$buy_block",
+              "$sell_block"
+            ],
+            "min_cost": 5,
+            "open_cost": 0.0008,
+            "trade_unit": 100,
+            "volume_threshold": [
+              "cum",
+              "$capacity"
+            ]
+          },
+          "feature_set_version": "qlib-0.9.7-Alpha158-v1",
+          "fit": {
+            "early_stopping_rounds": 30,
+            "num_boost_round": 300,
+            "verbose_eval": 50
+          },
+          "infer_processors": [
+            {
+              "class": "ProcessInf"
+            },
+            {
+              "class": "RobustZScoreNorm",
+              "kwargs": {
+                "clip_outlier": true,
+                "fields_group": "feature"
+              }
+            },
+            {
+              "class": "Fillna",
+              "kwargs": {
+                "fields_group": "feature"
+              }
+            },
+            {
+              "class": "Float64Features",
+              "module_path": "qtrade.research.qlib_processors"
+            }
+          ],
+          "label": "Ref($open,-2)/Ref($open,-1)-1",
+          "limitations": [
+            "Current liquidity universe selected after the historical test; survivorship and screening bias",
+            "Post hoc historical out-of-sample evaluation, not preregistered or forward unseen evidence",
+            "Historical ST and exact daily limits unverified: conservative directional 4.5% adjusted-open gap blocks",
+            "STAR buys excluded because the baseline uses 100-share lots",
+            "Missing daily quotes are non-tradable, not a certified suspension-reason table",
+            "Vendor effective-date HFQ factors not independently reconciled to corporate actions",
+            "Daily open-price fills and previous-session 1% volume cap are approximations, not auction replay",
+            "COMMON_TRAIN_FITTED_FEATURE_NORMALIZATION_AND_FILLNA",
+            "STAR_EXCLUDED_FROM_TRAINING_RANKING_AND_EXECUTION"
+          ],
+          "model": {
+            "class": "LGBModel",
+            "kwargs": {
+              "bagging_seed": 20261026,
+              "colsample_bytree": 0.8,
+              "deterministic": true,
+              "feature_fraction_seed": 20261026,
+              "force_col_wise": true,
+              "lambda_l1": 0.0,
+              "lambda_l2": 1.0,
+              "learning_rate": 0.05,
+              "loss": "mse",
+              "max_depth": 6,
+              "min_data_in_leaf": 100,
+              "num_leaves": 31,
+              "num_threads": 6,
+              "seed": 20261026,
+              "subsample": 0.8,
+              "subsample_freq": 1,
+              "verbosity": -1
+            },
+            "module_path": "qlib.contrib.model.gbdt"
+          },
+          "name": "unified-bound-lightgbm-repair-20261027",
+          "online_feature_precision": "FLOAT64_AFTER_FROZEN_NORMALIZATION_V1",
+          "portfolio": {
+            "forbid_all_trade_at_limit": false,
+            "hold_thresh": 2,
+            "n_drop": 5,
+            "only_tradable": false,
+            "risk_degree": 0.95,
+            "topk": 50
+          },
+          "schema_version": "qtrade.qlib-baseline-config.v1",
+          "seed": 20261026,
+          "segments": {
+            "test": [
+              "2024-01-02",
+              "2026-10-27"
+            ],
+            "train": [
+              "2017-04-05",
+              "2021-12-28"
+            ],
+            "valid": [
+              "2022-01-04",
+              "2023-12-26"
+            ]
+          },
+          "source_constraint_policy": "RECONCILED_BACKFILL_ADDITIONAL_BLOCKS_V2",
+          "universe_policy": "supported_a_share",
+          "workflow_spec": {
+            "buy_cost_bps": 8,
+            "data_binding": {
+              "actual_end": "2026-10-27",
+              "classification": "PUBLIC_SOURCE_RESEARCH_OBSERVATION_ONLY",
+              "data_version_id": "09a67b135def5dee766ea23716e5405aeb060c28a93720402cb2ebf4542ee407",
+              "dataset_id": "qlib-version-09a67b135def5dee766ea23716e5405aeb060c28a93720402cb2ebf4542ee407",
+              "dataset_sha256": "b52a40230fa49b46cde7fc25014638234de85e05de0d1ff93705e49d3a977df3",
+              "evidence_sha256": "e19fba2b11aa60b5b67b5e308635a6f6e647dee646c4c0025c6d472c10fc3b16",
+              "external_order_transmission": false,
+              "live_trading_enabled": false,
+              "manifest_sha256": "3e3406bc45e3a366bdcc57631648c3f05917e98f2d47a70df5c7482e8425f79b",
+              "point_in_time": false,
+              "promotion": "NOT_ELIGIBLE",
+              "ready_event_id": "69c3430923515d90b93ccb6eba9d49ca667a606b8dcdb3701c59de449ae0bc6c",
+              "real_data_paper_readiness": false,
+              "realtime_readiness": false,
+              "schema_version": "qtrade.qlib-research-data-binding.v1",
+              "source_snapshot_sha256": "467366395184edc65dd2ac079982393efdd516302302604c0a0fbfce664ef449",
+              "start": "2016-10-24",
+              "supported_symbols": 891,
+              "supported_universe_sha256": "3da952813acf86a0f53b7a299f7faac95f105c12014959bb61bd36e63a608e26"
+            },
+            "dataset_id": "qlib-version-09a67b135def5dee766ea23716e5405aeb060c28a93720402cb2ebf4542ee407",
+            "feature_set_version": "qlib-0.9.7-Alpha158-v1",
+            "features": "Alpha158",
+            "hold_thresh": 2,
+            "initial_cash": 10000000,
+            "min_cost": 5,
+            "model": "lightgbm",
+            "n_drop": 5,
+            "name": "unified-bound-lightgbm-repair-20261027",
+            "risk_degree": 0.95,
+            "seed": 20261026,
+            "segments": {
+              "test": [
+                "2024-01-02",
+                "2026-10-27"
+              ],
+              "train": [
+                "2017-04-05",
+                "2021-12-28"
+              ],
+              "valid": [
+                "2022-01-04",
+                "2023-12-26"
+              ]
+            },
+            "sell_cost_bps": 13,
+            "source_snapshot_sha256": "467366395184edc65dd2ac079982393efdd516302302604c0a0fbfce664ef449",
+            "topk": 50,
+            "universe_policy": "supported_a_share"
+          }
+        }
+      },
+      "job_ids": [
+        "8377ca63d95f45b18593e23f1332ad51"
+      ],
+      "model_artifacts": [],
+      "lineage": null
     }
   ],
   "dataset_errors": [],
-  "evidence_sha256": "a8dcef483d382124325463032abba78f4b62923bc0380a524a93cf0245fd1d45"
+  "evidence_sha256": "5d9b92337d33ab6663b28def3116557354b796e1878e978383319d8b92754266"
 }
