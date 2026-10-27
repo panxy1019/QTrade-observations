@@ -1,0 +1,44 @@
+{
+  "classification": "PUBLIC_SOURCE_RESEARCH_OBSERVATION_ONLY",
+  "point_in_time": false,
+  "realtime_readiness": false,
+  "real_data_paper_readiness": false,
+  "external_order_transmission": false,
+  "live_trading_enabled": false,
+  "promotion": "NOT_ELIGIBLE",
+  "schema_version": "qtrade.unified-market-shard.v1",
+  "universe_version": "482c81a9b0981a677e9023197fa865b3c52510bcb249c115dc6c5affa30da308",
+  "symbol": "601838",
+  "instrument_id": "SSE.601838",
+  "security_type": "STOCK",
+  "frequency": "day",
+  "price_basis": "SINA_NATIVE_ADJUSTMENT_UNCERTIFIED",
+  "bars": [
+    {
+      "open": "18.300",
+      "exchange": "SSE",
+      "high": "18.770",
+      "symbol": "601838",
+      "historical_available_at": null,
+      "close": "18.630",
+      "price_basis": "SINA_NATIVE_ADJUSTMENT_UNCERTIFIED",
+      "frequency": "day",
+      "trading_day": "2026-10-26",
+      "vwap": "18.56593209459764098337798273",
+      "low": "18.280",
+      "timestamp": "2026-10-26T15:00:00+08:00",
+      "amount": "632088799.000",
+      "volume": "34045627",
+      "amount_basis": "SAME_VENDOR_ENDPOINT_MATCH_NOT_INDEPENDENT_RECONCILIATION"
+    }
+  ],
+  "source_batches": [
+    {
+      "batch_id": "e6bc0b684cf94360be71fb5ab8f9b2d0",
+      "manifest_sha256": "aef55d1c12ca7905e19c138bd7df3dd726bbc126b13f89bd5783e9311292a356",
+      "raw_sha256": "dd14429593f111e7ad6af7b944bec2bd194a2357e0b613f2d19087655b591c76",
+      "normalized_sha256": "67d9deb6d57b4fbf3c63b7b0aabe35dd39eb3b1576a86f16647f2cd064f26cf7"
+    }
+  ],
+  "evidence_sha256": "b7b72d535d98de11708ffbd4fae316df16c560506be82e2a23657a7e7f6375e5"
+}
