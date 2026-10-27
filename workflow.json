@@ -7,7 +7,7 @@
   "live_trading_enabled": false,
   "promotion": "NOT_ELIGIBLE",
   "schema_version": "qtrade.research-workflow.v1",
-  "published_at": "2026-10-27T14:45:32.582745+00:00",
+  "published_at": "2026-10-27T14:46:50.640348+00:00",
   "models": [
     {
       "id": "linear",
@@ -429,9 +429,9 @@
       "name": "unified-bound-ridge-repair-20261027",
       "model": "linear",
       "engine": "QLIB",
-      "state": "COMPUTING_ALPHA158",
-      "stage": "COMPUTING_ALPHA158",
-      "updated_at": "2026-10-27T14:44:42.906540+00:00",
+      "state": "BACKTESTING",
+      "stage": "BACKTESTING",
+      "updated_at": "2026-10-27T14:46:50.636207+00:00",
       "spec": {
         "buy_cost_bps": 8,
         "data_binding": {
@@ -534,6 +534,14 @@
         {
           "at": "2026-10-27T14:44:42.906429+00:00",
           "state": "COMPUTING_ALPHA158"
+        },
+        {
+          "at": "2026-10-27T14:46:26.844523+00:00",
+          "state": "TRAINING_MODEL"
+        },
+        {
+          "at": "2026-10-27T14:46:50.636109+00:00",
+          "state": "BACKTESTING"
         }
       ]
     },
@@ -3421,7 +3429,7 @@
   ],
   "worker": {
     "state": "RUNNING",
-    "heartbeat_at": "2026-10-27T14:45:32.583598+00:00",
+    "heartbeat_at": "2026-10-27T14:46:50.641165+00:00",
     "concurrency": 1,
     "source_revision": "096387b8088e4361c9e5cd9cd2c165e21819fead",
     "max_job_seconds": 3600
@@ -7541,5 +7549,5 @@
     }
   ],
   "dataset_errors": [],
-  "evidence_sha256": "d58f6e1f4dc5fbafc73abd72c67f2f03dd8f05f0349b20f585af248cf864e7df"
+  "evidence_sha256": "1eaf7e1ae80d31b6b5160e463313cae994ce48808bc8b254b03aff3bc7482c37"
 }
