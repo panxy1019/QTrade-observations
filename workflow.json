@@ -7,7 +7,7 @@
   "live_trading_enabled": false,
   "promotion": "NOT_ELIGIBLE",
   "schema_version": "qtrade.research-workflow.v1",
-  "published_at": "2026-10-27T14:42:03.770715+00:00",
+  "published_at": "2026-10-27T14:43:21.194739+00:00",
   "models": [
     {
       "id": "linear",
@@ -429,9 +429,9 @@
       "name": "unified-bound-ridge-repair-20261027",
       "model": "linear",
       "engine": "QLIB",
-      "state": "RUNNING",
-      "stage": "RUNNING",
-      "updated_at": "2026-10-27T14:42:03.236988+00:00",
+      "state": "BUILDING_PROVIDER",
+      "stage": "BUILDING_PROVIDER",
+      "updated_at": "2026-10-27T14:43:21.190833+00:00",
       "spec": {
         "buy_cost_bps": 8,
         "data_binding": {
@@ -526,6 +526,10 @@
         {
           "at": "2026-10-27T14:42:03.236775+00:00",
           "state": "RUNNING"
+        },
+        {
+          "at": "2026-10-27T14:43:21.190738+00:00",
+          "state": "BUILDING_PROVIDER"
         }
       ]
     },
@@ -3413,7 +3417,7 @@
   ],
   "worker": {
     "state": "RUNNING",
-    "heartbeat_at": "2026-10-27T14:42:03.771864+00:00",
+    "heartbeat_at": "2026-10-27T14:43:21.196236+00:00",
     "concurrency": 1,
     "source_revision": "096387b8088e4361c9e5cd9cd2c165e21819fead",
     "max_job_seconds": 3600
@@ -7533,5 +7537,5 @@
     }
   ],
   "dataset_errors": [],
-  "evidence_sha256": "5db3771669389717daa07bf8d601b7b55fb958a700c52a20881799121e6cf4a3"
+  "evidence_sha256": "ca8888198b7a6d2e5c793242c249e5fcf1d5e416041551e84154967f79380417"
 }
