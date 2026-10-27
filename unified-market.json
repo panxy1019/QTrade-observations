@@ -8,8 +8,8 @@
   "promotion": "NOT_ELIGIBLE",
   "schema_version": "qtrade.unified-market-index.v1",
   "universe_version": "482c81a9b0981a677e9023197fa865b3c52510bcb249c115dc6c5affa30da308",
-  "master_sha256": "a622ac648e58942500edb86ff2e62beabd1d5292a9e9bb370c572e5def1c46ec",
-  "published_at": "2026-10-27T06:02:06.864364+00:00",
+  "master_sha256": "2b8540324083f37e1baa79969399da57645b618c4cdb910380fd9419542b81f8",
+  "published_at": "2026-10-27T06:04:19.971503+00:00",
   "calendar": {
     "valid_from": "2026-08-01",
     "valid_through": "2026-12-31",
@@ -64519,11 +64519,26 @@
       "security_type": "STOCK",
       "name": "奥来德",
       "frequency": "5min",
-      "state": "QUARANTINED",
-      "issues": [
-        "SOURCE_REPLAY_FAILED"
-      ],
-      "shards": []
+      "state": "AVAILABLE",
+      "issues": [],
+      "shards": [
+        {
+          "sha256": "5bbcca31f7989089c263d733c9d5c061d8c6004afee4bdf21c33a8ce7777740f",
+          "evidence_sha256": "31d3bf98d6abe563c24aadc55ee5d8fa613d35456279682a0814e157891bb9cd",
+          "bytes": 26052,
+          "start": "2026-10-26T09:35:00+08:00",
+          "end": "2026-10-26T15:00:00+08:00",
+          "count": 48
+        },
+        {
+          "sha256": "c412319c9551e8fa99a2672cd195f4561a72a4bb68008b81dacd9fc539422d3b",
+          "evidence_sha256": "93d829945eacd877a0d9a1f3a166f09d04cc744b90f12c26e89c91043b2a4cbf",
+          "bytes": 29703,
+          "start": "2026-10-27T09:35:00+08:00",
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
+        }
+      ]
     },
     {
       "symbol": "688381",
@@ -64550,11 +64565,26 @@
       "security_type": "STOCK",
       "name": "帝奥微",
       "frequency": "5min",
-      "state": "QUARANTINED",
-      "issues": [
-        "SOURCE_REPLAY_FAILED"
-      ],
-      "shards": []
+      "state": "AVAILABLE",
+      "issues": [],
+      "shards": [
+        {
+          "sha256": "6c1dfe555f437f1fb78ab29058dd97e75b2a03fc1f902d580700e325c716439c",
+          "evidence_sha256": "76878bece3d5502ea1bfa140edc7bf4ec4b76b20de32f7123e2f540f36f390f2",
+          "bytes": 26028,
+          "start": "2026-10-26T09:35:00+08:00",
+          "end": "2026-10-26T15:00:00+08:00",
+          "count": 48
+        },
+        {
+          "sha256": "864fbf905e118a10839b5a5e91e30184b44568fd38e2258ee1401e18f46373fa",
+          "evidence_sha256": "fdfe4e1f841e00e3079968cc48a5712dcd7f7b9a9cab546f4d20cc939bcf063a",
+          "bytes": 29710,
+          "start": "2026-10-27T09:35:00+08:00",
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
+        }
+      ]
     },
     {
       "symbol": "688383",
@@ -64581,11 +64611,26 @@
       "security_type": "STOCK",
       "name": "新益昌",
       "frequency": "5min",
-      "state": "QUARANTINED",
-      "issues": [
-        "SOURCE_REPLAY_FAILED"
-      ],
-      "shards": []
+      "state": "AVAILABLE",
+      "issues": [],
+      "shards": [
+        {
+          "sha256": "3383ba162127367c719c29fa8951b2bc3a01579eb5568efb3b42a68dc0cd708c",
+          "evidence_sha256": "339e0095d56a7fbf9c5d8d6a8aa04f0c1aa8ed1d0fe74dc8f97fd3d040d65dfc",
+          "bytes": 26021,
+          "start": "2026-10-26T09:35:00+08:00",
+          "end": "2026-10-26T15:00:00+08:00",
+          "count": 48
+        },
+        {
+          "sha256": "ceddb4887f39bacb1e48ee7a34c7a8f399838aff6d28172424a3ef6b3bc6b015",
+          "evidence_sha256": "9bc4e9048dd7d19a1803e6aeaa162ae6724754fd74d593e00fa4f8fa75fe69e7",
+          "bytes": 29690,
+          "start": "2026-10-27T09:35:00+08:00",
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
+        }
+      ]
     },
     {
       "symbol": "688385",
@@ -64612,11 +64657,26 @@
       "security_type": "STOCK",
       "name": "复旦微电",
       "frequency": "5min",
-      "state": "QUARANTINED",
-      "issues": [
-        "SOURCE_REPLAY_FAILED"
-      ],
-      "shards": []
+      "state": "AVAILABLE",
+      "issues": [],
+      "shards": [
+        {
+          "sha256": "f6475e4002bd465ab8d5d4589ad59174adc4a6222d2f3a20d336881d2b7168ab",
+          "evidence_sha256": "a658e8bc51b491c40e2f6bfc3465287356e926f9727d5e62dcd52127e0a0bca7",
+          "bytes": 26079,
+          "start": "2026-10-26T09:35:00+08:00",
+          "end": "2026-10-26T15:00:00+08:00",
+          "count": 48
+        },
+        {
+          "sha256": "651090f874bffcf896a742a72127eec1ed265b51d99888dc487376e61bd4503c",
+          "evidence_sha256": "21b641837084e667651f2f14f80a0c7f096ec2268379d8982f6d7e9c606329b8",
+          "bytes": 29731,
+          "start": "2026-10-27T09:35:00+08:00",
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
+        }
+      ]
     },
     {
       "symbol": "688387",
@@ -64643,11 +64703,26 @@
       "security_type": "STOCK",
       "name": "信科移动",
       "frequency": "5min",
-      "state": "QUARANTINED",
-      "issues": [
-        "SOURCE_REPLAY_FAILED"
-      ],
-      "shards": []
+      "state": "AVAILABLE",
+      "issues": [],
+      "shards": [
+        {
+          "sha256": "5aabdcb04e6423e00c2567b6aaa606e65d9aad0d2a0acfa7beb116e5620bd8cd",
+          "evidence_sha256": "4d440d5c8e3d27b3cb8f693d47d5ee49adffe9001d06bda3d0cc0d1a17644c98",
+          "bytes": 26064,
+          "start": "2026-10-26T09:35:00+08:00",
+          "end": "2026-10-26T15:00:00+08:00",
+          "count": 48
+        },
+        {
+          "sha256": "63496d6adac102eb33d154ed7f72321b0180f1365e7a2c4e9cdc691f855665b4",
+          "evidence_sha256": "02f02c61d14cb96422cd9f50b12e52c0fc2633ab801bb491fcaf2625687cb2b1",
+          "bytes": 29705,
+          "start": "2026-10-27T09:35:00+08:00",
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
+        }
+      ]
     },
     {
       "symbol": "688388",
@@ -64674,11 +64749,26 @@
       "security_type": "STOCK",
       "name": "嘉元科技",
       "frequency": "5min",
-      "state": "QUARANTINED",
-      "issues": [
-        "SOURCE_REPLAY_FAILED"
-      ],
-      "shards": []
+      "state": "AVAILABLE",
+      "issues": [],
+      "shards": [
+        {
+          "sha256": "b680df8e9d9f1a86e065f29b3c3e7b95e7aeb03d86be7f7780ac8731df2048ab",
+          "evidence_sha256": "5f6450d1276101949bafcbaa1fc3df3ae5a4ebe8e16821637d4019ad659fcb16",
+          "bytes": 26068,
+          "start": "2026-10-26T09:35:00+08:00",
+          "end": "2026-10-26T15:00:00+08:00",
+          "count": 48
+        },
+        {
+          "sha256": "1dd78407f3bdf10366dc0619052b16b305c51bff47b5110e3bdade8c90511bff",
+          "evidence_sha256": "736968978437bed8ac5f48427d477bf78ff9c2f6c24121a2ac4f9ceef1a38a6e",
+          "bytes": 29728,
+          "start": "2026-10-27T09:35:00+08:00",
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
+        }
+      ]
     },
     {
       "symbol": "688390",
@@ -64705,11 +64795,26 @@
       "security_type": "STOCK",
       "name": "固德威",
       "frequency": "5min",
-      "state": "QUARANTINED",
-      "issues": [
-        "SOURCE_REPLAY_FAILED"
-      ],
-      "shards": []
+      "state": "AVAILABLE",
+      "issues": [],
+      "shards": [
+        {
+          "sha256": "937d934190eeb4513e756efad4a5365258c6e4c40223461e2bc73198112ab455",
+          "evidence_sha256": "fa52fdca7741ff597df0b46e63d712fb8f1d31d4e8e286728aefba3f4fb3c124",
+          "bytes": 26038,
+          "start": "2026-10-26T09:35:00+08:00",
+          "end": "2026-10-26T15:00:00+08:00",
+          "count": 48
+        },
+        {
+          "sha256": "59616854b21b013ff7982b8b7c5cf3e272cda9642f87c44a2154684b4148d184",
+          "evidence_sha256": "8a8d3d6112ccff1089e38dfaeb97f8ebfd4dbb4f58d3757e2ab5bb268e0994da",
+          "bytes": 29697,
+          "start": "2026-10-27T09:35:00+08:00",
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
+        }
+      ]
     },
     {
       "symbol": "688392",
@@ -64736,11 +64841,26 @@
       "security_type": "STOCK",
       "name": "骄成超声",
       "frequency": "5min",
-      "state": "QUARANTINED",
-      "issues": [
-        "SOURCE_REPLAY_FAILED"
-      ],
-      "shards": []
+      "state": "AVAILABLE",
+      "issues": [],
+      "shards": [
+        {
+          "sha256": "7011f3e3c6f5ad13a7d6bca04d20e7b33b90d078534c5c2ad02871f1919e39f7",
+          "evidence_sha256": "55226ad31729fa9c5f7962b6018cc68102ce74eeff27504196c1546bceda10c2",
+          "bytes": 26212,
+          "start": "2026-10-26T09:35:00+08:00",
+          "end": "2026-10-26T15:00:00+08:00",
+          "count": 48
+        },
+        {
+          "sha256": "17f25a840326f2c8471e359eb38aadcfe0bf23f2f6b53dff4555a0af5880597f",
+          "evidence_sha256": "0cbd5e42b9f8336dc4af801bc8a813b661b0085545f709a1099a20ab2394ed26",
+          "bytes": 29829,
+          "start": "2026-10-27T09:35:00+08:00",
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
+        }
+      ]
     },
     {
       "symbol": "688396",
@@ -64767,11 +64887,26 @@
       "security_type": "STOCK",
       "name": "华润微",
       "frequency": "5min",
-      "state": "QUARANTINED",
-      "issues": [
-        "SOURCE_REPLAY_FAILED"
-      ],
-      "shards": []
+      "state": "AVAILABLE",
+      "issues": [],
+      "shards": [
+        {
+          "sha256": "a4029595c249f45c722ac457e0a6d6f80e7d1ebd507696a9b906db8513b75aed",
+          "evidence_sha256": "9239e0a765e1e99579e5dcfae278f389e5fc8d9f8ed8ad3d7394c488757ffadf",
+          "bytes": 26087,
+          "start": "2026-10-26T09:35:00+08:00",
+          "end": "2026-10-26T15:00:00+08:00",
+          "count": 48
+        },
+        {
+          "sha256": "4b013a3a976ec80f163b65dfc45937663ee61eede1c199c330de842c2a9e4ebd",
+          "evidence_sha256": "8e96ff25615f7397e5755f140eceb4ca32b572a07463fb24019b9780429ea17a",
+          "bytes": 29713,
+          "start": "2026-10-27T09:35:00+08:00",
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
+        }
+      ]
     },
     {
       "symbol": "688400",
@@ -64798,11 +64933,26 @@
       "security_type": "STOCK",
       "name": "凌云光",
       "frequency": "5min",
-      "state": "QUARANTINED",
-      "issues": [
-        "SOURCE_REPLAY_FAILED"
-      ],
-      "shards": []
+      "state": "AVAILABLE",
+      "issues": [],
+      "shards": [
+        {
+          "sha256": "c745c516f7c102b73f32ec288562a66885bbdbb0ee2d8e603a4de2eb27df6a48",
+          "evidence_sha256": "2f9c0b8d80d934a375452967b06dc280ad064e38bcdb28dfc8daf46075174628",
+          "bytes": 26105,
+          "start": "2026-10-26T09:35:00+08:00",
+          "end": "2026-10-26T15:00:00+08:00",
+          "count": 48
+        },
+        {
+          "sha256": "57da62a96cce63e7fd83bdc4cfcd2d8a714429699c70a45d6a7237dd64e17271",
+          "evidence_sha256": "33df2de528854831cc65a5f79ab9b13ac50d17f87f2668ab35cea8e8c0185a3d",
+          "bytes": 29744,
+          "start": "2026-10-27T09:35:00+08:00",
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
+        }
+      ]
     },
     {
       "symbol": "688403",
@@ -64829,11 +64979,26 @@
       "security_type": "STOCK",
       "name": "汇成股份",
       "frequency": "5min",
-      "state": "QUARANTINED",
-      "issues": [
-        "SOURCE_REPLAY_FAILED"
-      ],
-      "shards": []
+      "state": "AVAILABLE",
+      "issues": [],
+      "shards": [
+        {
+          "sha256": "5fadca9d15bb07b627d3aa2350ba556c8a366f394b90173dd0aeb8f781cdda66",
+          "evidence_sha256": "ac4a451ab2736e1a43e617b11419144414797cb4d4bb5af2a7590eafdfe243fb",
+          "bytes": 26071,
+          "start": "2026-10-26T09:35:00+08:00",
+          "end": "2026-10-26T15:00:00+08:00",
+          "count": 48
+        },
+        {
+          "sha256": "aea8a45b13caa417239f4de6722b8582caf7959b2ffe92c1e15a5f951bf55ce3",
+          "evidence_sha256": "f4b7d3c78cbd4eba5c1dbd3e058d92a37acf33ffc9b78adac738e8f072fde997",
+          "bytes": 29730,
+          "start": "2026-10-27T09:35:00+08:00",
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
+        }
+      ]
     },
     {
       "symbol": "688409",
@@ -64860,11 +65025,26 @@
       "security_type": "STOCK",
       "name": "富创精密",
       "frequency": "5min",
-      "state": "QUARANTINED",
-      "issues": [
-        "SOURCE_REPLAY_FAILED"
-      ],
-      "shards": []
+      "state": "AVAILABLE",
+      "issues": [],
+      "shards": [
+        {
+          "sha256": "568b5b834bfecd8e9392b65cef2761a730e07d27643d9c7d165cc85fefd722f3",
+          "evidence_sha256": "f88e62cb6ece6bbf82355b6db1c9d0728af0e0f739c3059e6b314b6e4901d2db",
+          "bytes": 26235,
+          "start": "2026-10-26T09:35:00+08:00",
+          "end": "2026-10-26T15:00:00+08:00",
+          "count": 48
+        },
+        {
+          "sha256": "a0f2e605eb6e9f8c26d31dc78708b14b08a1e17d9eeff81dbe0a69145e93777a",
+          "evidence_sha256": "a14f4d7d7d8e1d97e382ba8a5430218dd4304c1152531282f18e6a08679c950a",
+          "bytes": 29883,
+          "start": "2026-10-27T09:35:00+08:00",
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
+        }
+      ]
     },
     {
       "symbol": "688411",
@@ -64891,11 +65071,26 @@
       "security_type": "STOCK",
       "name": "海博思创",
       "frequency": "5min",
-      "state": "QUARANTINED",
-      "issues": [
-        "SOURCE_REPLAY_FAILED"
-      ],
-      "shards": []
+      "state": "AVAILABLE",
+      "issues": [],
+      "shards": [
+        {
+          "sha256": "64bf39b27880e2a7be717944f036929326b10c560cd87b19d7b8b4c4febcdd5f",
+          "evidence_sha256": "8db27b61e02fd48048fa0574a8821027c54999fedc98db525b0af6d74c2fbe35",
+          "bytes": 26203,
+          "start": "2026-10-26T09:35:00+08:00",
+          "end": "2026-10-26T15:00:00+08:00",
+          "count": 48
+        },
+        {
+          "sha256": "472933143554eb533585c2ddd5152f669cca735b24dc93f1325ea1d1a425dc92",
+          "evidence_sha256": "0af8ad2894127ec063aec9e6f58b859d3a8517c62a7e2c32dfa810663217e74c",
+          "bytes": 29825,
+          "start": "2026-10-27T09:35:00+08:00",
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
+        }
+      ]
     },
     {
       "symbol": "688416",
@@ -64922,11 +65117,26 @@
       "security_type": "STOCK",
       "name": "恒烁股份",
       "frequency": "5min",
-      "state": "QUARANTINED",
-      "issues": [
-        "SOURCE_REPLAY_FAILED"
-      ],
-      "shards": []
+      "state": "AVAILABLE",
+      "issues": [],
+      "shards": [
+        {
+          "sha256": "c00da409be0dadef1f4747406c58e87977ccbd0157cb1638739f85897bfc148d",
+          "evidence_sha256": "352c6bf7a43dd7c8c26ad5c8a15fd59189e9c86bdf69a21cacfe59d75de591ce",
+          "bytes": 26027,
+          "start": "2026-10-26T09:35:00+08:00",
+          "end": "2026-10-26T15:00:00+08:00",
+          "count": 48
+        },
+        {
+          "sha256": "88c9ba61b0ac7bcb43c42ba955b614c40717f276a96d10e715ed6960bf2a5cd6",
+          "evidence_sha256": "5ce3a231e811da9b002735d0ffd6283392ba2c75444ab7e4d6edc8700e09e76b",
+          "bytes": 29689,
+          "start": "2026-10-27T09:35:00+08:00",
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
+        }
+      ]
     },
     {
       "symbol": "688432",
@@ -64953,11 +65163,26 @@
       "security_type": "STOCK",
       "name": "有研硅",
       "frequency": "5min",
-      "state": "QUARANTINED",
-      "issues": [
-        "SOURCE_REPLAY_FAILED"
-      ],
-      "shards": []
+      "state": "AVAILABLE",
+      "issues": [],
+      "shards": [
+        {
+          "sha256": "b86f667f8ed5ad3446fc34a97aee5c18cbaec79fdbc9de792c74b5af6c7366c9",
+          "evidence_sha256": "0a5cd8db7373cad23269847a6eaf543ba881eace97e951cb3558d8c02ceea036",
+          "bytes": 26097,
+          "start": "2026-10-26T09:35:00+08:00",
+          "end": "2026-10-26T15:00:00+08:00",
+          "count": 48
+        },
+        {
+          "sha256": "95c3d9637f8a8124f6ca240d4eb6f0c195090d84841aedcc4433d9eecc46e3c4",
+          "evidence_sha256": "ad3671d10a2507c2cf3f418b92b98d425b0bb47645f2063a3ce839f445fc220d",
+          "bytes": 29744,
+          "start": "2026-10-27T09:35:00+08:00",
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
+        }
+      ]
     },
     {
       "symbol": "688433",
@@ -64984,11 +65209,26 @@
       "security_type": "STOCK",
       "name": "华曙高科",
       "frequency": "5min",
-      "state": "QUARANTINED",
-      "issues": [
-        "SOURCE_REPLAY_FAILED"
-      ],
-      "shards": []
+      "state": "AVAILABLE",
+      "issues": [],
+      "shards": [
+        {
+          "sha256": "3acc09eeeae3b90a45135b0f6bd806e7d87185816a45ba4582cdb7b375aba997",
+          "evidence_sha256": "bb0fe3a6ec0d584eb0b4616ae22f44592c9b8f7577a28ba9a8244e45efbcb196",
+          "bytes": 26023,
+          "start": "2026-10-26T09:35:00+08:00",
+          "end": "2026-10-26T15:00:00+08:00",
+          "count": 48
+        },
+        {
+          "sha256": "c4137778f4362d4488842bd090f59a57ccbd43361afab2caf8eca93ea1342c97",
+          "evidence_sha256": "1bcf6e3fa07e57890d017b3ead644ab72c082264a64ba6aea723faa5a7bb3621",
+          "bytes": 29685,
+          "start": "2026-10-27T09:35:00+08:00",
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
+        }
+      ]
     },
     {
       "symbol": "688449",
@@ -65015,11 +65255,26 @@
       "security_type": "STOCK",
       "name": "联芸科技",
       "frequency": "5min",
-      "state": "QUARANTINED",
-      "issues": [
-        "SOURCE_REPLAY_FAILED"
-      ],
-      "shards": []
+      "state": "AVAILABLE",
+      "issues": [],
+      "shards": [
+        {
+          "sha256": "7c2714c9926c2a0e25244c1616c807b0329b3aa1d8ae832f8691230c236f2690",
+          "evidence_sha256": "d45c77f9e480d666be1954a128ccf86d57489c8c4e75fc9c7657c5aeebdb8505",
+          "bytes": 26028,
+          "start": "2026-10-26T09:35:00+08:00",
+          "end": "2026-10-26T15:00:00+08:00",
+          "count": 48
+        },
+        {
+          "sha256": "46893bee0bc2edc392d9f097d3ffb6552731e577f60146ecbc34ddf136949c4f",
+          "evidence_sha256": "06a4a7c0f41707efe791aec627fe8bfc837048b1d136595c2aa5fc550f184637",
+          "bytes": 29696,
+          "start": "2026-10-27T09:35:00+08:00",
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
+        }
+      ]
     },
     {
       "symbol": "688456",
@@ -65046,11 +65301,26 @@
       "security_type": "STOCK",
       "name": "有研粉材",
       "frequency": "5min",
-      "state": "QUARANTINED",
-      "issues": [
-        "SOURCE_REPLAY_FAILED"
-      ],
-      "shards": []
+      "state": "AVAILABLE",
+      "issues": [],
+      "shards": [
+        {
+          "sha256": "134f0197662b67ffbf1271ddaed02159579d6ca1b3e7a9e3b7e288d745d361e5",
+          "evidence_sha256": "5875e016711a08204b3defbc778d0f9b088b9c5c7a4c94b4b39fc18aa7a23351",
+          "bytes": 26007,
+          "start": "2026-10-26T09:35:00+08:00",
+          "end": "2026-10-26T15:00:00+08:00",
+          "count": 48
+        },
+        {
+          "sha256": "aceae3dd4121dc35447640152bf4a2764da207be07cc110539a7dbf42dd1712c",
+          "evidence_sha256": "ae6ba638fe75e78cb5bb71e253641c7aa0168bebfbaae3f5aef849deb20c5638",
+          "bytes": 29682,
+          "start": "2026-10-27T09:35:00+08:00",
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
+        }
+      ]
     },
     {
       "symbol": "688469",
@@ -65077,11 +65347,26 @@
       "security_type": "STOCK",
       "name": "芯联集成",
       "frequency": "5min",
-      "state": "QUARANTINED",
-      "issues": [
-        "SOURCE_REPLAY_FAILED"
-      ],
-      "shards": []
+      "state": "AVAILABLE",
+      "issues": [],
+      "shards": [
+        {
+          "sha256": "b36dbf7777936f745fddf358430038e7cad6b78d470f2fec02ad4fa8c6a639b5",
+          "evidence_sha256": "3aeb4ccc74d6588e127d6f888efb20e64bfabdb3a2994c9b90f34aa194ea220a",
+          "bytes": 25922,
+          "start": "2026-10-26T09:35:00+08:00",
+          "end": "2026-10-26T15:00:00+08:00",
+          "count": 48
+        },
+        {
+          "sha256": "26aaaeea400219d80dfe45577c9eeebb0e3c3fa2d619371447eb6a6f5e4ad95f",
+          "evidence_sha256": "a27edaef232777c725dbba42ed09b133a8be7939bd32df0b69801c2fc817a7fb",
+          "bytes": 29619,
+          "start": "2026-10-27T09:35:00+08:00",
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
+        }
+      ]
     },
     {
       "symbol": "688485",
@@ -65108,11 +65393,26 @@
       "security_type": "STOCK",
       "name": "九州一轨",
       "frequency": "5min",
-      "state": "QUARANTINED",
-      "issues": [
-        "SOURCE_REPLAY_FAILED"
-      ],
-      "shards": []
+      "state": "AVAILABLE",
+      "issues": [],
+      "shards": [
+        {
+          "sha256": "fef2445b8a48212865fca0778c5785b85412522ab371f887a7a48b1e4f636b4f",
+          "evidence_sha256": "a93ec5a2cc012a88501db569f8fcaa63f589c5bdea319cd3b56819fe370335fc",
+          "bytes": 26018,
+          "start": "2026-10-26T09:35:00+08:00",
+          "end": "2026-10-26T15:00:00+08:00",
+          "count": 48
+        },
+        {
+          "sha256": "e0bd86f2edadb7d1673d960bdd02c41c53d4ccf3d108fb67e5cd626927b417a8",
+          "evidence_sha256": "d44297db0f76abfa4e9b39c31f08b28aaea96a0234ffa8113da2576f3be7f909",
+          "bytes": 29727,
+          "start": "2026-10-27T09:35:00+08:00",
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
+        }
+      ]
     },
     {
       "symbol": "688498",
@@ -65139,11 +65439,26 @@
       "security_type": "STOCK",
       "name": "源杰科技",
       "frequency": "5min",
-      "state": "QUARANTINED",
-      "issues": [
-        "SOURCE_REPLAY_FAILED"
-      ],
-      "shards": []
+      "state": "AVAILABLE",
+      "issues": [],
+      "shards": [
+        {
+          "sha256": "91f4c4e2d70dacdeeda93eb592b01515c5a6b20d161ad10874a924176cafe035",
+          "evidence_sha256": "59b4fbdd1c562ceee437f4110e6fcc44ada2d51d2b3a346a99b4fbd9cbcd40ab",
+          "bytes": 26274,
+          "start": "2026-10-26T09:35:00+08:00",
+          "end": "2026-10-26T15:00:00+08:00",
+          "count": 48
+        },
+        {
+          "sha256": "ce22a2eb249eea7fe1c684690502456e334047bedd741dd6d5ce9f2592004672",
+          "evidence_sha256": "86575f23c2a3c77c7cfa9f367fe0927c3a079ef6889505b0352b94ead786cec9",
+          "bytes": 29865,
+          "start": "2026-10-27T09:35:00+08:00",
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
+        }
+      ]
     },
     {
       "symbol": "688499",
@@ -65170,11 +65485,26 @@
       "security_type": "STOCK",
       "name": "利元亨",
       "frequency": "5min",
-      "state": "QUARANTINED",
-      "issues": [
-        "SOURCE_REPLAY_FAILED"
-      ],
-      "shards": []
+      "state": "AVAILABLE",
+      "issues": [],
+      "shards": [
+        {
+          "sha256": "f4edd750f3274d3e3ad00b296064b310e8ac2cc036f245cf89d12eb1c2eeaaf9",
+          "evidence_sha256": "f0f733acbc889476c83b908cc44d0a5d744ebb5e1b21a31dc0362f68de510a1e",
+          "bytes": 26064,
+          "start": "2026-10-26T09:35:00+08:00",
+          "end": "2026-10-26T15:00:00+08:00",
+          "count": 48
+        },
+        {
+          "sha256": "36f475be2e3c7856aa372a1a9592cf75c90b4df5a42c2b44357651987a640598",
+          "evidence_sha256": "012b2c9e8333832de41a2c0d6f7630d48183863a3d870c6514dbd9efe0deac88",
+          "bytes": 29714,
+          "start": "2026-10-27T09:35:00+08:00",
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
+        }
+      ]
     },
     {
       "symbol": "688500",
@@ -65201,11 +65531,26 @@
       "security_type": "STOCK",
       "name": "慧辰股份",
       "frequency": "5min",
-      "state": "QUARANTINED",
-      "issues": [
-        "SOURCE_REPLAY_FAILED"
-      ],
-      "shards": []
+      "state": "AVAILABLE",
+      "issues": [],
+      "shards": [
+        {
+          "sha256": "888090b1d92021f5846c3614b34c9735a9ba1efc052ec731c9ab1f15acb506a0",
+          "evidence_sha256": "e37c8d51db732d75f1a8324b902c95b199dd61bd03f6fc391436b48697409a11",
+          "bytes": 26047,
+          "start": "2026-10-26T09:35:00+08:00",
+          "end": "2026-10-26T15:00:00+08:00",
+          "count": 48
+        },
+        {
+          "sha256": "e9c9e662d425d5e7143ff982afa80e3ffaa4b9bb1a79daced84fc57934a0b94d",
+          "evidence_sha256": "92417c9afbdea7b8dbd0d8ca639670dd07b60d7735a80770ef61ee6c3abf9da7",
+          "bytes": 29707,
+          "start": "2026-10-27T09:35:00+08:00",
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
+        }
+      ]
     },
     {
       "symbol": "688502",
@@ -65232,11 +65577,26 @@
       "security_type": "STOCK",
       "name": "茂莱光学",
       "frequency": "5min",
-      "state": "QUARANTINED",
-      "issues": [
-        "SOURCE_REPLAY_FAILED"
-      ],
-      "shards": []
+      "state": "AVAILABLE",
+      "issues": [],
+      "shards": [
+        {
+          "sha256": "578b58a3ee3f44c6031b87db7d067868fe198fb1c01b0646c23ec0b3af9c9a54",
+          "evidence_sha256": "d7099ab255c7940171a71ea7c46ee4f8e8f8f9cd144f4c9c442801975d26162d",
+          "bytes": 26178,
+          "start": "2026-10-26T09:35:00+08:00",
+          "end": "2026-10-26T15:00:00+08:00",
+          "count": 48
+        },
+        {
+          "sha256": "bf4a5fdc9720002fe21168e729d83f07f97d5be7f419e634292598ba222a5c6b",
+          "evidence_sha256": "6dc5a51740ea83b5616809e063670dd4d1b67f74c9829e8689cbcb5f75a5990c",
+          "bytes": 29784,
+          "start": "2026-10-27T09:35:00+08:00",
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
+        }
+      ]
     },
     {
       "symbol": "688503",
@@ -65263,11 +65623,26 @@
       "security_type": "STOCK",
       "name": "聚和材料",
       "frequency": "5min",
-      "state": "QUARANTINED",
-      "issues": [
-        "SOURCE_REPLAY_FAILED"
-      ],
-      "shards": []
+      "state": "AVAILABLE",
+      "issues": [],
+      "shards": [
+        {
+          "sha256": "dfb671101efb2db1429fe9db5c096feab238b5c17bb8c7618e93656db7b2557b",
+          "evidence_sha256": "7b2d4b0334d48db96260d8b7c3cde884ad5f5bca3c5894e52d3f777e4a9f898b",
+          "bytes": 26033,
+          "start": "2026-10-26T09:35:00+08:00",
+          "end": "2026-10-26T15:00:00+08:00",
+          "count": 48
+        },
+        {
+          "sha256": "a3c486357ef1ff46bcfb1bfd61c51fcb9c5e9b9a7aecdc32afbb423272a58f6f",
+          "evidence_sha256": "839990d811a117bee809970f61fcb3e67823117cf2259a17f07285007618c3fd",
+          "bytes": 29707,
+          "start": "2026-10-27T09:35:00+08:00",
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
+        }
+      ]
     },
     {
       "symbol": "688506",
@@ -65306,12 +65681,12 @@
           "count": 48
         },
         {
-          "sha256": "a5b5e0e288cf10568b407264658f7d1cff9e634b64a084fefa4edff4e8a6233b",
-          "evidence_sha256": "470894b06bc5b08808e075a98b477ac4dbd1deb68bc24815dac0be5f2277bd18",
-          "bytes": 28963,
+          "sha256": "cc5108c3692ff50977a201943354af54345291765e29e09a4dc6469d505e8316",
+          "evidence_sha256": "7438fa15843c029a5e8f6e56fb0a6a43ca8dc743bc5a63bd68a2b12c03f98243",
+          "bytes": 29829,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -65352,12 +65727,12 @@
           "count": 48
         },
         {
-          "sha256": "8912e2a3ab99062506b7d79b831c904b292d878ecc4cce8a0f71e1ca7a28dcb3",
-          "evidence_sha256": "41f2f9faefc25fd817f5cee3c27d310db13d867fa286379b97b4987918c5f030",
-          "bytes": 29010,
+          "sha256": "4d5536b399ff91db8b3642bd6f86d72ec6971c686e740a3144659264b33a20da",
+          "evidence_sha256": "8204d14b3baa74c524e9a62d6cb2d6a636abbcc82769734833f10b885d377a3d",
+          "bytes": 29877,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -65398,12 +65773,12 @@
           "count": 48
         },
         {
-          "sha256": "0c1a4e5854370370e1774d5fdca8b93d2285fd70e47ebd282cb115a9b2552d8f",
-          "evidence_sha256": "7272ba14d6af497cf59ebe081cfdcb3673d9238dc712756d595d447725d16057",
-          "bytes": 28822,
+          "sha256": "84d9936bb1cad6de2cde6228669cf327d66d3633c89681dad0849d131b362a32",
+          "evidence_sha256": "abcebf3b340da81371a6c19a24f1685b78b1fe1b8e2639acbee9077d8b52d92c",
+          "bytes": 29685,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -65444,12 +65819,12 @@
           "count": 48
         },
         {
-          "sha256": "b8042d7598f5ffea7ba604026a16ba2ed1fb605b8f4f2329c77049bbf1f05f29",
-          "evidence_sha256": "bd654deeb4afe8b6f901c4cbbe02bb89a13c25e5a5d20059ed2f2b9d74e7632d",
-          "bytes": 28860,
+          "sha256": "db6a1b33c7466e2aefa7027799535c3dc0ee5a27542df571d895381d498c4d54",
+          "evidence_sha256": "2fc101c518709508d04d2046a5c469311cbf70934e3f58fb752919d76e3ac95a",
+          "bytes": 29723,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -65490,12 +65865,12 @@
           "count": 48
         },
         {
-          "sha256": "5303c8dc3f0b0dbb3a61852c43b1d5fb703cb36d4fc87c1f79d7f7f7883f259d",
-          "evidence_sha256": "f82788afa9ff5a72d62cb0ea34731074e7d72d2af8fcf05dc2e083ea002d4a7e",
-          "bytes": 28996,
+          "sha256": "d1b2d713d0ea4ff507c2d40a8482c615baaceadcd692f22e6d02a0291b2a91a5",
+          "evidence_sha256": "bcefa2e29155023679ab4245a396efe0529ac77e43a21ed3425919f1637701d2",
+          "bytes": 29862,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -65536,12 +65911,12 @@
           "count": 48
         },
         {
-          "sha256": "b9d222e5da3812274df2679da4128ffd41267f3debaf53d40a29b0d008f747ff",
-          "evidence_sha256": "decd17cca41a224bbe43f5ba5ec74ab39e79b3627067d2fe0092343f19e83fd1",
-          "bytes": 29031,
+          "sha256": "f51ea82d616b805ea6536ec28e1d84bf5edbd9512e4d55227484e069173a1117",
+          "evidence_sha256": "a94ec4caeabf3dda5a0cd42f2ac5c90fa3440744b14788bd739b805b1ea27dd4",
+          "bytes": 29899,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -65582,12 +65957,12 @@
           "count": 48
         },
         {
-          "sha256": "c496ef9db24357fc9f14b60abaf65a3a9a1a9b7ad94ef625cb97b4c25afd5869",
-          "evidence_sha256": "f89ce242371cd9eaaa151a89997c33ef603b67a142675c28c06b041f92d9f3df",
-          "bytes": 28689,
+          "sha256": "8f619f5c06a54fdcafd5b16ce66aea035f68dead8b3796fa7045efb60f139914",
+          "evidence_sha256": "e0d090d0cc487c3ff60a50fa15fe6821c6e0ee3f667d3112e35b2cb8bd674234",
+          "bytes": 29557,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -65628,12 +66003,12 @@
           "count": 48
         },
         {
-          "sha256": "d56ebcf033359f065976bb2ed6b57ddef0a6c18dff07c488b19c62538379aff2",
-          "evidence_sha256": "696fc80ab5e2a21230593f1d403b9314a5082f9602f3f58afcd46a1c0dd94a8e",
-          "bytes": 28831,
+          "sha256": "df67f3fd93b5f49c4a0e20dab7373abc01c4fd911388ebd4cacad7faacaca0da",
+          "evidence_sha256": "b43999241ff30f3108979134b29968e32ef6c688e819db07d8f766b7b41ab254",
+          "bytes": 29693,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -65674,12 +66049,12 @@
           "count": 48
         },
         {
-          "sha256": "2e3ea7de0fc34e9f7ddef8f1b70cca267360357c3f828bb6fd353bce862bb5fa",
-          "evidence_sha256": "b204424e6558a3c2b9e8d27083c56df1653391658b0ff45699251c5e7ad5167f",
-          "bytes": 28833,
+          "sha256": "d2d7889d2e674cfbd6bc08fb851ca7eaa648a379ea9ce2ffda53ec8f97c77289",
+          "evidence_sha256": "cc8463633be6531673533d8881e70417894be0409d097668b0981207335871f8",
+          "bytes": 29695,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -65720,12 +66095,12 @@
           "count": 48
         },
         {
-          "sha256": "876eb648e3bfc89da1d80eaf913d8d4d45cb56ec8c7784ef35199ae65ce6a4b7",
-          "evidence_sha256": "430e1fc9e0ecc1edfeaa20097e4bdb23fa778bc2fbb73ab251d3f164fc00d442",
-          "bytes": 28988,
+          "sha256": "8a86be1a25fe8abf24fe94b8537198af0b08c42ac7bbd9c37f7da5d2f7312bb2",
+          "evidence_sha256": "f2269daf72025bc482639502094856ac02f1ceb9eefa5659ef6033c7bad8aba3",
+          "bytes": 29855,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -65766,12 +66141,12 @@
           "count": 48
         },
         {
-          "sha256": "73bc8b3e568ad08cb9321f88a28156d0afe3f99ce20d7255080eba2ec7182fc5",
-          "evidence_sha256": "42a99d771983398e0d272bf056ce77df79766a9709b9fd6a0c0a294e94255339",
-          "bytes": 28860,
+          "sha256": "be346a45c3fec3632066f02619266dfcf4f3ce3777255c697f4111c234b897b3",
+          "evidence_sha256": "2c1c2b364c17c73e5145898a92c473d2d12c9f175d2e854562cfeb237ee9e268",
+          "bytes": 29722,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -65812,12 +66187,12 @@
           "count": 48
         },
         {
-          "sha256": "24092a79081d3bee06f4d0666eb446fb239b10a3e816dace1c0dedeb37fbe89f",
-          "evidence_sha256": "6f50e01abea0a8509f77a2207dfabeba033c346f0f2eb175d089a86508d32f2d",
-          "bytes": 28853,
+          "sha256": "e0ec26f022a1c55a40f0cde86f02d6a3404e6d92d0993a871c6b89e569189cc6",
+          "evidence_sha256": "32443513980102535baf9b49de940062cbf2fca78f3298e5a4c91949fa1d30c2",
+          "bytes": 29716,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -65858,12 +66233,12 @@
           "count": 48
         },
         {
-          "sha256": "e64d02932004e8ccf386df283ccbe56e5a178a2fa2330fa86fd9cb34ac899740",
-          "evidence_sha256": "d830949888d58a07a856849527adcc6218f34ece5c15ad58241ee5aeb875c5c0",
-          "bytes": 28866,
+          "sha256": "0d44fadeb07537dcae912b805af6e428bab4191f636c0424c0e0abc26adbc4f8",
+          "evidence_sha256": "74e77c4e250706cc0e6235ed2e0aa61d1ab427daffc6d83442a9733041183369",
+          "bytes": 29729,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -65904,12 +66279,12 @@
           "count": 48
         },
         {
-          "sha256": "e3e410e92ccb2af4fbcf3334af48618f6f2a6839b76c3484ff9f5397a5857e3e",
-          "evidence_sha256": "648229e3d82f8f40137deeca19f06e3e441563bbe46a1e17ecab8e5148a9c5d3",
-          "bytes": 28862,
+          "sha256": "ce93ec2b6c6795650f91aaad2fb192689b5a851b3c185fe492bd7b93fdbddfc9",
+          "evidence_sha256": "af87e621aabdf0f6f9348fff591317ca2c253e2274ba685f2147258fefacb633",
+          "bytes": 29725,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -65950,12 +66325,12 @@
           "count": 48
         },
         {
-          "sha256": "4580bf1f3d2edd9420a610979012909d6701661de5bfdeada39f52a3b25b5cc8",
-          "evidence_sha256": "031d04bf50ec01d365677a77108062e58b6ba432d61315766fbfe8bc0c24643f",
-          "bytes": 28838,
+          "sha256": "01d5956ee8fee25b912d9e328d9d64c87720e72c50d0fc832ed0e6389d492a22",
+          "evidence_sha256": "9f90de3957b1cd3054cfa25c3951f8198348a189c32b952a7d56a1ccc32303e2",
+          "bytes": 29700,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -65996,12 +66371,12 @@
           "count": 48
         },
         {
-          "sha256": "f3cfca011a0974c9a04ade9547ddc1b5d625995ed04eeffcb47bd7b813bcc44b",
-          "evidence_sha256": "45cfaaac161825d37a39cd6d0d34075b1b497635a8e5b5132ad8920ab635db4b",
-          "bytes": 28859,
+          "sha256": "72c53a2f498b435d398476b38521a04e38d1cdfb68a8b17692b06f6b5968db9c",
+          "evidence_sha256": "75fa80e385e52d59783659c61c0e10b4668399d0ea9ea880f1661af327fd4d13",
+          "bytes": 29722,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -66042,12 +66417,12 @@
           "count": 48
         },
         {
-          "sha256": "26c692f8d82fec858490323d6cf658be9df4b8a50404704a0f6531eb9d05284f",
-          "evidence_sha256": "71129131c14f3f1b3e8962cfb2369ccfcb761442a6ee3885838cad6e17b5f831",
-          "bytes": 28850,
+          "sha256": "e1a42680e4fe9a26c084405dfcbe21c9a59cfdf5b2cd075a88b639cca5570e13",
+          "evidence_sha256": "85be87b6150c9c90815c320083d2f6199d19a823656f224b5743a36a35901301",
+          "bytes": 29713,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -66088,12 +66463,12 @@
           "count": 48
         },
         {
-          "sha256": "604159feefda72e7e4ac246d90d3da847d4fd3babaa2be1d24777aa4acf4920e",
-          "evidence_sha256": "f4aca56442042c8f0cf44f5bbb33d051edd67f5cd777034ddebbc17d995a4c6c",
-          "bytes": 28869,
+          "sha256": "50d45d14599fd053566b04e866c6451a124c0f082f9b082497aa844167fd9755",
+          "evidence_sha256": "a825d6c93cd1e81f42c06672019a743b965959983a39de2ac28d836ce9c89b57",
+          "bytes": 29731,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -66134,12 +66509,12 @@
           "count": 48
         },
         {
-          "sha256": "48744270aa51881aed8bb4b6edc5ba1e60d063fce0d753d05cff81368bdb8bdb",
-          "evidence_sha256": "0084584482fdc43ad393262c062ef8641765c493c133fc06655f665af49a84e0",
-          "bytes": 28858,
+          "sha256": "321a75fd60123328064e1501f6ee4c5ac614e997b7939037d8cf1ebacc24844f",
+          "evidence_sha256": "a8514a34a516d77a4d138eb0eb8a263e3bdd2294cb605d07e5d59d54dfb8fea3",
+          "bytes": 29721,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -66180,12 +66555,12 @@
           "count": 48
         },
         {
-          "sha256": "da1f9514a59fb3a93a89316ef52ce7782a0aa2ae9f9ccd621d1bd85111c26474",
-          "evidence_sha256": "cece73b3bfed1f36835b1c13bce99ac169c59bc5d2813c6aba18365f10e0907a",
-          "bytes": 29033,
+          "sha256": "f897d48b91123ea6525bc5959281451d6fe38195868ff25e1907566f31707feb",
+          "evidence_sha256": "1f54e25a9a7d38be964c46116a6d9ff55b0e380530804446d29c86ea50b2e4e2",
+          "bytes": 29901,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -66226,12 +66601,12 @@
           "count": 48
         },
         {
-          "sha256": "92205c8dc414cf405ab67e67aa2b50b26bcd5e32a01b68afb510cd7b47c75ce4",
-          "evidence_sha256": "89259ac0416e6d978e3c885daf558f7fdb4e223cf66d1bee57bad6f62e84cef5",
-          "bytes": 28847,
+          "sha256": "3f276235e8686b300bc5b4f33368e46d55ef96b3b8e6eff7b21362d0f90dae4d",
+          "evidence_sha256": "2a7f6bed98f13b4ed3689d15a6955795c23144ad05b71ab0901826ff1d4e6771",
+          "bytes": 29710,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -66272,12 +66647,12 @@
           "count": 48
         },
         {
-          "sha256": "f2f998a277814f40972cac3f9525eb858433740f3eae00218944d7155041c2a7",
-          "evidence_sha256": "8186edfcc3d0e10e9ae0cbed753f415924ce8bdd763f1c1715c333654da9c2bb",
-          "bytes": 28870,
+          "sha256": "e279df8993d3c3ed1b9b44dfaf7536ee3c7839d51406372f53a5e8baa4289325",
+          "evidence_sha256": "344729f4c6d13896b59a9586e2463a57b091745c5cb75b98c4400e88bfb95a87",
+          "bytes": 29734,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -66318,12 +66693,12 @@
           "count": 48
         },
         {
-          "sha256": "8f49df8a340be715de72dab494172a1212e12e75388597ec6dd4ba78a75edad7",
-          "evidence_sha256": "299e169865f7e2d62b72976bdd7d20a4bc92824ea4b62410f34da4d03a78fe86",
-          "bytes": 28828,
+          "sha256": "28c791af9137122334e982f9dfa8d4403f7f1e740c01085303b3ec8678ff94a0",
+          "evidence_sha256": "4f928b162e51332fc06234b53f191222495c1f89e772690ea4591bde67872eca",
+          "bytes": 29690,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -66364,12 +66739,12 @@
           "count": 48
         },
         {
-          "sha256": "3127c79d4f1a329c7b90114b8b698ca670db1c3d5f3e76f637c58e03991ef02d",
-          "evidence_sha256": "dac83f10f0593139ea02e88a5a707b7e1a0706c70ee963e239f76c365b1b15df",
-          "bytes": 28860,
+          "sha256": "d6c005c6e09f9f6d975555eca8982d5b90c2cca5fbf7fe492ae8e260e2ec8d59",
+          "evidence_sha256": "82dc11f0ae85f94cbd43bea0fac2055d93d9af2bf70b4fcf95e3ce1877f26281",
+          "bytes": 29723,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -66410,12 +66785,12 @@
           "count": 48
         },
         {
-          "sha256": "13c4f798620ee2f0bb474fbe783073c2e066b21726d3b8e6d9e6789fbd98ad03",
-          "evidence_sha256": "6344268ad3d7c2c59b6e8e258e3468b8da1b6ec9fd5684a56d2e8f51dff610e8",
-          "bytes": 28821,
+          "sha256": "0e65a5a215bca3c80972950321ccc450b4bb1c68fad365b134a21bff9cc38f8a",
+          "evidence_sha256": "25a3bb2b2426d34fc2d4f5c2df4711ed16ec0d99c9a9ddf08753897795a4cc68",
+          "bytes": 29683,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -66456,12 +66831,12 @@
           "count": 48
         },
         {
-          "sha256": "56df0a3f35d7fdbc25c24b1b048bffefd5d4eb1a47a3ad6930d7502ed7fc7e44",
-          "evidence_sha256": "dfaf5ad1b4da5587e3f3138663d05464176f789e244efd3bd0eb73fcf560bf72",
-          "bytes": 29015,
+          "sha256": "4907f4b5cece2f915050a411dc0dbaacb623e7b170a1bd71898e79b8139f20c8",
+          "evidence_sha256": "81193c0697e3ea6e0e75cf4128d64b9430d1428560f70cb59c99649787712908",
+          "bytes": 29883,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -66502,12 +66877,12 @@
           "count": 48
         },
         {
-          "sha256": "8c2053913cf949cd10be50b66caae05576fdafe6fdaca0fd6c169d2943b56a19",
-          "evidence_sha256": "8920bb5e4960e8856a821a124b66c68a23b6928dc860748404b273d083dc5742",
-          "bytes": 28850,
+          "sha256": "025b8c94dd7adc164307543146ee873435e97453ac522658f9696d5bdaff8c89",
+          "evidence_sha256": "fbee40aac36e4da9539347e9599ba25b6cadf8b418a22a80ecd17dc6f80b9a14",
+          "bytes": 29712,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -66548,12 +66923,12 @@
           "count": 48
         },
         {
-          "sha256": "1d28f34bf32213d1cf9d365c77509a7567627f467fc50d99057434a76192751a",
-          "evidence_sha256": "3b858c966be1583d6185f9248fc68dbe375047cfb2fb6e9caa92d12f12bf1434",
-          "bytes": 28982,
+          "sha256": "80733c9fcebe77dfdc2ca07eb8a6f6d3091633c025b984118d6518d1feb610a9",
+          "evidence_sha256": "ac5fa073a0699791b40ed8be2d6f0c6ccb1a97d0ec76491067b1232fe1ed3175",
+          "bytes": 29848,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -66594,12 +66969,12 @@
           "count": 48
         },
         {
-          "sha256": "c49c7af1827e8d1a425bbbeb6e48ea926f8eeaf8072f8c599f20c42b2116d8d0",
-          "evidence_sha256": "e6eb71bc2c1d11abee773504ad82ff7cf0cd1c03161b43f700edad7bdd2f2c6a",
-          "bytes": 28826,
+          "sha256": "56a09ebb9162b327ef751c05b1c6b1edfe8c134d33fc60577c184c16f09f77e8",
+          "evidence_sha256": "03708691c27f485358f1127fc678e9ffb0d0a7a2c155890e023e0ae3a747bd0a",
+          "bytes": 29687,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -66640,12 +67015,12 @@
           "count": 48
         },
         {
-          "sha256": "cff7f48ea3a814b10c45c49235fca1340046bf3d9cfad61889b4a7b023e045c7",
-          "evidence_sha256": "8288996ddb3f8feaa0e06cff43f7592123ab52cdffeccfc41a3d56c567bb51e7",
-          "bytes": 29002,
+          "sha256": "3e7c06909bd576c499476c0cf04341f932cc13448f5bc04ff92d47d2271af386",
+          "evidence_sha256": "ad2adffec26b1b37c9f3565b533c4fc49454942d114747332a35dd23067262f8",
+          "bytes": 29869,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -66686,12 +67061,12 @@
           "count": 48
         },
         {
-          "sha256": "6e3393ee48014b21828383d19cb81372d534d474e3bd6f93beb21411d406d04a",
-          "evidence_sha256": "569951c5d66a15eb45859ba381a85b8ca2e25041467d749d7db4e664b36badfd",
-          "bytes": 28828,
+          "sha256": "578c4e4ea321f72daebc65bcabdde921088c567b0810de517cf54be1ff3767b6",
+          "evidence_sha256": "9fec190f23fc30b680bedad3a3736695aac8c18ad47eb445bd5041c72b4cd596",
+          "bytes": 29690,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -66732,12 +67107,12 @@
           "count": 48
         },
         {
-          "sha256": "7b2c21238869e4f013e9fece65fc7e38208fb4c460cb515c198ac0c831b4af93",
-          "evidence_sha256": "36c69ebfda214ebb35bde6b4d2f1f6d2950343e566ab88c3be3101ffd8f2a8c3",
-          "bytes": 28852,
+          "sha256": "a877b5490adbd03f36de925eaa840a7e4c26baa419672c170b0ccb275fb1bdfc",
+          "evidence_sha256": "fb062cf574a389ee25ef364c64129c6fb80539020a9c105f4c08dd6788a612c6",
+          "bytes": 29714,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -66778,12 +67153,12 @@
           "count": 48
         },
         {
-          "sha256": "b5489d30f0604e59586aa94ec1fdcd50894dc1f1eb70037fc4c02868c7d4587b",
-          "evidence_sha256": "848bc1391f74312dd6c0a431b499df1db4c36d0c043174848e104412666af04c",
-          "bytes": 29011,
+          "sha256": "764f6aacd50577973fc5a89876e6753290eb1b598f819a5878839a26391c0046",
+          "evidence_sha256": "6932e53243408513e745a6fce031739eb45d6bc6db1384fa2b207453eba6c15c",
+          "bytes": 29879,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -66824,12 +67199,12 @@
           "count": 48
         },
         {
-          "sha256": "324dd1d98868af7f6d281b81c8908bb3fd3b3036d4c62b1c6433c94087835a1d",
-          "evidence_sha256": "e11721161876c5e11eccbeb9a2edc2451edec00500c1a2e9b79b0f4961b3ace6",
-          "bytes": 28982,
+          "sha256": "2609c6ec927dbda2c9b9fafa134b766175f2359b1f6fa5a788408fb86a96540f",
+          "evidence_sha256": "140401ab8bbb47ddeb1a2c1ec0f52983edd04799fe454673716d332af58291a6",
+          "bytes": 29848,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -66870,12 +67245,12 @@
           "count": 48
         },
         {
-          "sha256": "f7c24b813f76166d7a83045ac0ea3bde93b4e12da64f6e3bca32d38e173d765b",
-          "evidence_sha256": "dee7a62f099191b6f484a94e42c836ce9f9a41231464c54216bf292f3142b59d",
-          "bytes": 28850,
+          "sha256": "0f2a15e311cede4839cf1bd9220893747e226ad4625647109360641219927660",
+          "evidence_sha256": "21bc177d69da88fe754116fc2ad787f254d81e21ca402e53ac106c86a4b6c96e",
+          "bytes": 29713,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -66916,12 +67291,12 @@
           "count": 48
         },
         {
-          "sha256": "e4bbc4799a6f2410697b1b6470ce72d04ff8ea6822a29b9e5532cbd99118a5e8",
-          "evidence_sha256": "e2977d05bb1b545bfb1e0d0532343369100e692b6ec3bf69371d46fafb69e9ec",
-          "bytes": 28822,
+          "sha256": "aa3ccd95edbdefa2707ea27da58c31e0a964d1a15eaf824d6aae4073b6d32846",
+          "evidence_sha256": "ed0cba4d9ccd4a789fb814dfd765e696688d72a5f648d18f1623337f2b3a0b14",
+          "bytes": 29684,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -66962,12 +67337,12 @@
           "count": 48
         },
         {
-          "sha256": "40d9f855610482373b817878673d578f613dc7d8f200ef66803e35dc8cf52a0d",
-          "evidence_sha256": "ac7d6437b9b4e9cfc4dbbb9c1867d49d10f90037c1f4613e0303dd100f85972b",
-          "bytes": 28845,
+          "sha256": "082aff663f9367ee61ef4513a5cc306616d096c3eba754692b93923fc9b3b164",
+          "evidence_sha256": "0907ae2b3afd40864334e3422d8e6bdd5df464cf8ef64aa3ba80ca70922d3144",
+          "bytes": 29708,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -67008,12 +67383,12 @@
           "count": 48
         },
         {
-          "sha256": "030a05df06c27097ef21be016f05bdbca0d32a44bf66b41bd5ead274c3e052f6",
-          "evidence_sha256": "6a13fdb70da9a0a6d0a1903fc2520f69fe6d0677c005af7cc17a9ab983360e12",
-          "bytes": 28984,
+          "sha256": "707be2415e7a3376837524210a51d34fd6d219688e863100dacbef9108751e19",
+          "evidence_sha256": "a53f14498b10fe17c6aa823044d5db917da2a16fa16f6f6f2e070032b3794e33",
+          "bytes": 29850,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -67054,12 +67429,12 @@
           "count": 48
         },
         {
-          "sha256": "c89d7a360355f9403f5e4905fb1e69b2d677a9ee07f33da1b83c3226ddbdf151",
-          "evidence_sha256": "e81959aaf7702906e159cc50cebd954c3b7a5d5659d076dda64acdb603592736",
-          "bytes": 28849,
+          "sha256": "6200752d9e749fbdf884c006984849bc922753d13fcb9892676427f1d2e205e7",
+          "evidence_sha256": "a8be15155e5cbe5660407af5113fec1fc5913d62bd23247b26780710b4717b69",
+          "bytes": 29711,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -67100,12 +67475,12 @@
           "count": 48
         },
         {
-          "sha256": "e4be0a97f61c96c82f8fdd5cc9ebd60851d348294b9ac7ec26e913ec54fb1988",
-          "evidence_sha256": "197249974673b73cd278f50e33300f1b22fb4148ff42ac2c5906decadbb566fe",
-          "bytes": 28833,
+          "sha256": "6ae31f6913606e4e094faa937feeb3bb7959fd527e56df2bf976f141e205dda0",
+          "evidence_sha256": "9be21a35a1ffb968aa5fe262884c27901c1f36202ab845293c98b69db6aab111",
+          "bytes": 29695,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -67146,12 +67521,12 @@
           "count": 48
         },
         {
-          "sha256": "21aa7ff66e35b0294b923c7c72a9023be501e8b544bc9f2007035eb27403f50b",
-          "evidence_sha256": "21209871a08eb2f5dfcb12f92053bb6751991f710066c08eebd65dfc2ca95d26",
-          "bytes": 28868,
+          "sha256": "7a5f6476948be97047dff23456e2a1b8bb21871239255c37a11700c382df7da9",
+          "evidence_sha256": "cf5d7305f56801ec99ab4ccab651c639d573de696a532a5b33c6655a54bd9926",
+          "bytes": 29731,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -67192,12 +67567,12 @@
           "count": 48
         },
         {
-          "sha256": "f58ca0e1b64835d04063331a3e144421abbb651a948511a93083616f44521400",
-          "evidence_sha256": "fbc166def2e9df2c1afcb8e07d5618235efc401e34d243e663a6c7710b64947f",
-          "bytes": 28649,
+          "sha256": "52f0cf414f38832922bf065fe988bed22930b999bbe1c20be3c67299a782b635",
+          "evidence_sha256": "36ca4ca5875fd328c575527280248f5703277913d1aee4928a699a8b12cda7e1",
+          "bytes": 29515,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -67238,12 +67613,12 @@
           "count": 48
         },
         {
-          "sha256": "a5dd4567f167c1c98fbd1fc21ba48977be781dfbd4261a5948714a53c534ad83",
-          "evidence_sha256": "18f437110458b8fbad2d66120d7c15b8f0eb82bd2dd4b578c06da954740ea03a",
-          "bytes": 28496,
+          "sha256": "35b64026dd89b3af8f1a167613482cd9cc54729373e6122fa4ee64c93871dd21",
+          "evidence_sha256": "16660b3ffd711db370d869612f7f9b9a6af0155017076aef06d912ffebf6336f",
+          "bytes": 29358,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -67284,12 +67659,12 @@
           "count": 48
         },
         {
-          "sha256": "e48c05f80f4f688f05abe6cd3d453805cd563412c0f77b20a3fbba1c83120583",
-          "evidence_sha256": "9446db47dbe8309fd16a0a5c2e95dbbda53cd343ddbff44b37b451cfa70d12ea",
-          "bytes": 28498,
+          "sha256": "60a9b640509d060ee8031b099e65d989998ee93354792c6eddd233224bd30c15",
+          "evidence_sha256": "201c9592752cda3b40b61e57ef62b2cf107c6bf9c216aa41338a435c735673e1",
+          "bytes": 29360,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -67330,12 +67705,12 @@
           "count": 48
         },
         {
-          "sha256": "6344c80f8a1e0e302d34e8cefa15fd0b82b970333c0118b327a68cda08bc398a",
-          "evidence_sha256": "52a3ecbb9bd243f7fd0e3dc8cd30bc83f1ef187afd1ebad47fed241a71fb8cbb",
-          "bytes": 28501,
+          "sha256": "c946616adac127bfd62d1cca036c0f205eda6f89a7dd41e05519420129bd1e73",
+          "evidence_sha256": "a45b06aa8745d4f75062fcef69a5772418edf5005842b8f24361a775fe2d1eba",
+          "bytes": 29364,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -67376,12 +67751,12 @@
           "count": 48
         },
         {
-          "sha256": "996cd668792fc8c9498399c22b39117239c40d946f9d658324d1b41596874d4c",
-          "evidence_sha256": "a0d503f75e3bb3adee8622b19b85c0ee576e3112f436ee4b19b83f33ab376e23",
-          "bytes": 28513,
+          "sha256": "21a88a972457641e840b043fc224cb7826175fefd86468b7baa61e268c30fd2b",
+          "evidence_sha256": "a685c8b1f8397ca6bf3965205b62b56797a931d3d5610b6809581a30728f4557",
+          "bytes": 29376,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -67422,12 +67797,12 @@
           "count": 48
         },
         {
-          "sha256": "a95d06b1a0c6b8f3cbcf6bfd04155e62b08363ca67d4619b397ae02b71d84ca1",
-          "evidence_sha256": "c675bf37c2971c6a5b5f8a393cd5ed7a4817b72ee98df05f0509a690b018a5a1",
-          "bytes": 28640,
+          "sha256": "549e2c31b3a2b920f88229425c9d32ea73fdd2f8b568e80ac2c829a888b00cc6",
+          "evidence_sha256": "b8890eb7a9d0c623515d631cbc16bcf01a493d8094d6ce78b08c72b0cb035f4d",
+          "bytes": 29506,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -67468,12 +67843,12 @@
           "count": 48
         },
         {
-          "sha256": "d9daa308b2695eea64c3f533ea28c3f9a152a640169c7553398499a7d9d93639",
-          "evidence_sha256": "974998c88021fc1a148807343bf6a50c6c00da73597d0065547663f7c12d77c7",
-          "bytes": 28510,
+          "sha256": "e787b5c656a0f46f6f2092e79303e949b8f309da6c1070d05d519e1f497c4591",
+          "evidence_sha256": "7e8fe3b8d08083475bfbf9dbba17f582e390c06017f731230c76269af330cd56",
+          "bytes": 29373,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -67514,12 +67889,12 @@
           "count": 48
         },
         {
-          "sha256": "e4c9f9916062c60ae9ee2e03ad647f06e9b10434331dd1905db44b57c186ba2f",
-          "evidence_sha256": "4fac98ae05a0e9e1daa12e84d3faae6c59efe43896690aa52e6467f01faa6286",
-          "bytes": 28519,
+          "sha256": "a64cf199570bf8d14e76dab2e3ed40acc34b05a85e76b1c39722b0fb728de1b7",
+          "evidence_sha256": "a617fabf43381fa33d2554026e189da5572f7ad8fc506ff774b346b2be2adbb7",
+          "bytes": 29382,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -67560,12 +67935,12 @@
           "count": 48
         },
         {
-          "sha256": "3bb12367e2796e286ec1b0958fbb4682d9972c4682adedb4d21bd99196398f70",
-          "evidence_sha256": "91ac91b9bc5d13877b3a3dc2068eb102fe5688973077049697a58463095c0b6b",
-          "bytes": 28673,
+          "sha256": "1032aadc0f11eb773bbb234af17e8f600a4019c07cb0f39b5d90c2d27c4e1c96",
+          "evidence_sha256": "7d73a3e132746f0d845a2bd0689877ba89c219166a044c782ad80bcfb47cbe6e",
+          "bytes": 29540,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -67606,12 +67981,12 @@
           "count": 48
         },
         {
-          "sha256": "dca95867efbcf372fd3251a59a6c629c92d9ff6fb4de7c4819747bde958b5692",
-          "evidence_sha256": "159b1903fbfc2e90ba9fbc2551ad3bf05550be4f69a1ffb2635b4bb0866f4e95",
-          "bytes": 28523,
+          "sha256": "ac22877deda07346818dc858dae3eb5a7b446ac9321846638e2292a2711b22f3",
+          "evidence_sha256": "0d56fda166eb8fbd2cdef99591be1d91acf8502a809fa3daab9f9a97a8535736",
+          "bytes": 29386,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -67652,12 +68027,12 @@
           "count": 48
         },
         {
-          "sha256": "ec9b2f836504bc8b67d27c6b82f18014a8941b7ce9cb8755f60c2b72e551d75e",
-          "evidence_sha256": "a8a08a77950e47accd0469a3fe35142ff33d0a85233f6d340a01c2ec0d488864",
-          "bytes": 28656,
+          "sha256": "83c831a8f309a1970b3487d86e448d174146c2b9a6c92a44868b238cf24356c3",
+          "evidence_sha256": "d67686c6996c204687e12aaf6b30aa8cb87025588c91346fc1d0f0dce201f66b",
+          "bytes": 29524,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -67698,12 +68073,12 @@
           "count": 48
         },
         {
-          "sha256": "2e7b1d4f5624d1ffe7c632918ebd7f39cd3cbcb51ad287f0df73d4ea1f684c33",
-          "evidence_sha256": "b6ce0d0abff5b960bbc5c427d6114cb3be00abf9d94f2f7f6de23af23b00ec7e",
-          "bytes": 28551,
+          "sha256": "d6055c226d5b4f2b0697d974bb3409f78da662db5128923f41b9e4471b853db1",
+          "evidence_sha256": "53472d75cb1ff7db5fab409264b0a4313839a360e3d1d4cf9d101f883c86d75c",
+          "bytes": 29415,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -67744,12 +68119,12 @@
           "count": 48
         },
         {
-          "sha256": "a7e6c19ab0387644ff709140219bfb741758b4f4112ab5e4b932c97e52df24ed",
-          "evidence_sha256": "15c5c5cb668eb4e9850b8af531a622b3fcb42a60bf905a9460574a7375773dd2",
-          "bytes": 28471,
+          "sha256": "0ac77f0d5832a67ac149e60acf11376b4ccd6ceeb1b4b8b9e3a18a3f5e82eaac",
+          "evidence_sha256": "91f09547a798882f56208f66826a5f51adc6221b68855698a6a5f7c9122dc64a",
+          "bytes": 29333,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -67790,12 +68165,12 @@
           "count": 48
         },
         {
-          "sha256": "6a17bf50afcdabbc6d5657776b4b173b1911b6107bd552cf3494b8e744472499",
-          "evidence_sha256": "7d1f8346b72b3ba798cf62ff8d37bb5278475c56765f47352f9c0cbd956e8892",
-          "bytes": 28483,
+          "sha256": "5d1207d659c4cbcbe738f6b16001f30bb7d22cad468222d502662a78c0d0c605",
+          "evidence_sha256": "88070c1a465f215b8bdf16bcb3ff2d599d1e8525edd7df0bedb0a677295cf7c6",
+          "bytes": 29344,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -67836,12 +68211,12 @@
           "count": 48
         },
         {
-          "sha256": "c27176ae021dd4d4a0691366b0aea16ae8d8deb530c0e7bcc7306c09391887d9",
-          "evidence_sha256": "c46b1a15356023b6cf8c978f40aafde7e999e7add8c8ee662b1fb06c30410d00",
-          "bytes": 28514,
+          "sha256": "9c00f289ed3df592e054c21da7cab2ce31e57b5266150b1a11715042c3e4b430",
+          "evidence_sha256": "e413fb9ee85b9a06d78d081ae219cb7d0c8fe901cfc401104ebcbd1edba96210",
+          "bytes": 29377,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -67882,12 +68257,12 @@
           "count": 48
         },
         {
-          "sha256": "ae7a39eaa687aa7b0f0a19b2d1351e61a9e24d9fdbbcfb4cc85526f1daa461d7",
-          "evidence_sha256": "8aaad6696e41f522327ef115de7b286bb53b1bbd06ed6885519b8914b5eceece",
-          "bytes": 28665,
+          "sha256": "f07517eff0901c77da859b83f95ef68355eb2dd46ccc0a823d227c3a00c55300",
+          "evidence_sha256": "37e62f19b77080445ef74e2dc089f9751eb960840c8bac6cc8ffca5974e4a485",
+          "bytes": 29533,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -67928,12 +68303,12 @@
           "count": 48
         },
         {
-          "sha256": "b19d97d2acf16b6cbbb445bd116f6d895fdf482cf2aa26d1adf5c2de6cff0968",
-          "evidence_sha256": "586b29b30524aebfea98a70c9052d31903f384ea022550c99d9ae12d128bc4aa",
-          "bytes": 28657,
+          "sha256": "def6619313ebc46a3ccfe7347d2c1f41dfb2943d9a9ac0bf7989dc84351489ef",
+          "evidence_sha256": "fd55945b28b0197d0fcfc42706df238673e09d5ad68238efea6527a0160a339e",
+          "bytes": 29524,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -67974,12 +68349,12 @@
           "count": 48
         },
         {
-          "sha256": "b6675f4a2a33efea6b84e2211f2b8f90465b2bd2044f5d187dbcd631b4faaea0",
-          "evidence_sha256": "ce3e66a2cccb69355a4bfb0f263d49b605d46f5ab602567d1eabb681d718bab7",
-          "bytes": 28612,
+          "sha256": "1834e2a008002e6cdcf77c328ba0a31655e915cf4bbef83240df67197ad03fb6",
+          "evidence_sha256": "cd19417249d2db975eb74fbb9c18aceadc27e9043a67c01286d120a71909be97",
+          "bytes": 29478,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -68020,12 +68395,12 @@
           "count": 48
         },
         {
-          "sha256": "9fafbb71981b077ad7743da24f8ae26c10caf853a3893df8a05bbc3fae603952",
-          "evidence_sha256": "d03a0a43482dc6f07a303e297133e321dc55808231eeb2abaff6bb5c93c3a327",
-          "bytes": 28504,
+          "sha256": "f40905197425016b533d0b212143abde40523dd164e2ee1bd0dd38c89f0e2967",
+          "evidence_sha256": "2f43c81bac3ba5772df333d10234e2308f169d860ff0a9aee8698f7d8f2b0144",
+          "bytes": 29366,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -68066,12 +68441,12 @@
           "count": 48
         },
         {
-          "sha256": "c5f6384a58e041030d56febfb2a6d44269962e1202bf4c357c071c037233106f",
-          "evidence_sha256": "81fbb41897440e94773f37e3b1ab7020ee377ef08970da84299401db52c98b42",
-          "bytes": 28638,
+          "sha256": "9d1cbfbefc24f6e0bceb88b06b8b643d0d6c2d0cbd9f2647d3d99facb3629437",
+          "evidence_sha256": "12f23016ab8f40ce83f1fa656eb84ce29d9f27b26751667858c77afdd617d538",
+          "bytes": 29505,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -68112,12 +68487,12 @@
           "count": 48
         },
         {
-          "sha256": "07be1bbb080e096cedd5697bfca35c60b92c2d04186256776a98f36f7ca994bb",
-          "evidence_sha256": "f112aa53731788f1126acd6a2c24c8804d2c16a240322928415e22195154bd2d",
-          "bytes": 28657,
+          "sha256": "b181ca7e672f8046348cb80bfdf46f77acc14b143ee91ccfa8e62de95b1d0847",
+          "evidence_sha256": "358f34d0465cc104d7110d6465ef367da0eb11f57f2609190f175b3f8371758c",
+          "bytes": 29524,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -68158,12 +68533,12 @@
           "count": 48
         },
         {
-          "sha256": "38e0302189363899e17f2ebb489d198fdd7d9d41a254c591fb21a17a1ea6b973",
-          "evidence_sha256": "bfbfedf5db77f932aa727be4b7a2414213c5820a960d105115f9925b65b3bf1d",
-          "bytes": 28599,
+          "sha256": "176e000e3fb9792cb8b7c5cd337e7fe01d3eb93b16e9e8c0d472761da333b28d",
+          "evidence_sha256": "f498cddb77e8b11a731e8b649ff37eb443a8441d18b1ee476549699fea18d4f2",
+          "bytes": 29464,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -68204,12 +68579,12 @@
           "count": 48
         },
         {
-          "sha256": "367fe759bdaeabe7d1b5d5f621d4518bebb5e856b74f0dcdac5a26099f9ae21d",
-          "evidence_sha256": "c3752eadeeeecaa9ecf595d71de30724a52957e7fef218f7d10b4d0461efdc80",
-          "bytes": 28792,
+          "sha256": "9fd38159cb8f1af595abed98a6e6f9d8c4fd5d35c2b1d8da865265c01d24c9cf",
+          "evidence_sha256": "0ff38d5eb0ca431e99ec7444d187a81f02406c35bce96f9f36f98328ac72361c",
+          "bytes": 29663,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -68250,12 +68625,12 @@
           "count": 48
         },
         {
-          "sha256": "4f42418abb99d086d042a97df1d8c19e96c067b0dda00a8d44c4593a614c8501",
-          "evidence_sha256": "313601a8f3ea0c07c6d1389a31b07e8c1a825c778a4666ec6881ff788b39ad2c",
-          "bytes": 28628,
+          "sha256": "caecfb1781ab9f839651d2c3f68f896999bb2f697e1b303fb23061942b4d82eb",
+          "evidence_sha256": "04f4d10b4ee3cdf686d3415d6e37b705e155ef584cd6121675e55252ac7e462f",
+          "bytes": 29494,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -68296,12 +68671,12 @@
           "count": 48
         },
         {
-          "sha256": "0ffcd918457ac72f66e5bad5c59d0bc837e1cfd0b7e53f36928228cc6530df14",
-          "evidence_sha256": "c7e9f94eb8c805b0f358e3eaa6a22e8091089375edcab44b3acf74c037427f05",
-          "bytes": 28492,
+          "sha256": "c2902c97e4d5d4af84aa37258341cf43f4a8f9474ed7c69253f01f4413094a0a",
+          "evidence_sha256": "f4f04c21af48c5f5a62d8f98a7647a863fe458bfcdb60b812177ef1c7ca2e411",
+          "bytes": 29354,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -68342,12 +68717,12 @@
           "count": 48
         },
         {
-          "sha256": "ee72cd8fddc5f389c790dd1345d034b1edb7955d85def86ed700f6a4c89d8d66",
-          "evidence_sha256": "7e442a5888949a4f3378617361af85a62ddc9e684cd9ba93a0fa8987180d14cb",
-          "bytes": 28523,
+          "sha256": "2c33e934ec75344eb44b445ed34b563e7505e070d251d22d772a301bd437919d",
+          "evidence_sha256": "8d84c18c483117b4ebe3bfedd2e43cbd8c53bcdaa5729e91b9250cf770d3b12a",
+          "bytes": 29387,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -68388,12 +68763,12 @@
           "count": 48
         },
         {
-          "sha256": "d8e3367b999beaef78905ede7171d3c38fe29ab798fdc458e40d62d62439c68f",
-          "evidence_sha256": "71a7c8a436cf3ce804a20657b57c1f05e3029242f0887b714ae20715a49f042c",
-          "bytes": 28623,
+          "sha256": "0e0894bcef869eb2ec0cfb9b56978226e59e11077c25e1964be00800a81179a2",
+          "evidence_sha256": "a552b4a55a3246e952fecd36e2101b74d48ca6f2cf82dec05062f1d1e74d4ef3",
+          "bytes": 29489,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -68434,12 +68809,12 @@
           "count": 48
         },
         {
-          "sha256": "49a2500a40ebd88cb52b0fc7b88a25b51185bb919e42c5e7d1db3321fbbcdab1",
-          "evidence_sha256": "69c7460894c97bf8a7aae6f14ab3f110084d593274b8e0170a400e21e239130a",
-          "bytes": 28597,
+          "sha256": "c154e05443fe1c724b9d7cafb0cb0b7c312beab3c8a9645f56bb15e140ea0c85",
+          "evidence_sha256": "acca34e448c601e50b4d60234027bba99d60155d3a9ca6fbc8e425e839c4d8e3",
+          "bytes": 29464,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -68480,12 +68855,12 @@
           "count": 48
         },
         {
-          "sha256": "6e3e70fcc9ab1a5f745576d47fe087fc2a7bb605ab0900e51b2c0afb2cf16880",
-          "evidence_sha256": "426c4b0dd71f82e2aa7ab06b16e0fdd4c137d88acbab753ffd3f89b881017b2a",
-          "bytes": 28621,
+          "sha256": "9e5f9b3088496ddbddd5b5da5abe1f3f079571bc76d978fe45c03a47f470e683",
+          "evidence_sha256": "83d98bb4b3a59f80eece967fca97c608258e664bc7a46c61b53ef2d89a8e4631",
+          "bytes": 29487,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -68526,12 +68901,12 @@
           "count": 48
         },
         {
-          "sha256": "0c52d434cd8634d13b9b8c4b5a2adc6a737bcc31c0072475cb37a99b135eb20f",
-          "evidence_sha256": "f00f15ba3a733fd7427b7096f391042a94e98295a672d23d6350c30ba9fb6853",
-          "bytes": 28675,
+          "sha256": "11c6cc32a2fe712f4caab0760e40e34af316c38ec03ed95651014c40b1bf252a",
+          "evidence_sha256": "a19bd65866a2188365e6c491fc38aebceda2e60f6001dc2cd0a1c82f799299f6",
+          "bytes": 29542,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     },
@@ -68572,18 +68947,18 @@
           "count": 48
         },
         {
-          "sha256": "da2db6599fd13561c0a295a879df1c401dffbb0ba0f38e36be8a3a9045c326ea",
-          "evidence_sha256": "e0e702733f7e09292acfe293165f1a57a199aa97bd266c7cafb37e80f099b054",
-          "bytes": 28691,
+          "sha256": "81159fd85ff34e0531058387aecd58645268be8466e3a6a0c1eae3029bc5915a",
+          "evidence_sha256": "4fa9baa684214620855edb4a91978da98f1c833b4ef1aa33f377dc3f6c26e89a",
+          "bytes": 29559,
           "start": "2026-10-27T09:35:00+08:00",
-          "end": "2026-10-27T13:55:00+08:00",
-          "count": 35
+          "end": "2026-10-27T14:00:00+08:00",
+          "count": 36
         }
       ]
     }
   ],
-  "total_bytes": 84668600,
-  "total_files": 4438,
+  "total_bytes": 86126124,
+  "total_files": 4488,
   "limitations": [
     "CURRENT_OBSERVED_UNIVERSE_NOT_HISTORICAL_PIT",
     "BOUNDED_RECENT_INCREMENTAL_WINDOW_NOT_COMPLETE_HISTORY",
@@ -68595,5 +68970,5 @@
     "scripts/publish_unified_market.py": "724d48260e5c775ef6a38dcdf0ef40b43d1127cd40ca1d5e18f441a3ce5f3b6a",
     "src/qtrade/research/unified_market.py": "248925e0b70a341b9b17a47d81b988ea7a0b0bafc0de845cf4eef0486efaab77"
   },
-  "evidence_sha256": "c2e8dc451b46b71f6416315b2108153338a46cc8dc0229f5015f1aec1a5edebc"
+  "evidence_sha256": "78c7bc47d9639a8f4cab72e943dc4e8c4bef8a2afbf46071b6ee8d1c9f449ee0"
 }
