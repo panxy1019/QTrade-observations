@@ -7,7 +7,7 @@
   "live_trading_enabled": false,
   "promotion": "NOT_ELIGIBLE",
   "schema_version": "qtrade.research-workflow.v1",
-  "published_at": "2026-10-27T14:17:33.797939+00:00",
+  "published_at": "2026-10-27T14:18:56.742383+00:00",
   "models": [
     {
       "id": "linear",
@@ -429,9 +429,9 @@
       "name": "unified-bound-ridge-api-20261027",
       "model": "linear",
       "engine": "QLIB",
-      "state": "QUEUED",
-      "stage": "QUEUED",
-      "updated_at": "2026-10-27T14:11:53.751275+00:00",
+      "state": "CANCELLED",
+      "stage": "CANCELLED",
+      "updated_at": "2026-10-27T14:18:56.738066+00:00",
       "spec": {
         "buy_cost_bps": 8,
         "data_binding": {
@@ -517,11 +517,19 @@
         ],
         "promotion": "NOT_ELIGIBLE"
       },
-      "error_code": null,
+      "error_code": "CANCEL_TIMEOUT_OR_WORKER_STOP",
       "events": [
         {
           "at": "2026-10-27T14:11:53.751402+00:00",
           "state": "QUEUED"
+        },
+        {
+          "at": "2026-10-27T14:18:39.691074+00:00",
+          "state": "RUNNING"
+        },
+        {
+          "at": "2026-10-27T14:18:56.737970+00:00",
+          "state": "CANCELLED"
         }
       ]
     },
@@ -2075,7 +2083,7 @@
   ],
   "worker": {
     "state": "IDLE",
-    "heartbeat_at": "2026-10-27T14:17:33.799284+00:00",
+    "heartbeat_at": "2026-10-27T14:18:56.743408+00:00",
     "concurrency": 1,
     "source_revision": "c382453b5eba6c6441646ab70c76131f486cb509",
     "max_job_seconds": 3600
@@ -5005,5 +5013,5 @@
     }
   ],
   "dataset_errors": [],
-  "evidence_sha256": "d4b1724bda6274905c010b25bdf6f3718500deba6599e2cf3df2821a74fa82d5"
+  "evidence_sha256": "46fd832ec3c81abcb06514fa06ebf8370c2d8dbdde0aa07bb59447f40e997269"
 }
