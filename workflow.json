@@ -7,7 +7,7 @@
   "live_trading_enabled": false,
   "promotion": "NOT_ELIGIBLE",
   "schema_version": "qtrade.research-workflow.v1",
-  "published_at": "2026-10-27T14:33:07.516223+00:00",
+  "published_at": "2026-10-27T14:34:14.358156+00:00",
   "models": [
     {
       "id": "linear",
@@ -530,9 +530,9 @@
       "name": "unified-bound-lightgbm-repair-20261027",
       "model": "lightgbm",
       "engine": "QLIB",
-      "state": "BUILDING_PROVIDER",
-      "stage": "BUILDING_PROVIDER",
-      "updated_at": "2026-10-27T14:32:50.754952+00:00",
+      "state": "COMPUTING_ALPHA158",
+      "stage": "COMPUTING_ALPHA158",
+      "updated_at": "2026-10-27T14:34:14.342371+00:00",
       "spec": {
         "buy_cost_bps": 8,
         "data_binding": {
@@ -631,6 +631,10 @@
         {
           "at": "2026-10-27T14:32:50.754837+00:00",
           "state": "BUILDING_PROVIDER"
+        },
+        {
+          "at": "2026-10-27T14:34:14.342291+00:00",
+          "state": "COMPUTING_ALPHA158"
         }
       ]
     },
@@ -2293,7 +2297,7 @@
   ],
   "worker": {
     "state": "RUNNING",
-    "heartbeat_at": "2026-10-27T14:33:07.517419+00:00",
+    "heartbeat_at": "2026-10-27T14:34:14.359235+00:00",
     "concurrency": 1,
     "source_revision": "096387b8088e4361c9e5cd9cd2c165e21819fead",
     "max_job_seconds": 3600
@@ -6405,5 +6409,5 @@
     }
   ],
   "dataset_errors": [],
-  "evidence_sha256": "b1548a98428bfbc58db750c0fbaea23b430009737409f20653c7fd68dc1a7adf"
+  "evidence_sha256": "ee54293b49a08706d43e1025617e604bfa847264974d3cc9356c10cfb1c82c8d"
 }
