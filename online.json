@@ -7,9 +7,9 @@
   "live_trading_enabled": false,
   "promotion": "NOT_ELIGIBLE",
   "schema_version": "qtrade.online-catalog.v1",
-  "published_at": "2026-10-27T01:25:22.517172+00:00",
+  "published_at": "2026-10-27T01:30:34.750703+00:00",
   "worker": {
-    "heartbeat_at": "2026-10-27T01:25:22.517172+00:00",
+    "heartbeat_at": "2026-10-27T01:30:34.750703+00:00",
     "source_revision": "19cbb2a1faa2f537ddb670dcbbf89d760e27acb7",
     "state": "MODEL_CONTROL_READY"
   },
@@ -35,7 +35,7 @@
   "active_model": "2d78cc4cc257653a088b1a43bc1a65ec719c570680b9698eb05e48df1b7e0293",
   "data_schedule": {
     "state": "WAITING",
-    "heartbeat_at": "2026-10-27T01:25:18.047037+00:00",
+    "heartbeat_at": "2026-10-27T01:30:28.102162+00:00",
     "fresh": true,
     "last_cycle_state": "CURRENT_DAY_ALREADY_READY",
     "required_day": "2026-10-26",
@@ -727,8 +727,8 @@
   "auto_predict": {
     "schema_version": "qtrade.auto-prediction.v1",
     "enabled": true,
-    "state": "COMPLETE",
-    "current_prediction_id": "924b3c35fa4163a01f76c0d95defa8ea7dd426bb241ce841fcc579a06a157af6",
+    "state": "BLOCKED_EXECUTION_WINDOW_PASSED",
+    "current_prediction_id": null,
     "predictions": [
       {
         "prediction_id": "924b3c35fa4163a01f76c0d95defa8ea7dd426bb241ce841fcc579a06a157af6",
@@ -3917,5 +3917,5 @@
     "validation_tasks": [],
     "automatic_activation": false
   },
-  "evidence_sha256": "8e86a13b5620c4def56747b216805d1cde5a7baaf815b9b20e675156190cf7f4"
+  "evidence_sha256": "8766e23231401c730363ce86e6b1a37e2a8aaa32c8555af05510269cdaaff3f4"
 }
