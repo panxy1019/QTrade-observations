@@ -7,9 +7,9 @@
   "live_trading_enabled": false,
   "promotion": "NOT_ELIGIBLE",
   "schema_version": "qtrade.online-catalog.v1",
-  "published_at": "2026-10-27T17:46:28.931582+00:00",
+  "published_at": "2026-10-27T17:47:32.879828+00:00",
   "worker": {
-    "heartbeat_at": "2026-10-27T17:46:28.931582+00:00",
+    "heartbeat_at": "2026-10-27T17:47:32.879828+00:00",
     "source_revision": "096387b8088e4361c9e5cd9cd2c165e21819fead",
     "state": "RUNNING"
   },
@@ -35,7 +35,7 @@
   "active_model": "29589b4486a09159eb3a07153c54fba609fbc80b52c168dd665cd46660be8487",
   "data_schedule": {
     "state": "WAITING",
-    "heartbeat_at": "2026-10-27T17:46:21.412715+00:00",
+    "heartbeat_at": "2026-10-27T17:47:31.423377+00:00",
     "fresh": true,
     "last_cycle_state": "CURRENT_DAY_ALREADY_READY",
     "required_day": "2026-10-27",
@@ -8847,9 +8847,9 @@
         "job_id": "1ed2fd215098f7e64421f9419584662f",
         "model_id": "98d27455a7cb224ef3ecbd7cf850455f386fbb93baf8137a4d789e142ab91795",
         "data_version_id": "09a67b135def5dee766ea23716e5405aeb060c28a93720402cb2ebf4542ee407",
-        "state": "RUNNING",
+        "state": "VALIDATING",
         "error_code": null,
-        "updated_at": "2026-10-27T17:46:28.371258+00:00"
+        "updated_at": "2026-10-27T17:47:00.712570+00:00"
       },
       {
         "job_id": "6e256470efc5ea2f68e51bc016436027",
@@ -8893,5 +8893,5 @@
     "realtime_readiness": false,
     "schema_version": "qtrade.model-promotion-policy.v1"
   },
-  "evidence_sha256": "e9ac54f0470d2f9a6a3c0ca2cb78dc5d630a84b6236e6137b1bfe7620c831a0f"
+  "evidence_sha256": "28cf344623c0045234beedb5214088843ce14057812d21b6c1c8c65e060ae6d2"
 }
