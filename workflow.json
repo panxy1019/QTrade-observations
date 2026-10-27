@@ -7,7 +7,7 @@
   "live_trading_enabled": false,
   "promotion": "NOT_ELIGIBLE",
   "schema_version": "qtrade.research-workflow.v1",
-  "published_at": "2026-10-27T17:40:41.806233+00:00",
+  "published_at": "2026-10-27T17:42:53.358864+00:00",
   "models": [
     {
       "id": "linear",
@@ -429,9 +429,9 @@
       "name": "archived-oct26-ridge-binding-check-20261028",
       "model": "linear",
       "engine": "QLIB",
-      "state": "COMPUTING_ALPHA158",
-      "stage": "COMPUTING_ALPHA158",
-      "updated_at": "2026-10-27T17:40:25.019868+00:00",
+      "state": "BACKTESTING",
+      "stage": "BACKTESTING",
+      "updated_at": "2026-10-27T17:42:20.440800+00:00",
       "spec": {
         "buy_cost_bps": 8,
         "data_binding": {
@@ -534,6 +534,10 @@
         {
           "at": "2026-10-27T17:40:25.019784+00:00",
           "state": "COMPUTING_ALPHA158"
+        },
+        {
+          "at": "2026-10-27T17:42:20.440694+00:00",
+          "state": "BACKTESTING"
         }
       ]
     },
@@ -4646,12 +4650,12 @@
   ],
   "worker": {
     "state": "RUNNING",
-    "heartbeat_at": "2026-10-27T17:40:41.807633+00:00",
+    "heartbeat_at": "2026-10-27T17:42:53.360149+00:00",
     "concurrency": 1,
     "source_revision": "096387b8088e4361c9e5cd9cd2c165e21819fead",
     "max_job_seconds": 3600
   },
-  "source_snapshot_sha256": "467366395184edc65dd2ac079982393efdd516302302604c0a0fbfce664ef449",
+  "source_snapshot_sha256": "ce4523f13cafe26cbf89f88b5d632ca452a89c950ae7d43a478d7641b748f41a",
   "strategy_versions": [
     {
       "classification": "PUBLIC_SOURCE_RESEARCH_OBSERVATION_ONLY",
@@ -9346,5 +9350,5 @@
     }
   ],
   "dataset_errors": [],
-  "evidence_sha256": "e0550b67cb32eac844c26d9622da8be66a079358323e39a87f7e979f54a12c7f"
+  "evidence_sha256": "2f1ebc19d31eb1e4d05950fdf319dec0f9777c6f471bf11cbfdf42af795f48d2"
 }
