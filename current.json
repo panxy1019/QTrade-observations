@@ -2201,7 +2201,7 @@
     ],
     "limitation": "Bounded SSE/SZSE calendar; no assumptions outside its horizon or about emergency closures."
   },
-  "published_at": "2026-10-27T04:56:12.687574+00:00",
+  "published_at": "2026-10-27T05:01:19.607901+00:00",
   "expansion": {
     "classification": "PUBLIC_SOURCE_RESEARCH_OBSERVATION_ONLY",
     "point_in_time": false,
@@ -2241,10 +2241,10 @@
     "provider": "Sina native 5m; adjustment not independently certified",
     "provider_version": "1.18.84",
     "classification": "PUBLIC_SOURCE_RESEARCH_OBSERVATION_ONLY",
-    "data_version": "observer-minute-20261027T044505045571Z",
-    "checksum": "3fbd8309904224ce327644e39394cf441e25534d34ea146a5775f1ab446d18b3",
+    "data_version": "observer-minute-20261027T050005320498Z",
+    "checksum": "64945c3091d6824e0165b33075fe1a9cfedf01bd02ed4023dab3e956ab8c08ee",
     "quality_status": "PASSED",
-    "bar_count": 7200,
+    "bar_count": 7156,
     "bytes": 2019936,
     "observed_start": "2026-10-23T05:05:00+00:00",
     "observed_end": "2026-10-27T03:30:00+00:00",
@@ -3176,10 +3176,10 @@
       "live_trading_enabled": false,
       "promotion": "NOT_ELIGIBLE",
       "kind": "minute",
-      "started_at": "2026-10-27T04:45:05.406039+00:00",
-      "completed_at": "2026-10-27T04:45:31.650138+00:00",
+      "started_at": "2026-10-27T05:00:05.691510+00:00",
+      "completed_at": "2026-10-27T05:00:34.623882+00:00",
       "required_symbol_count": 75,
-      "bar_count": 7200,
+      "bar_count": 7156,
       "latest_by_symbol": {
         "000063": "2026-10-27T11:30:00+08:00",
         "000338": "2026-10-27T11:30:00+08:00",
@@ -3259,15 +3259,15 @@
       },
       "collection_mode": "HISTORICAL_BACKFILL_NOT_FORWARD_PAPER",
       "manifest": {
-        "data_version": "observer-minute-20261027T044505045571Z",
+        "data_version": "observer-minute-20261027T050005320498Z",
         "source": "Sina native 5m public history; adjustment not independently certified",
-        "checksum": "3fbd8309904224ce327644e39394cf441e25534d34ea146a5775f1ab446d18b3",
+        "checksum": "64945c3091d6824e0165b33075fe1a9cfedf01bd02ed4023dab3e956ab8c08ee",
         "schema_version": "qtrade.bar.v1",
         "quality_status": "PASSED"
       },
-      "evidence_sha256": "b1ee732299ff840a1a2a82c003ef930da74c1a4053ff84fc19abfa4cca19b54b"
+      "evidence_sha256": "ad1c4bad5b67bb5673521d3d418bddd68cc2e5c099e9cf6d31fd3fce93d628ec"
     }
   },
   "observer_healthy": true,
-  "evidence_sha256": "39a675e1c61a8c38e6f33dfd5c7cf4b119d42e96b1fcd75ea4b14b1b2c427bd4"
+  "evidence_sha256": "134a3382be3afe897f54a48bbe76c395bc589d6ede0eebf4cf4aee46cfb39bf2"
 }
