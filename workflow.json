@@ -7,7 +7,7 @@
   "live_trading_enabled": false,
   "promotion": "NOT_ELIGIBLE",
   "schema_version": "qtrade.research-workflow.v1",
-  "published_at": "2026-10-27T14:26:59.154766+00:00",
+  "published_at": "2026-10-27T14:29:27.424101+00:00",
   "models": [
     {
       "id": "linear",
@@ -2082,10 +2082,10 @@
     }
   ],
   "worker": {
-    "state": "STOPPED",
-    "heartbeat_at": "2026-10-27T14:26:59.155805+00:00",
+    "state": "PREDICTING",
+    "heartbeat_at": "2026-10-27T14:29:27.425832+00:00",
     "concurrency": 1,
-    "source_revision": "c382453b5eba6c6441646ab70c76131f486cb509",
+    "source_revision": "096387b8088e4361c9e5cd9cd2c165e21819fead",
     "max_job_seconds": 3600
   },
   "source_snapshot_sha256": "467366395184edc65dd2ac079982393efdd516302302604c0a0fbfce664ef449",
@@ -2152,7 +2152,7 @@
         "topk": 50,
         "universe_policy": "supported_a_share"
       },
-      "source_revision": "c382453b5eba6c6441646ab70c76131f486cb509",
+      "source_revision": "096387b8088e4361c9e5cd9cd2c165e21819fead",
       "training_config": {
         "account": 10000000,
         "benchmark": "SH000300",
@@ -2366,9 +2366,9 @@
       "research_only": true,
       "paper_admission": false,
       "model_activation": false,
-      "strategy_version": "e96f78e25e380522b046c2b856b103ef4ddbfa9d4fbc85a4f08ae9faf8c4b2db",
-      "strategy_id": "qlib-e96f78e25e380522b046c2b856b103ef4ddbfa9d4fbc85a4f08ae9faf8c4b2db",
-      "evidence_sha256": "efbcfcd0cd8e38a13b848707778ce613b455fdf2944dee6a8084c073c745a198"
+      "strategy_version": "419e6232418b1c9bd85283f5f5fc84a3f31306c220522093e63046e6feffef56",
+      "strategy_id": "qlib-419e6232418b1c9bd85283f5f5fc84a3f31306c220522093e63046e6feffef56",
+      "evidence_sha256": "ad2a8f15e5247511daf2eb4d342ce37262f798ed7a54c9859370bd187b67be31"
     },
     {
       "classification": "PUBLIC_SOURCE_RESEARCH_OBSERVATION_ONLY",
@@ -2432,7 +2432,7 @@
         "topk": 50,
         "universe_policy": "supported_a_share"
       },
-      "source_revision": "c382453b5eba6c6441646ab70c76131f486cb509",
+      "source_revision": "096387b8088e4361c9e5cd9cd2c165e21819fead",
       "training_config": {
         "account": 10000000,
         "benchmark": "SH000300",
@@ -2665,9 +2665,9 @@
       "research_only": true,
       "paper_admission": false,
       "model_activation": false,
-      "strategy_version": "862b2cd4619e35dcb399f366f57202fca5299b8e0b07897d37880f907d36f9ea",
-      "strategy_id": "qlib-862b2cd4619e35dcb399f366f57202fca5299b8e0b07897d37880f907d36f9ea",
-      "evidence_sha256": "e3c275e82eaf6dc2cfed839fbcf04b9c69bd8c2c59fa1899c94bd9e3e37778e2"
+      "strategy_version": "fef0e9b64d67d6f3c0656a1c11c9aa4bab980c44f29076b88557421b7e7b699e",
+      "strategy_id": "qlib-fef0e9b64d67d6f3c0656a1c11c9aa4bab980c44f29076b88557421b7e7b699e",
+      "evidence_sha256": "462208bda120672c2e8aa526031f437263c5e1e09f6fea3a3507661348a062a1"
     },
     {
       "classification": "PUBLIC_SOURCE_RESEARCH_OBSERVATION_ONLY",
@@ -2731,7 +2731,7 @@
         "topk": 50,
         "universe_policy": "supported_a_share"
       },
-      "source_revision": "c382453b5eba6c6441646ab70c76131f486cb509",
+      "source_revision": "096387b8088e4361c9e5cd9cd2c165e21819fead",
       "training_config": {
         "account": 10000000,
         "benchmark": "SH000300",
@@ -2945,9 +2945,9 @@
       "research_only": true,
       "paper_admission": false,
       "model_activation": false,
-      "strategy_version": "2bcca0899b338a603af832b243e5749ec102baf2572a818bd46566d57c9485c1",
-      "strategy_id": "qlib-2bcca0899b338a603af832b243e5749ec102baf2572a818bd46566d57c9485c1",
-      "evidence_sha256": "9b4e9e5c2017a8724d57ecd4d9048a9c2e6da97dc309d82ccffe66728065fcee"
+      "strategy_version": "0625f4f3f1e70d63a799c70b11cc38575a9725b0a8ff5e761bdd52cf99dd84d8",
+      "strategy_id": "qlib-0625f4f3f1e70d63a799c70b11cc38575a9725b0a8ff5e761bdd52cf99dd84d8",
+      "evidence_sha256": "be67d090a71c2dee1550cc619132d8505221676795ce65cf65cb7ac342ad5dfa"
     },
     {
       "classification": "PUBLIC_SOURCE_RESEARCH_OBSERVATION_ONLY",
@@ -3011,7 +3011,7 @@
         "topk": 50,
         "universe_policy": "supported_a_share"
       },
-      "source_revision": "c382453b5eba6c6441646ab70c76131f486cb509",
+      "source_revision": "096387b8088e4361c9e5cd9cd2c165e21819fead",
       "training_config": {
         "account": 10000000,
         "benchmark": "SH000300",
@@ -3244,9 +3244,9 @@
       "research_only": true,
       "paper_admission": false,
       "model_activation": false,
-      "strategy_version": "ee2eea99fdac5f98080c0b7e9b5d937143f2a738b3d01ee4d6f815d81ef4f17a",
-      "strategy_id": "qlib-ee2eea99fdac5f98080c0b7e9b5d937143f2a738b3d01ee4d6f815d81ef4f17a",
-      "evidence_sha256": "aa462d45ab7b710d8eb71db7a7eb7faf5b4f0928014ebdda5e5888f0939dac9a"
+      "strategy_version": "3c654b526e3dcd68685efc6785f9a0359e523f6308c3741bb9101f3d7beb24df",
+      "strategy_id": "qlib-3c654b526e3dcd68685efc6785f9a0359e523f6308c3741bb9101f3d7beb24df",
+      "evidence_sha256": "e442ae685e88887e140dd14b8345443a99c6a089de5cf23e0de1a02e15965bb2"
     },
     {
       "classification": "PUBLIC_SOURCE_RESEARCH_OBSERVATION_ONLY",
@@ -3310,7 +3310,7 @@
         "topk": 50,
         "universe_policy": "supported_a_share"
       },
-      "source_revision": "c382453b5eba6c6441646ab70c76131f486cb509",
+      "source_revision": "096387b8088e4361c9e5cd9cd2c165e21819fead",
       "training_config": {
         "account": 10000000,
         "benchmark": "SH000300",
@@ -3524,9 +3524,9 @@
       "research_only": true,
       "paper_admission": false,
       "model_activation": false,
-      "strategy_version": "2b27d2d5ec4d9b1500cdfaaf7159e447bb61d76069487449a6474cf086ff5994",
-      "strategy_id": "qlib-2b27d2d5ec4d9b1500cdfaaf7159e447bb61d76069487449a6474cf086ff5994",
-      "evidence_sha256": "e1fc63695df50b1aea9f12e13ff9f5ef14e4cc9b46da90e6897cf66726ce7803"
+      "strategy_version": "6ff745a2af55f1d79ab822865c9356729c7c29ea7cc1de25f77508b1c167bde4",
+      "strategy_id": "qlib-6ff745a2af55f1d79ab822865c9356729c7c29ea7cc1de25f77508b1c167bde4",
+      "evidence_sha256": "157fe84a9ce50a04d553b3930a7a1fa23e4f97fc5ec74b525653c61c891b56cd"
     },
     {
       "classification": "PUBLIC_SOURCE_RESEARCH_OBSERVATION_ONLY",
@@ -3590,7 +3590,7 @@
         "topk": 50,
         "universe_policy": "supported_a_share"
       },
-      "source_revision": "c382453b5eba6c6441646ab70c76131f486cb509",
+      "source_revision": "096387b8088e4361c9e5cd9cd2c165e21819fead",
       "training_config": {
         "account": 10000000,
         "benchmark": "SH000300",
@@ -3823,9 +3823,9 @@
       "research_only": true,
       "paper_admission": false,
       "model_activation": false,
-      "strategy_version": "a98e95c4f79238b75f821d45e08ec921e9e07ed5b1eb3d8d8b72f5a98d70bf32",
-      "strategy_id": "qlib-a98e95c4f79238b75f821d45e08ec921e9e07ed5b1eb3d8d8b72f5a98d70bf32",
-      "evidence_sha256": "e106e2e4ac64746d08bafb8fe3694ee718a46a511ece11aac6f5444e9571782d"
+      "strategy_version": "ae2d4a1454c6484fc4c7ef63abfae2b68ca6b81c1a85cabb6b61d3ab418c87c9",
+      "strategy_id": "qlib-ae2d4a1454c6484fc4c7ef63abfae2b68ca6b81c1a85cabb6b61d3ab418c87c9",
+      "evidence_sha256": "eac23b235062f4305b0b6238a3f1324b51feebbe0727eaaab13c3f3bd81ac9d6"
     },
     {
       "classification": "PUBLIC_SOURCE_RESEARCH_OBSERVATION_ONLY",
@@ -5013,5 +5013,5 @@
     }
   ],
   "dataset_errors": [],
-  "evidence_sha256": "177c76b540b4007ee4636d09497ecccf9c0b15aaa1361ad605c9c80a7380e217"
+  "evidence_sha256": "6f665b7af36759c8abd9cffd146171fc711abdf34f3874f9ecf8fb11ca8220a2"
 }
