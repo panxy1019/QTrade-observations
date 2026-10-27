@@ -7,7 +7,7 @@
   "live_trading_enabled": false,
   "promotion": "NOT_ELIGIBLE",
   "schema_version": "qtrade.public-observations.v1",
-  "published_at": "2026-10-27T23:16:37.696831+00:00",
+  "published_at": "2026-10-27T23:17:43.757743+00:00",
   "calendar": {
     "valid_from": "2026-08-01",
     "valid_through": "2026-12-31",
@@ -27,7 +27,7 @@
     "limitation": "Bounded SSE/SZSE calendar; no assumptions outside its horizon or about emergency closures."
   },
   "observer": {
-    "heartbeat_at": "2026-10-27T23:16:27.548947+00:00",
+    "heartbeat_at": "2026-10-27T23:17:37.570587+00:00",
     "worker_alive": true,
     "streams": {
       "daily": {
@@ -38,13 +38,13 @@
         "observed_symbols": 30,
         "required_symbols": 30,
         "stale_symbols": [],
-        "collected_at": "2026-10-27T22:16:49.413856+00:00",
-        "data_version": "observer-daily-20261027T221606348746Z",
-        "checksum": "bcec29708127597e81966f7f5e3598a0c1fc518261398c334aaa22bd51c664bc",
+        "collected_at": "2026-10-27T23:16:51.127378+00:00",
+        "data_version": "observer-daily-20261027T231607543428Z",
+        "checksum": "d26341330f0fcabda0bdf47ec67859565a6db0556e886f5efc0a464ec4587a6c",
         "maximum_tolerated_lag_seconds": 0.0,
         "last_attempt": {
           "attempted_at": "2026-10-27T23:16:07.543428+00:00",
-          "outcome": "RUNNING",
+          "outcome": "SUCCEEDED",
           "error": null
         }
       },
@@ -79,8 +79,8 @@
         "live_trading_enabled": false,
         "promotion": "NOT_ELIGIBLE",
         "kind": "daily",
-        "started_at": "2026-10-27T22:16:06.673954+00:00",
-        "completed_at": "2026-10-27T22:16:49.413856+00:00",
+        "started_at": "2026-10-27T23:16:07.891941+00:00",
+        "completed_at": "2026-10-27T23:16:51.127378+00:00",
         "required_symbol_count": 30,
         "bar_count": 1230,
         "latest_by_symbol": {
@@ -117,13 +117,13 @@
         },
         "collection_mode": "HISTORICAL_BACKFILL_NOT_FORWARD_PAPER",
         "manifest": {
-          "data_version": "observer-daily-20261027T221606348746Z",
+          "data_version": "observer-daily-20261027T231607543428Z",
           "source": "AKShare 1.18.84 Sina raw daily; research backfill from 2026-08-22",
-          "checksum": "bcec29708127597e81966f7f5e3598a0c1fc518261398c334aaa22bd51c664bc",
+          "checksum": "d26341330f0fcabda0bdf47ec67859565a6db0556e886f5efc0a464ec4587a6c",
           "schema_version": "qtrade.bar.v1",
           "quality_status": "PASSED"
         },
-        "evidence_sha256": "1df5646f0de24251082daca0b60bcb13121bea6434b9aff252723cd4cea063e1"
+        "evidence_sha256": "8489309fe2bace82afe3595380d8ba26644389d13ad1bdf9ad0f958b5d23956e"
       },
       "latest_bars": [
         {
@@ -2004,5 +2004,5 @@
       "external_order_transmission": false
     }
   ],
-  "evidence_sha256": "4f059ad34ba44a6cedabb75973233db32d91302a2bc79226bd3d85cf6faf4bf8"
+  "evidence_sha256": "638d44ba6350783321173ff0219c4c9999e491a5ae68daad3c7dc767fca47554"
 }
