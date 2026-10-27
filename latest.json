@@ -7,7 +7,7 @@
   "live_trading_enabled": false,
   "promotion": "NOT_ELIGIBLE",
   "schema_version": "qtrade.public-observations.v1",
-  "published_at": "2026-10-27T08:29:29.878153+00:00",
+  "published_at": "2026-10-27T08:30:29.881817+00:00",
   "calendar": {
     "valid_from": "2026-08-01",
     "valid_through": "2026-12-31",
@@ -27,17 +27,48 @@
     "limitation": "Bounded SSE/SZSE calendar; no assumptions outside its horizon or about emergency closures."
   },
   "observer": {
-    "heartbeat_at": "2026-10-27T08:29:29.204913+00:00",
+    "heartbeat_at": "2026-10-27T08:30:29.221381+00:00",
     "worker_alive": true,
     "streams": {
       "daily": {
-        "expected_through": "2026-10-26T15:00:00+08:00",
-        "status": "FRESH",
+        "expected_through": "2026-10-27T15:00:00+08:00",
+        "status": "STALE_OR_INCOMPLETE",
         "latest_minimum": "2026-10-26T15:00:00+08:00",
         "latest_maximum": "2026-10-26T15:00:00+08:00",
         "observed_symbols": 30,
         "required_symbols": 30,
-        "stale_symbols": [],
+        "stale_symbols": [
+          "159915",
+          "510050",
+          "510180",
+          "510210",
+          "510230",
+          "510300",
+          "510330",
+          "510500",
+          "510510",
+          "510660",
+          "510760",
+          "510880",
+          "510900",
+          "512000",
+          "512010",
+          "512070",
+          "512100",
+          "512170",
+          "512290",
+          "512400",
+          "512500",
+          "512580",
+          "512660",
+          "512690",
+          "512710",
+          "512760",
+          "512800",
+          "512880",
+          "512980",
+          "515790"
+        ],
         "collected_at": "2026-10-27T08:16:45.591821+00:00",
         "data_version": "observer-daily-20261027T081548942649Z",
         "checksum": "57310c475240205fdad2a1c3ec5ad8858e9eb9efd6ee41078c5b8f26281ab187",
@@ -2004,5 +2035,5 @@
       "external_order_transmission": false
     }
   ],
-  "evidence_sha256": "0f21d905dcebba0ec1edf094a1fe67e2d5084b957517cdeffe7d07eed984a2d3"
+  "evidence_sha256": "5ecf11e31383dcbfafc777273b0de54eae53337a6e15bf1de96ad2af7ac37452"
 }
