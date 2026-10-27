@@ -7,11 +7,11 @@
   "live_trading_enabled": false,
   "promotion": "NOT_ELIGIBLE",
   "schema_version": "qtrade.online-catalog.v1",
-  "published_at": "2026-10-27T17:49:10.439574+00:00",
+  "published_at": "2026-10-27T17:50:56.885576+00:00",
   "worker": {
-    "heartbeat_at": "2026-10-27T17:49:10.439574+00:00",
+    "heartbeat_at": "2026-10-27T17:50:56.885576+00:00",
     "source_revision": "096387b8088e4361c9e5cd9cd2c165e21819fead",
-    "state": "RUNNING"
+    "state": "MODEL_CONTROL_READY"
   },
   "data_version": {
     "version_id": "09a67b135def5dee766ea23716e5405aeb060c28a93720402cb2ebf4542ee407",
@@ -35,7 +35,7 @@
   "active_model": "29589b4486a09159eb3a07153c54fba609fbc80b52c168dd665cd46660be8487",
   "data_schedule": {
     "state": "WAITING",
-    "heartbeat_at": "2026-10-27T17:49:01.436955+00:00",
+    "heartbeat_at": "2026-10-27T17:50:51.472760+00:00",
     "fresh": true,
     "last_cycle_state": "CURRENT_DAY_ALREADY_READY",
     "required_day": "2026-10-27",
@@ -741,7 +741,7 @@
         "training_data_end": "2026-10-26",
         "training_data_sha256": "4a4289533c73828efabd8fe386416a3f0dbbbe381310834d71095b2d5de0cf5f"
       },
-      "state": "TRAINED",
+      "state": "STAGED",
       "registered_at": "2026-10-27T17:45:32.389877+00:00",
       "activated_at": null,
       "activation_count": 0
@@ -832,6 +832,23 @@
         "expected_execution_at": "2026-10-28T09:30:00+08:00",
         "forward_return_observed": false
       }
+    },
+    {
+      "validation_id": "f76197221f81a89e76896848b85b0e81c623e0b162802143a2c3940ba9502474",
+      "model_run_id": "archived-oct26-ridge-binding-check-20261028-95bb73b441089e26",
+      "model_bundle_sha256": "98d27455a7cb224ef3ecbd7cf850455f386fbb93baf8137a4d789e142ab91795",
+      "state": "FORWARD_INPUT_VALIDATED_NOT_ACTIVATED",
+      "score_count": 888,
+      "feature_count": 158,
+      "max_reference_score_difference": 1.1102230246251565e-16,
+      "evidence_sha256": "fc01f61a1595578701d575c6742c4d94ffd3bd277af78ba7b615617b734981ed",
+      "contract": {
+        "data_version_id": "09a67b135def5dee766ea23716e5405aeb060c28a93720402cb2ebf4542ee407",
+        "data_end": "2026-10-27",
+        "generated_at": "2026-10-27T17:49:20.991175+00:00",
+        "expected_execution_at": "2026-10-28T09:30:00+08:00",
+        "forward_return_observed": false
+      }
     }
   ],
   "commands": [
@@ -881,6 +898,54 @@
     }
   ],
   "events": [
+    {
+      "at": "2026-10-27T17:49:26.729282+00:00",
+      "classification": "PUBLIC_SOURCE_RESEARCH_OBSERVATION_ONLY",
+      "details": {
+        "imported_verified_validation": "f76197221f81a89e76896848b85b0e81c623e0b162802143a2c3940ba9502474"
+      },
+      "evidence_sha256": "69df56d5550d5b2f0099a46b30c3a420b50e411805fb0231b653a9bd5a552c32",
+      "external_order_transmission": false,
+      "kind": "STAGED",
+      "live_trading_enabled": false,
+      "model_id": "98d27455a7cb224ef3ecbd7cf850455f386fbb93baf8137a4d789e142ab91795",
+      "point_in_time": false,
+      "promotion": "NOT_ELIGIBLE",
+      "real_data_paper_readiness": false,
+      "realtime_readiness": false
+    },
+    {
+      "at": "2026-10-27T17:49:26.729282+00:00",
+      "classification": "PUBLIC_SOURCE_RESEARCH_OBSERVATION_ONLY",
+      "details": {
+        "imported_verified_validation": "f76197221f81a89e76896848b85b0e81c623e0b162802143a2c3940ba9502474"
+      },
+      "evidence_sha256": "7ee27c1f98d8af444fb489dc7b003a6f9f5c15c64d3a0b1e066d8d53a9119ee5",
+      "external_order_transmission": false,
+      "kind": "VALIDATED",
+      "live_trading_enabled": false,
+      "model_id": "98d27455a7cb224ef3ecbd7cf850455f386fbb93baf8137a4d789e142ab91795",
+      "point_in_time": false,
+      "promotion": "NOT_ELIGIBLE",
+      "real_data_paper_readiness": false,
+      "realtime_readiness": false
+    },
+    {
+      "at": "2026-10-27T17:49:26.729282+00:00",
+      "classification": "PUBLIC_SOURCE_RESEARCH_OBSERVATION_ONLY",
+      "details": {
+        "imported_verified_validation": "f76197221f81a89e76896848b85b0e81c623e0b162802143a2c3940ba9502474"
+      },
+      "evidence_sha256": "60895a0707ca9187d1edac206e8cbf9a7ca902dc5e7ad043729584531a69d87b",
+      "external_order_transmission": false,
+      "kind": "VALIDATING",
+      "live_trading_enabled": false,
+      "model_id": "98d27455a7cb224ef3ecbd7cf850455f386fbb93baf8137a4d789e142ab91795",
+      "point_in_time": false,
+      "promotion": "NOT_ELIGIBLE",
+      "real_data_paper_readiness": false,
+      "realtime_readiness": false
+    },
     {
       "at": "2026-10-27T17:45:32.389877+00:00",
       "classification": "PUBLIC_SOURCE_RESEARCH_OBSERVATION_ONLY",
@@ -8847,9 +8912,9 @@
         "job_id": "1ed2fd215098f7e64421f9419584662f",
         "model_id": "98d27455a7cb224ef3ecbd7cf850455f386fbb93baf8137a4d789e142ab91795",
         "data_version_id": "09a67b135def5dee766ea23716e5405aeb060c28a93720402cb2ebf4542ee407",
-        "state": "VALIDATING",
+        "state": "COMPLETE",
         "error_code": null,
-        "updated_at": "2026-10-27T17:47:00.712570+00:00"
+        "updated_at": "2026-10-27T17:50:35.767088+00:00"
       },
       {
         "job_id": "6e256470efc5ea2f68e51bc016436027",
@@ -8893,5 +8958,5 @@
     "realtime_readiness": false,
     "schema_version": "qtrade.model-promotion-policy.v1"
   },
-  "evidence_sha256": "6d4b634b8ab92af92ab5908cfcd08185af982ad2e3a0eb2d12a636ce8af8550b"
+  "evidence_sha256": "9fc36b33e2bc6119fbcf8940a577b391b44a1ba1195a99c2e6abe6f67423c23b"
 }
