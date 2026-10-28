@@ -1,0 +1,44 @@
+{
+  "classification": "PUBLIC_SOURCE_RESEARCH_OBSERVATION_ONLY",
+  "point_in_time": false,
+  "realtime_readiness": false,
+  "real_data_paper_readiness": false,
+  "external_order_transmission": false,
+  "live_trading_enabled": false,
+  "promotion": "NOT_ELIGIBLE",
+  "schema_version": "qtrade.unified-market-shard.v1",
+  "universe_version": "482c81a9b0981a677e9023197fa865b3c52510bcb249c115dc6c5affa30da308",
+  "symbol": "515790",
+  "instrument_id": "SSE.515790",
+  "security_type": "ETF",
+  "frequency": "5min",
+  "price_basis": "SINA_NATIVE_ADJUSTMENT_UNCERTIFIED",
+  "bars": [
+    {
+      "amount": "7816300.1413",
+      "close": "0.701",
+      "exchange": "SSE",
+      "frequency": "5min",
+      "high": "0.708",
+      "historical_available_at": null,
+      "low": "0.700",
+      "open": "0.704",
+      "price_basis": "SINA_NATIVE_ADJUSTMENT_UNCERTIFIED",
+      "symbol": "515790",
+      "timestamp": "2026-10-28T09:35:00+08:00",
+      "trading_day": "2026-10-28",
+      "volume": "11118400",
+      "vwap": "0.7030058408853791912505396460",
+      "amount_basis": "VENDOR_CLAIM_UNVERIFIED"
+    }
+  ],
+  "source_batches": [
+    {
+      "batch_id": "ac9f657fdfcc449bbc0602f7f0440e36",
+      "manifest_sha256": "195d63fcc9ea444c584aa2faee0e64e90e12c9b7e5e042613544c9bfde07c96f",
+      "raw_sha256": "5b51b37d3b8a003afd99ede672b0234dd134edaf691f0c78dda1f27bffd48ddd",
+      "normalized_sha256": "117821144f193fb421304166a2725cc00a97079c0c842e30d47de2d55fedd793"
+    }
+  ],
+  "evidence_sha256": "67e24d4d948d31234787cc693518ec9e7dc267b95bec63290a720a33a1e8ebec"
+}
