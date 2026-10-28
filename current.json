@@ -2242,10 +2242,10 @@
     "provider": "Sina native 5m; adjustment not independently certified",
     "provider_version": "1.18.84",
     "classification": "PUBLIC_SOURCE_RESEARCH_OBSERVATION_ONLY",
-    "data_version": "observer-minute-20261028T044504129816Z",
-    "checksum": "cd4f78fab78b49d45db2ebdc6d61afb7baf1a8416dcb109cbd3bf509e71b189a",
+    "data_version": "observer-minute-20261028T050004392558Z",
+    "checksum": "4d069f65d500ffb2c36889115628b3182c9a7fb454d9ea7a6157dc67a6d41778",
     "quality_status": "PASSED",
-    "bar_count": 7200,
+    "bar_count": 7181,
     "bytes": 2019989,
     "observed_start": "2026-10-26T05:05:00+00:00",
     "observed_end": "2026-10-28T03:30:00+00:00",
@@ -3177,10 +3177,10 @@
       "live_trading_enabled": false,
       "promotion": "NOT_ELIGIBLE",
       "kind": "minute",
-      "started_at": "2026-10-28T04:45:04.466459+00:00",
-      "completed_at": "2026-10-28T04:45:40.650630+00:00",
+      "started_at": "2026-10-28T05:00:04.714684+00:00",
+      "completed_at": "2026-10-28T05:00:21.230426+00:00",
       "required_symbol_count": 75,
-      "bar_count": 7200,
+      "bar_count": 7181,
       "latest_by_symbol": {
         "000063": "2026-10-28T11:30:00+08:00",
         "000338": "2026-10-28T11:30:00+08:00",
@@ -3260,15 +3260,15 @@
       },
       "collection_mode": "HISTORICAL_BACKFILL_NOT_FORWARD_PAPER",
       "manifest": {
-        "data_version": "observer-minute-20261028T044504129816Z",
+        "data_version": "observer-minute-20261028T050004392558Z",
         "source": "Sina native 5m public history; adjustment not independently certified",
-        "checksum": "cd4f78fab78b49d45db2ebdc6d61afb7baf1a8416dcb109cbd3bf509e71b189a",
+        "checksum": "4d069f65d500ffb2c36889115628b3182c9a7fb454d9ea7a6157dc67a6d41778",
         "schema_version": "qtrade.bar.v1",
         "quality_status": "PASSED"
       },
-      "evidence_sha256": "8cf8dc7326e74992711af9110bc8b19338a6ee5584358617b87baae844b44d28"
+      "evidence_sha256": "aa619c3bf80e6ad159a02d16c93c8b9ed87d89e8ec0822c6a83b22069d6f96aa"
     }
   },
   "observer_healthy": true,
-  "evidence_sha256": "938c40b70949e4a49c70b2cbe7be50d3fce2f8919d02a8d8defeebb08ea0c585"
+  "evidence_sha256": "dc03092a32b2e56e39cc8bba4ee7e5d6efc9fd02788e1334bc8a6e3d61d60dac"
 }
