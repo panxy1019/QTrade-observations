@@ -47,9 +47,32 @@
       "volume": "544000",
       "vwap": "33.00236526930147058823529412",
       "amount_basis": "VENDOR_CLAIM_UNVERIFIED"
+    },
+    {
+      "amount": "20109247.9536",
+      "close": "33.250",
+      "exchange": "SZSE",
+      "frequency": "5min",
+      "high": "33.260",
+      "historical_available_at": null,
+      "low": "32.840",
+      "open": "32.870",
+      "price_basis": "SINA_NATIVE_ADJUSTMENT_UNCERTIFIED",
+      "symbol": "300339",
+      "timestamp": "2026-10-28T09:45:00+08:00",
+      "trading_day": "2026-10-28",
+      "volume": "608400",
+      "vwap": "33.05267579487179487179487179",
+      "amount_basis": "VENDOR_CLAIM_UNVERIFIED"
     }
   ],
   "source_batches": [
+    {
+      "batch_id": "3e1acb0d3e214f599ed46d15d9443fc3",
+      "manifest_sha256": "d845c34ba0e6cdab155a55089bf3a2bd9f30bce5a31780a5b2cba4ddf46bce3b",
+      "raw_sha256": "09c04e2e5f2e8cb121d4ff4d68b4d67131454ac06eb4c8b70fd58140fd45122b",
+      "normalized_sha256": "800e6a0e8c46eca0117da7ac731f81a3ef99b5527ea8f975ee1c000ed6993293"
+    },
     {
       "batch_id": "ca7bd21aeae348c189fba19d09621a96",
       "manifest_sha256": "d81e8dfcbaaa10bc8c621e385cdc76703d3d1d8dd2db122010bf24891901206d",
@@ -63,5 +86,5 @@
       "normalized_sha256": "b4485ad53dc7f492f8daa07b5f95a09c202990e5bbd5834d3f3a6a91804b4976"
     }
   ],
-  "evidence_sha256": "2c3fe3ed0256cd8ae1f3d993bfbbf228884bc7607b35fd8f4ca2e9e46490b43a"
+  "evidence_sha256": "7e183aaa10b411646745d2044d8102c76e84be52a088c2bca6437be9320472c9"
 }
