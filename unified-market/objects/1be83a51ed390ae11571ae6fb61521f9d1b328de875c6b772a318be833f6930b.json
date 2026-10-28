@@ -1,0 +1,67 @@
+{
+  "classification": "PUBLIC_SOURCE_RESEARCH_OBSERVATION_ONLY",
+  "point_in_time": false,
+  "realtime_readiness": false,
+  "real_data_paper_readiness": false,
+  "external_order_transmission": false,
+  "live_trading_enabled": false,
+  "promotion": "NOT_ELIGIBLE",
+  "schema_version": "qtrade.unified-market-shard.v1",
+  "universe_version": "482c81a9b0981a677e9023197fa865b3c52510bcb249c115dc6c5affa30da308",
+  "symbol": "688332",
+  "instrument_id": "SSE.688332",
+  "security_type": "STOCK",
+  "frequency": "5min",
+  "price_basis": "SINA_NATIVE_ADJUSTMENT_UNCERTIFIED",
+  "bars": [
+    {
+      "amount": "38428858.3457",
+      "close": "69.820",
+      "exchange": "SSE",
+      "frequency": "5min",
+      "high": "70.280",
+      "historical_available_at": null,
+      "low": "68.690",
+      "open": "69.580",
+      "price_basis": "SINA_NATIVE_ADJUSTMENT_UNCERTIFIED",
+      "symbol": "688332",
+      "timestamp": "2026-10-28T09:35:00+08:00",
+      "trading_day": "2026-10-28",
+      "volume": "551597",
+      "vwap": "69.66835995427821398593538399",
+      "amount_basis": "VENDOR_CLAIM_UNVERIFIED"
+    },
+    {
+      "amount": "22867040.0895",
+      "close": "68.790",
+      "exchange": "SSE",
+      "frequency": "5min",
+      "high": "70.490",
+      "historical_available_at": null,
+      "low": "68.760",
+      "open": "69.850",
+      "price_basis": "SINA_NATIVE_ADJUSTMENT_UNCERTIFIED",
+      "symbol": "688332",
+      "timestamp": "2026-10-28T09:40:00+08:00",
+      "trading_day": "2026-10-28",
+      "volume": "327268",
+      "vwap": "69.87252065432611804392730117",
+      "amount_basis": "VENDOR_CLAIM_UNVERIFIED"
+    }
+  ],
+  "source_batches": [
+    {
+      "batch_id": "520f3affde2148f7ab252ea35346dd44",
+      "manifest_sha256": "8a84690e7c7db841421cd03d8292847e990ac8d6e23b8469be71c035f0c2d2be",
+      "raw_sha256": "65fd6b4721da575314aa7df396bf6329a8b395f8791b702025cecd2eee3e1f4f",
+      "normalized_sha256": "900e5c58300ae559d3d5a9ac01a12c862eeb75bd8d5d06bbb8f7b874f693abb7"
+    },
+    {
+      "batch_id": "d51fb7e954c5402f9676a4e1900fec40",
+      "manifest_sha256": "5cd5b3d96a5f4219a519752a3f0dab9df84f4ab8b79ee8c9ac4581954310843c",
+      "raw_sha256": "d3c1bb3a83ae69537ce99d5b322b286d7f6ecfa07b6455de68121459f377a29b",
+      "normalized_sha256": "ec350e386945f928ec3e9e25b89c44870e3a58b6b77c8591938a5302bf571085"
+    }
+  ],
+  "evidence_sha256": "ca343c16c9c6787107eb3d275015dc3db1db0bb419cbffef3ef42002ffe8237b"
+}
