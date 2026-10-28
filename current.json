@@ -2202,7 +2202,7 @@
     ],
     "limitation": "Bounded SSE/SZSE calendar; no assumptions outside its horizon or about emergency closures."
   },
-  "published_at": "2026-10-28T01:26:05.709867+00:00",
+  "published_at": "2026-10-28T01:31:13.085426+00:00",
   "expansion": {
     "classification": "PUBLIC_SOURCE_RESEARCH_OBSERVATION_ONLY",
     "point_in_time": false,
@@ -2242,12 +2242,12 @@
     "provider": "Sina native 5m; adjustment not independently certified",
     "provider_version": "1.18.84",
     "classification": "PUBLIC_SOURCE_RESEARCH_OBSERVATION_ONLY",
-    "data_version": "observer-minute-20261028T010029754296Z",
-    "checksum": "1092eec2479f6128570d14dce04f6cfd0e85bdc3ccd5f5d1e68f6edc070b979e",
+    "data_version": "observer-minute-20261028T013000339377Z",
+    "checksum": "a9779321fb19ab29547068c2541d81193fb18f8bb057d8d1bda90452fc9f3995",
     "quality_status": "PASSED",
-    "bar_count": 7200,
+    "bar_count": 7125,
     "bytes": 2019989,
-    "observed_start": "2026-10-26T01:35:00+00:00",
+    "observed_start": "2026-10-26T01:40:00+00:00",
     "observed_end": "2026-10-27T07:00:00+00:00",
     "minimum_latest_day": "2026-10-27",
     "latest_by_symbol": {
@@ -3176,10 +3176,10 @@
       "live_trading_enabled": false,
       "promotion": "NOT_ELIGIBLE",
       "kind": "minute",
-      "started_at": "2026-10-28T01:00:30.064403+00:00",
-      "completed_at": "2026-10-28T01:01:20.302504+00:00",
+      "started_at": "2026-10-28T01:30:00.687370+00:00",
+      "completed_at": "2026-10-28T01:30:07.070535+00:00",
       "required_symbol_count": 75,
-      "bar_count": 7200,
+      "bar_count": 7125,
       "latest_by_symbol": {
         "000063": "2026-10-27T15:00:00+08:00",
         "000338": "2026-10-27T15:00:00+08:00",
@@ -3259,15 +3259,15 @@
       },
       "collection_mode": "HISTORICAL_BACKFILL_NOT_FORWARD_PAPER",
       "manifest": {
-        "data_version": "observer-minute-20261028T010029754296Z",
+        "data_version": "observer-minute-20261028T013000339377Z",
         "source": "Sina native 5m public history; adjustment not independently certified",
-        "checksum": "1092eec2479f6128570d14dce04f6cfd0e85bdc3ccd5f5d1e68f6edc070b979e",
+        "checksum": "a9779321fb19ab29547068c2541d81193fb18f8bb057d8d1bda90452fc9f3995",
         "schema_version": "qtrade.bar.v1",
         "quality_status": "PASSED"
       },
-      "evidence_sha256": "f57de15c9c6ed3e6b32a85b7268bb4016dd68b10948288f48fa63e463ca17719"
+      "evidence_sha256": "c65c477d98c14adc8bc21281f980b7c483a2b61f50729f1de54e0f5613b3d090"
     }
   },
   "observer_healthy": true,
-  "evidence_sha256": "51c3e9c091d88934a890b341a7c87e251a8f5669b6aaf141c58bc3bee34ff523"
+  "evidence_sha256": "f4154a8580a33b48471bb9bc16da188232b307d2f8c52587cf15cd9dfbed89a3"
 }
