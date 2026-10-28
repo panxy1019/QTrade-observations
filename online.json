@@ -7,39 +7,38 @@
   "live_trading_enabled": false,
   "promotion": "NOT_ELIGIBLE",
   "schema_version": "qtrade.online-catalog.v1",
-  "published_at": "2026-10-28T11:57:25.615590+00:00",
+  "published_at": "2026-10-28T11:58:58.929038+00:00",
   "worker": {
-    "heartbeat_at": "2026-10-28T11:57:25.615590+00:00",
+    "heartbeat_at": "2026-10-28T11:58:58.929038+00:00",
     "source_revision": "096387b8088e4361c9e5cd9cd2c165e21819fead",
-    "state": "MODEL_CONTROL_READY"
+    "state": "PREDICTING"
   },
   "data_version": {
-    "version_id": "09a67b135def5dee766ea23716e5405aeb060c28a93720402cb2ebf4542ee407",
-    "actual_end": "2026-10-27",
+    "version_id": "b82baaac956745f4e02a520a35b2aa277b0037510a4d164d798db803ce77e0d5",
+    "actual_end": "2026-10-28",
     "state": "RESEARCH_READY_QUALIFIED_SUBSET",
-    "created_at": "2026-10-27T12:22:59.080242+00:00",
+    "created_at": "2026-10-28T11:57:32.126662+00:00",
     "blocked_symbols": [
       "002827",
-      "600621",
       "605258"
     ],
     "historical_pit_certified": false,
     "external_execution_ready": false,
-    "evidence_sha256": "3e3406bc45e3a366bdcc57631648c3f05917e98f2d47a70df5c7482e8425f79b",
-    "current_symbols": 987,
+    "evidence_sha256": "287d48c7e9dbfd6d5bbf74f7adfb35cfc2ded346a8fe38842cd6af72a008913e",
+    "current_symbols": 988,
     "historical_symbols": 990,
     "observation_universe_version": "482c81a9b0981a677e9023197fa865b3c52510bcb249c115dc6c5affa30da308",
-    "data_event_id": "69c3430923515d90b93ccb6eba9d49ca667a606b8dcdb3701c59de449ae0bc6c"
+    "data_event_id": "3591a430b6d6b70ff063b6271bfc64ebc81fc0e95df9f65059c03f71f2755d56"
   },
   "data_error": null,
   "active_model": "29589b4486a09159eb3a07153c54fba609fbc80b52c168dd665cd46660be8487",
   "data_schedule": {
-    "state": "PREPARING_OR_VERIFYING",
-    "heartbeat_at": "2026-10-28T11:57:22.758214+00:00",
+    "state": "WAITING",
+    "heartbeat_at": "2026-10-28T11:58:52.789892+00:00",
     "fresh": true,
-    "last_cycle_state": "PREPARING_DAILY_INPUTS",
+    "last_cycle_state": "CURRENT_DAY_ALREADY_READY",
     "required_day": "2026-10-28",
-    "data_end": "2026-10-27",
+    "data_end": "2026-10-28",
     "source_revision": "458552de1fea1faf77d02dcd9ec69251a0c364b7"
   },
   "data_catalog": {
@@ -51,16 +50,29 @@
     "live_trading_enabled": false,
     "promotion": "NOT_ELIGIBLE",
     "schema_version": "qtrade.qlib-data-catalog.v1",
-    "head_version_id": "09a67b135def5dee766ea23716e5405aeb060c28a93720402cb2ebf4542ee407",
-    "head_event_id": "69c3430923515d90b93ccb6eba9d49ca667a606b8dcdb3701c59de449ae0bc6c",
-    "head_sequence": 3,
+    "head_version_id": "b82baaac956745f4e02a520a35b2aa277b0037510a4d164d798db803ce77e0d5",
+    "head_event_id": "3591a430b6d6b70ff063b6271bfc64ebc81fc0e95df9f65059c03f71f2755d56",
+    "head_sequence": 4,
     "versions": [
+      {
+        "version_id": "b82baaac956745f4e02a520a35b2aa277b0037510a4d164d798db803ce77e0d5",
+        "actual_end": "2026-10-28",
+        "admitted_at": "2026-10-28T11:57:40.694469+00:00",
+        "manifest_sha256": "287d48c7e9dbfd6d5bbf74f7adfb35cfc2ded346a8fe38842cd6af72a008913e",
+        "is_head": true,
+        "current_symbols": 988,
+        "historical_symbols": 990,
+        "blocked_symbols": 2,
+        "historical_pit_certified": false,
+        "external_execution_ready": false,
+        "verification": "MANIFEST_IDENTITY_ONLY_FULL_BYTES_CHECKED_BEFORE_ROLLBACK"
+      },
       {
         "version_id": "09a67b135def5dee766ea23716e5405aeb060c28a93720402cb2ebf4542ee407",
         "actual_end": "2026-10-27",
         "admitted_at": "2026-10-27T12:23:08.063121+00:00",
         "manifest_sha256": "3e3406bc45e3a366bdcc57631648c3f05917e98f2d47a70df5c7482e8425f79b",
-        "is_head": true,
+        "is_head": false,
         "current_symbols": 987,
         "historical_symbols": 990,
         "blocked_symbols": 3,
@@ -95,9 +107,26 @@
         "verification": "MANIFEST_IDENTITY_ONLY_FULL_BYTES_CHECKED_BEFORE_ROLLBACK"
       }
     ],
-    "total_versions": 3,
+    "total_versions": 4,
     "versions_truncated": false,
     "history": [
+      {
+        "sequence": 4,
+        "classification": "PUBLIC_SOURCE_RESEARCH_OBSERVATION_ONLY",
+        "point_in_time": false,
+        "realtime_readiness": false,
+        "real_data_paper_readiness": false,
+        "external_order_transmission": false,
+        "live_trading_enabled": false,
+        "promotion": "NOT_ELIGIBLE",
+        "kind": "QLIB_DATA_READY",
+        "version_id": "b82baaac956745f4e02a520a35b2aa277b0037510a4d164d798db803ce77e0d5",
+        "manifest_sha256": "287d48c7e9dbfd6d5bbf74f7adfb35cfc2ded346a8fe38842cd6af72a008913e",
+        "actual_end": "2026-10-28",
+        "admitted_at": "2026-10-28T11:57:40.694469+00:00",
+        "scope": "QUALIFIED_RESEARCH_SUBSET_NOT_FULL_PIT_OR_TRADE_READINESS",
+        "evidence_sha256": "3591a430b6d6b70ff063b6271bfc64ebc81fc0e95df9f65059c03f71f2755d56"
+      },
       {
         "sequence": 3,
         "classification": "PUBLIC_SOURCE_RESEARCH_OBSERVATION_ONLY",
@@ -153,7 +182,7 @@
     "next_before_sequence": 1,
     "rollback_requires_authenticated_command": true,
     "receipts": [],
-    "evidence_sha256": "2c2366cdaa282b020888a9832e0e962f972c2a6c3a386301f9b48a6a0e5890de"
+    "evidence_sha256": "9e73ed4eb7106db93c483df7139d06e60f1b05bee4da43e7284fa15699d4a617"
   },
   "models": [
     {
@@ -1496,9 +1525,25 @@
   "auto_predict": {
     "schema_version": "qtrade.auto-prediction.v1",
     "enabled": true,
-    "state": "BLOCKED_STALE_DATA",
+    "state": "RUNNING",
     "current_prediction_id": null,
     "predictions": [
+      {
+        "prediction_id": "f9a443b2c89aed5c9a43330a759ce60f22a0ebed7e4147188bbf0e7721fc0b10",
+        "state": "RUNNING",
+        "updated_at": "2026-10-28T11:57:57.969859+00:00",
+        "error_code": null,
+        "bindings": {
+          "approval_sha256": "6f1ec61bda1a28d918dd331ad0e0ae6ea7ebcc39320f8e4dade424bf726bd238",
+          "code_revision": "096387b8088e4361c9e5cd9cd2c165e21819fead",
+          "data_end": "2026-10-28",
+          "data_event_id": "3591a430b6d6b70ff063b6271bfc64ebc81fc0e95df9f65059c03f71f2755d56",
+          "data_version_id": "b82baaac956745f4e02a520a35b2aa277b0037510a4d164d798db803ce77e0d5",
+          "model_id": "29589b4486a09159eb3a07153c54fba609fbc80b52c168dd665cd46660be8487",
+          "observation_universe_version": "482c81a9b0981a677e9023197fa865b3c52510bcb249c115dc6c5affa30da308"
+        },
+        "claimed_at": "2026-10-28T11:57:57.969859+00:00"
+      },
       {
         "prediction_id": "3f6335594f7b47dfb71bd72dcd8cfd6cec85af2c1c35c465273e9a7fab6d42aa",
         "state": "COMPLETE",
@@ -8958,5 +9003,5 @@
     "realtime_readiness": false,
     "schema_version": "qtrade.model-promotion-policy.v1"
   },
-  "evidence_sha256": "34869f566ef966641aac1fe6c8063bd9e5c275b5c57a9a1ee5e11157c48b0898"
+  "evidence_sha256": "41a47d725b33255b377389299c7974f07a0d383645746563667c8b55f08fbea6"
 }
